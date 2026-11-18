@@ -77,3 +77,34 @@ def stats(preds):
         out[h] = {"n": len(done), "hit": rate(done), "n_dir": len(directional), "hit_dir": rate(directional),
                   "n_hi": len(hi), "hit_hi": rate(hi)}
     return out
+
+
+def weekly_text(preds, today):
+    """ציון שבועי פשוט: כמה מההמלצות של השבוע האחרון צדקו."""
+    import datetime as dt
+    week_ago = (dt.date.fromisoformat(today) - dt.timedelta(days=7)).isoformat()
+    two_weeks = (dt.date.fromisoformat(today) - dt.timedelta(days=14)).isoformat()
+
+    def rate(xs, h):
+        xs = [p for p in xs if str(h) in p["results"] and p["direction"] != "neutral"]
+        if not xs:
+            return None, 0
+        return round(100 * sum(p["results"][str(h)]["hit"] for p in xs) / len(xs)), len(xs)
+
+    d1, n1 = rate([p for p in preds if p["price_date"] >= week_ago], 1)
+    d5, n5 = rate([p for p in preds if p["price_date"] >= two_weeks], 5)
+    all1, nall = rate(preds, 1)
+    L = ["📈 ציון שבועי: כמה הבוט צדק", ""]
+    if d1 is None and d5 is None:
+        L.append("השבוע עוד לא היו מספיק המלצות (קנה/מכור) שאפשר לבדוק. נחכה לשבוע הבא.")
+    else:
+        if d1 is not None:
+            L.append(f"🎯 יום אחרי ההמלצה: צדק ב-{d1}% ({n1} המלצות)")
+        if d5 is not None:
+            L.append(f"🗓 שבוע אחרי ההמלצה: צדק ב-{d5}% ({n5} המלצות)")
+        if all1 is not None:
+            L.append(f"📚 מאז שהתחלנו: {all1}% ({nall} המלצות)")
+        L += ["", "איך לקרוא את זה: ניחוש עיוור (כמו הטלת מטבע) צודק בערך 50%.",
+              "מעל 55% לאורך חודשיים ומעלה = הבוט כנראה שווה משהו. סביב 50% = עדיין לא לסמוך עליו."]
+    L += ["", "לא ייעוץ השקעות. ההחלטה שלך."]
+    return "\n".join(L)

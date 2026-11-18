@@ -4,7 +4,7 @@
 import datetime as dt, json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import config, central, tracker, dashboard, advisor, notify
-from agents import prices, news, filings, macro
+from agents import prices, news, filings, macro, social
 
 
 def main():
@@ -19,7 +19,8 @@ def main():
             hist[t] = p.pop("rows")
         n = news.analyze(t, name)
         f = filings.analyze(t)
-        results.append(central.combine(t, name, p, n, f, mac))
+        s = social.analyze(t)
+        results.append(central.combine(t, name, p, n, f, mac, s))
     preds = tracker.log(results, run_time)
     preds = tracker.score_all(preds, hist)
     stats = tracker.stats(preds)
@@ -29,6 +30,7 @@ def main():
     planned = advisor.plan(results)
     path = dashboard.write(planned, mac, stats, run_time)
     send_messages(planned, mac, stats, run_time)
+    send_weekly(preds, run_time)
     alerts = [r["ticker"] for r in results if r["alert"]]
     print(f"מוכן: {path}\nשווה לבדוק: {', '.join(alerts) or 'אין'}")
     broken = {k for r in results for k in r["errors"]}
@@ -53,7 +55,7 @@ def send_messages(planned, mac, stats, run_time):
                 key = f'{p["ticker"]}:{act}'
                 strong = act in ("buy", "sell") and p["confidence"] >= 60
                 if strong and key not in sent["alerts"]:
-                    verb = "לקנות" if act == "buy" else "למכור / לא לקנות"
+                    verb = "קנה" if act == "buy" else "מכור (או לא לקנות)"
                     txt = (f"🚨 התראה: {verb} {p['name']} ({p['ticker']})\n"
                            f"ביטחון {advisor.conf_word(p['confidence'])} {p['confidence']}%\n"
                            f"למה: {p['short']['why']}\n\nהמלצה אוטומטית, לא ייעוץ השקעות.")
@@ -62,6 +64,24 @@ def send_messages(planned, mac, stats, run_time):
     except Exception as e:
         print("שליחה לטלגרם נכשלה:", e)
     notify.save_sent(sent)
+
+
+def send_weekly(preds, run_time):
+    """פעם בשבוע, בהרצה האחרונה של יום שישי (אחרי סגירת המסחר): ציון דיוק."""
+    now = dt.datetime.fromisoformat(run_time)
+    il_now = now + dt.timedelta(hours=2)
+    if il_now.weekday() != 4 or now.hour < 21:
+        return
+    path = os.path.join(config.DATA_DIR, "weekly.json")
+    week = f"{il_now.isocalendar()[0]}-W{il_now.isocalendar()[1]}"
+    done = json.load(open(path)) if os.path.exists(path) else {}
+    if done.get("week") == week:
+        return
+    try:
+        if notify.send(tracker.weekly_text(preds, il_now.date().isoformat())):
+            json.dump({"week": week}, open(path, "w"))
+    except Exception as e:
+        print("שליחת הציון השבועי נכשלה:", e)
 
 
 if __name__ == "__main__":

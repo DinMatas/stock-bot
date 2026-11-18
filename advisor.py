@@ -53,7 +53,7 @@ def long_term(r):
 
 
 ACT_HE = {
-    "buy": "לקנות", "sell": "למכור / לא לקנות", "hold": "להמתין",
+    "buy": "קנה", "sell": "מכור", "hold": "חכה",
     "avoid": "לא עכשיו", "wait": "לחכות", "unknown": "אין מספיק מידע",
 }
 
@@ -81,11 +81,11 @@ def message(planned, macro, stats, title="מה לעשות היום"):
     sells = sorted([p for p in planned if p["short"]["action"] == "sell"], key=lambda p: -p["confidence"])
     L.append("⚡ טווח קצר (ימים עד שבועות):")
     for p in buys:
-        L.append(f"🟢 לקנות {p['name']} ({p['ticker']}), ביטחון {conf_word(p['confidence'])} {p['confidence']}%: {p['short']['why']}")
+        L.append(f"🟢 קנה {p['name']} ({p['ticker']}), ביטחון {conf_word(p['confidence'])} {p['confidence']}%: {p['short']['why']}")
     for p in sells:
-        L.append(f"🔴 למכור / לא לקנות {p['name']} ({p['ticker']}), ביטחון {conf_word(p['confidence'])} {p['confidence']}%: {p['short']['why']}")
+        L.append(f"🔴 מכור (או לא לקנות) {p['name']} ({p['ticker']}), ביטחון {conf_word(p['confidence'])} {p['confidence']}%: {p['short']['why']}")
     if not buys and not sells:
-        L.append("⚪ אין היום הזדמנות ברורה. לא לגעת.")
+        L.append("⚪ חכה. אין היום הזדמנות ברורה.")
     L += ["", "🏦 טווח ארוך (מניות שמתאימות עכשיו להחזקה):"]
     lb = [p for p in planned if p["long"]["action"] == "buy"]
     for p in lb:
