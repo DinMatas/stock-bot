@@ -1,5 +1,5 @@
 {
- "run_time": "2026-11-18T21:29:25+00:00",
+ "run_time": "2026-11-18T22:27:59+00:00",
  "macro": {
   "ok": true,
   "score": -1.3,
@@ -82,15 +82,15 @@
     }
    ],
    "price": {
-    "price": 351.91,
-    "date": "2026-11-17",
-    "chg": -0.25,
-    "chg5": 1.05,
-    "vol_ratio": 0.78,
-    "rsi": 55.9,
-    "sma50": 340.17,
-    "sma200": 301.66,
-    "chg1y": 32.0
+    "price": 352.45,
+    "date": "2026-11-18",
+    "chg": 0.15,
+    "chg5": -0.82,
+    "vol_ratio": 0.69,
+    "rsi": 52.9,
+    "sma50": 340.92,
+    "sma200": 302.08,
+    "chg1y": 32.2
    },
    "news": {
     "news_24h": 6,
@@ -158,7 +158,7 @@
    "alert": true,
    "signals": [
     {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (8 מול 1)",
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (7 מול 1)",
      "weight": 0.6,
      "source": "https://stocktwits.com/symbol/MSFT",
      "agent": "רשתות"
@@ -195,20 +195,20 @@
     }
    ],
    "price": {
-    "price": 506.24,
-    "date": "2026-11-17",
-    "chg": -2.27,
-    "chg5": -5.05,
-    "vol_ratio": 1.04,
-    "rsi": 42.1,
-    "sma50": 519.61,
-    "sma200": 441.37,
-    "chg1y": 0.6
+    "price": 508.29,
+    "date": "2026-11-18",
+    "chg": 0.4,
+    "chg5": -2.46,
+    "vol_ratio": 0.77,
+    "rsi": 43.1,
+    "sma50": 519.94,
+    "sma200": 441.87,
+    "chg1y": 3.8
    },
    "news": {
     "news_24h": 15,
-    "news_per_day": 5.8,
-    "tone": 0.25
+    "news_per_day": 6.0,
+    "tone": 0.29
    },
    "headlines": [
     {
@@ -258,7 +258,7 @@
     "profit_growth": 31.3,
     "eps": 17.95,
     "debt_to_equity": 0.07,
-    "pe": 28.2,
+    "pe": 28.3,
     "ok": true
    }
   },
@@ -307,7 +307,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (54 כתבות ביממה, בדרך כלל כ-7)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (51 כתבות ביממה, בדרך כלל כ-8)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVFM0SGtMb09BTTQyX0M2SnBUU01yZVFkbE1qQ21DamNSUGNJZjEyMGVOdFJMQXFBbDFPYWxISk8yZENJZC1vYnhaUjZZbXVCWEx5azVram94dkg5b2ZGclZCMk5MVVBBQjZJdUtNNGZVM1JTTjdBRFdJZDZVVW16c2Y2WTZvZTltWEMwRTVpMXhsWEUxV1ViMm1WZEg1RElvVFE1b2dfTGViY0RxTFF2c2dpZUhQRVdPcHNtWTFBZENzekgtOGYydS16NkhQUTFMR3BuMk5NRVdQdmtk?oc=5",
      "agent": "חדשות"
@@ -326,26 +326,32 @@
     }
    ],
    "price": {
-    "price": 155.46,
-    "date": "2026-11-17",
-    "chg": -0.44,
-    "chg5": -7.95,
-    "vol_ratio": 1.84,
-    "rsi": 16.3,
-    "sma50": 211.75,
-    "sma200": 203.6,
-    "chg1y": -16.5
+    "price": 150.96,
+    "date": "2026-11-18",
+    "chg": -2.89,
+    "chg5": -13.11,
+    "vol_ratio": 1.44,
+    "rsi": 15.8,
+    "sma50": 210.3,
+    "sma200": 203.45,
+    "chg1y": -16.6
    },
    "news": {
-    "news_24h": 54,
-    "news_per_day": 7.2,
-    "tone": 0.26
+    "news_24h": 51,
+    "news_per_day": 7.7,
+    "tone": 0.25
    },
    "headlines": [
     {
      "title": "Nvidia Earnings Impress, but NVDA Stock Tests $150 Support while Regulatory and Data-Centre Risks Weigh - FXLeaders",
      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVFM0SGtMb09BTTQyX0M2SnBUU01yZVFkbE1qQ21DamNSUGNJZjEyMGVOdFJMQXFBbDFPYWxISk8yZENJZC1vYnhaUjZZbXVCWEx5azVram94dkg5b2ZGclZCMk5MVVBBQjZJdUtNNGZVM1JTTjdBRFdJZDZVVW16c2Y2WTZvZTltWEMwRTVpMXhsWEUxV1ViMm1WZEg1RElvVFE1b2dfTGViY0RxTFF2c2dpZUhQRVdPcHNtWTFBZENzekgtOGYydS16NkhQUTFMR3BuMk5NRVdQdmtk?oc=5",
      "source": "FXLeaders",
+     "tone": 0
+    },
+    {
+     "title": "Nvidia's Board Chairman Says Jensen Huang Isn't Coming Back, but He May Have a Poker Move for the Ages Hiding up His Sleeve - The Motley Fool",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPU2tRR3RGUzVrTzVkTjlkOUdOM2hSNUw4LVU2S3NPWlNkQjBPNU9uUzBiWWhKeFhpektDMmN4aElMMUJOMGtRWDdDZjVpVTZidkdLdWVYdGZwUnQtYXVkcnJRc3pQVUtXMjcxWDBWc205MUhmNGkyQzFJUjl4NUV1c05HQU1KTTNZVE9QVlE1M0VxZ1FFYWJOd3RJOHdxWHdLUEowdUVrOVdUTm9RWFhKV2pqb25NeW9pZjk2dm1TdFlfYWR2YkFIRXdpcWRROFlXOF9vRUx0YlpYSi1RazdDTEU5TWFnbjRaN1RVYQ?oc=5",
+     "source": "The Motley Fool",
      "tone": 0
     },
     {
@@ -371,12 +377,6 @@
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcG5ZNTBWOTlvdkdPc3VPdVNTZ1hiT2NiZEw4aU1OWVhWUklwOG5zRUpvTnNsY2VsZW5UaDFZM0tNbzJMV2dISXd1YTZrcGpfbVlIWXVPZ296VW9mNWU3eFpCT2dKc2Vnbm45dTdPTXBlSjgzMzNJV2x5Rkt2TWxnUzFmRk1NSVpHN1RoOG1xRUtoS3RKQ3hVVF96dVVRcFRwSmZpX1g3OGZaU3pzdVRkOEZ4NEZNWE94ekJ6TWx0eEJyaWFwZ1FTMVFSd2NRUHFPRHU4?oc=5",
      "source": "The Motley Fool",
      "tone": 0
-    },
-    {
-     "title": "Jensen Huang and Howard Lutnick will appear publicly before a powerful Senate panel - Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeDN5WjlMNEk2bndfVWFuek5uRm1pdDlYNi1nbVM2cjk0VXpTU245S3N2aWxkVGh5elZsTzV6WU5rZS1ZWXNTbWxXNXRhNFZWT181N3hYZUdHb3RsSDBwMmpwVEdYaHZXNl94Qmh2eENEN1QzenFadlpYMXdXOU5USWNneUJPQWNCVFZBbS05ZFVYZGxhX3NTd3hVeTN3X05YQnd0VzNRYzNDLUNIWm80cFVXUkp6TkpZckFQbFNGdEFta3RHdHNxMm1QVVRDV0ZBOGJkS05BOA?oc=5",
-     "source": "Yahoo Finance",
-     "tone": 0
     }
    ],
    "errors": {},
@@ -389,7 +389,7 @@
     "profit_growth": 64.7,
     "eps": 4.9,
     "debt_to_equity": 0.05,
-    "pe": 31.7,
+    "pe": 30.8,
     "ok": true
    }
   },
@@ -397,8 +397,8 @@
    "ticker": "AMZN",
    "name": "אמזון",
    "direction": "neutral",
-   "confidence": 50,
-   "score": 0.95,
+   "confidence": 49,
+   "score": 0.35,
    "alert": true,
    "signals": [
     {
@@ -406,12 +406,6 @@
      "weight": 1.0,
      "source": "https://www.tiingo.com/AMZN/overview",
      "agent": "מסחר"
-    },
-    {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (9 מול 1)",
-     "weight": 0.6,
-     "source": "https://stocktwits.com/symbol/AMZN",
-     "agent": "רשתות"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -451,33 +445,39 @@
     }
    ],
    "price": {
-    "price": 257.89,
-    "date": "2026-11-17",
-    "chg": 0.05,
-    "chg5": -4.79,
-    "vol_ratio": 0.78,
-    "rsi": 52.2,
-    "sma50": 254.81,
-    "sma200": 244.76,
-    "chg1y": 10.7
+    "price": 267.74,
+    "date": "2026-11-18",
+    "chg": 3.82,
+    "chg5": 0.59,
+    "vol_ratio": 0.81,
+    "rsi": 66.4,
+    "sma50": 255.12,
+    "sma200": 244.91,
+    "chg1y": 20.3
    },
    "news": {
-    "news_24h": 15,
+    "news_24h": 16,
     "news_per_day": 10.8,
-    "tone": 0.01
+    "tone": 0.07
    },
    "headlines": [
+    {
+     "title": "Amazon.com (NASDAQ:AMZN) Stock Jumps 3.8% - Here's Why - MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY3FYSHN1WVd5R2I5T0lTUXhrMmhMRVhwZ0FiTEZGTHRmaF92aHF2LUFpLVpWSXpUM2ZKYXdmbWRZUkp1MkV4aDluQzZSNncxTURrcmF2bU8xTWRFNzE2NU15WU1jVkRFY2NWeDFDekVQRjBHdi1tODg4SUtwR1pkajcwVmNjYmVEUFVteUVqOEk5elBpUkt4TjBVVEdFc0dTVm9qQ1lHN0MtQQ?oc=5",
+     "source": "MarketBeat",
+     "tone": 1
+    },
+    {
+     "title": "AMZN Stock Rebounds Despite UBS Downgrade, as Amazon Anthropic Investment Could Be Worth $150 Billion - FXLeaders",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTmhQcEsxU3pxQ0llWWdvenNGWTdTY29QOExSU1c0VDFQOGhpajdJeFo5d0tlUzc4RmdjYzh3aV9uc0xhYXQxejRRVDI5ZmFzczQxVlFiZU0yYXR3emU3WlRfb1U4Wi1sNW9QbUFFR3FiLTRjVDIxY0hCazBGSzRjOVR3OXUwdHN1SEpaZGxEaGU5andpSUN0TXNnME5fS2stVGN6a3JCbnNmc0k3bmtpanMwcmdtUXlTcXlWNE1TY2l2UERhRTc3TkJHemo3b3cwM3AzYTFrOE44Zw?oc=5",
+     "source": "FXLeaders",
+     "tone": -1.5
+    },
     {
      "title": "Here’s How Much You Would Have Made Owning Amazon.com Stock In The Last 15 Years - Benzinga",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYkRkU1NmOXBabHVHaEhGNEg2UFpJWWVabEg3cHVsUi1lSjhBd3VxMmJISENVNHZoX0JEOU1kcEJWaVRfWTlYTDZEeGQzaEVad3VfTU9iTzZhVjFYZFFOQU1fNEttdXV0RXZ3RTVwWi1TZEhIX2hURjNxejc3WlFxb19MUlBlbHR6OURla1RxR2ZMcElyREQyZF96Y0d2YnhyNERoUVplSjVFQ2FWcEFnbnh6MDl5cjRVM2c?oc=5",
      "source": "Benzinga",
      "tone": 0
-    },
-    {
-     "title": "AMZN Stock Rebounds Despite UBS Downgrade, as Amazon's Anthropic Investment Could Be Worth $150 Billion - FXLeaders",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaVItMTNYRks4OTE3WHZtMUNlUFVuaG1sbG9sMTRVMzFwVlR4WEp5Q2V0RmhOeDhjSkI5RUQ2QlVhTnRvMG1rNDBJbnQ2TmlwdTB4Q2NEMnM3ODQ0N2ZSOExqb2FROEtPQkZXWnhrWWk2SHdlcGFqR1VEMlRsNmhHSjhOZlE2ZWwwX2NlRWZGZnhjTlZ3NGg2Z2dqd2JESUJiYk5WMkN2YTRVWmJnM0hPaXNlY01MZWIyTGstYVdxRXVISndFRlRqT2VUTXc0bVFQd2hoQ1p6MHJqQjA?oc=5",
-     "source": "FXLeaders",
-     "tone": -1.5
     },
     {
      "title": "Amazon (AMZN) Stock Gains as $150 Billion Opportunity Emerges - Blockonomi",
@@ -496,12 +496,6 @@
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUGxDLTZ2a2xVbkd3SEppX1ctS0JqazBNeEV4YW1iNDdBeUprMWZUSXBfS1RrU1ZEZWYyOHJhN1ZUZXlINTl1TzNqbmpkWVJHUk5qSE9XREt6b3dPdVhib2otRVF1NnpIS21QcmxndTlFa09rUTdLWHhESUUtS2p5dWg3RHp2NnFLdjJka0hmdjVLNFdDbVFXOFg1NWVlYm9qXzNZQkVfaw?oc=5",
      "source": "24/7 Wall St.",
      "tone": 0.5
-    },
-    {
-     "title": "Why is Amazon stock climbing today? - Investing.com",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSEloNGtQUzdpUXJsYXF5Sms0TE5HSUo4czN3QzdEOE9HTlk0Q3JjQjFnNGttZ2JRRWdLam1xNFRlMC1CcXFubVdqYU9jRmwwOUZ6cjI5TXJiaVN1QmRZVlpneXdjanJwSzNkcS1XazYtZ1JpU1liNkh2R2VHMDVnOUhrc3NsV3BMMU9RN0cydE9aeEJDb1JsVkFCdHY?oc=5",
-     "source": "Investing.com",
-     "tone": 0
     }
    ],
    "errors": {},
@@ -514,7 +508,7 @@
     "profit_growth": 31.1,
     "eps": 7.17,
     "debt_to_equity": 0.16,
-    "pe": 36.0,
+    "pe": 37.3,
     "ok": true
    }
   },
@@ -558,15 +552,15 @@
     }
    ],
    "price": {
-    "price": 280.2,
-    "date": "2026-11-17",
-    "chg": -1.24,
-    "chg5": -2.5,
-    "vol_ratio": 0.77,
-    "rsi": 27.3,
-    "sma50": 325.93,
-    "sma200": 337.62,
-    "chg1y": -1.4
+    "price": 282.44,
+    "date": "2026-11-18",
+    "chg": 0.8,
+    "chg5": -3.75,
+    "vol_ratio": 0.64,
+    "rsi": 48.8,
+    "sma50": 324.96,
+    "sma200": 337.33,
+    "chg1y": -0.4
    },
    "news": {
     "news_24h": 5,
@@ -615,7 +609,7 @@
     "profit_growth": 32.0,
     "eps": 10.81,
     "debt_to_equity": 0.11,
-    "pe": 25.9,
+    "pe": 26.1,
     "ok": true
    }
   },
@@ -652,9 +646,9 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (34 כתבות ביממה, בדרך כלל כ-10)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (34 כתבות ביממה, בדרך כלל כ-9)",
      "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSVBRTS1vR1hXQ3IzckR3enR2WFJQRGQtTDhhdjFCR1VPYU1sN2lkaDN1S29ER0U0WWxQTnJLMGxPd1Zhbmk1MkVfNnd5dmhFN0d1cFpNUGg4YkpOTll4VEd6RWhub3FERk5QVXNyRFVtQnhhYVFwRTl1dlZudzdFdkl2V3BhOFF2c1pDRE5iQnFOaGVmaFcyam1jb2FxcDlOR2lNTGdiSFVRY3QwUUtLRjNySFJnVWxEVlBxcg?oc=5",
+     "source": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPajZSNlo0SWlOcDZveElQT1F1MVhGV25iTU5TSlNPY2lMNE9hbTM4cnhQX2d0VXVSd2U0SWFHVVNTTWQ0Z0lkcDVuMDA5dEFKVkw1SGduYW1UajN6bk1KeExydHJqZ1FvVnVFUXFLOF95akZ2Nk11Mk1CYVdDbnB5ZEdR?oc=5",
      "agent": "חדשות"
     },
     {
@@ -665,22 +659,28 @@
     }
    ],
    "price": {
-    "price": 618.87,
-    "date": "2026-11-17",
-    "chg": -1.2,
-    "chg5": -3.51,
-    "vol_ratio": 0.55,
-    "rsi": 51.8,
-    "sma50": 680.03,
-    "sma200": 629.21,
-    "chg1y": 3.1
+    "price": 616.38,
+    "date": "2026-11-18",
+    "chg": -0.4,
+    "chg5": -1.97,
+    "vol_ratio": 0.44,
+    "rsi": 47.5,
+    "sma50": 679.29,
+    "sma200": 628.84,
+    "chg1y": 3.5
    },
    "news": {
     "news_24h": 34,
-    "news_per_day": 9.5,
-    "tone": -0.03
+    "news_per_day": 8.8,
+    "tone": -0.06
    },
    "headlines": [
+    {
+     "title": "Meta is pausing Class C stock issuance during shareholder lawsuit - Quartz",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPajZSNlo0SWlOcDZveElQT1F1MVhGV25iTU5TSlNPY2lMNE9hbTM4cnhQX2d0VXVSd2U0SWFHVVNTTWQ0Z0lkcDVuMDA5dEFKVkw1SGduYW1UajN6bk1KeExydHJqZ1FvVnVFUXFLOF95akZ2Nk11Mk1CYVdDbnB5ZEdR?oc=5",
+     "source": "Quartz",
+     "tone": -1
+    },
     {
      "title": "Amazon, Google, Meta in spotlight as Needham sees 'fragility' due to Nvidia dependence (NVDA:NASDAQ) - Seeking Alpha",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSVBRTS1vR1hXQ3IzckR3enR2WFJQRGQtTDhhdjFCR1VPYU1sN2lkaDN1S29ER0U0WWxQTnJLMGxPd1Zhbmk1MkVfNnd5dmhFN0d1cFpNUGg4YkpOTll4VEd6RWhub3FERk5QVXNyRFVtQnhhYVFwRTl1dlZudzdFdkl2V3BhOFF2c1pDRE5iQnFOaGVmaFcyam1jb2FxcDlOR2lNTGdiSFVRY3QwUUtLRjNySFJnVWxEVlBxcg?oc=5",
@@ -710,12 +710,6 @@
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTms3QkRQdjgyZWlSZVRiSmNEdjFia183eHVTbEZ2TlVIQ2NCWXRqQXZSM3Jsb2duUzNuRFMwYUJUdUtRT0pMMUhjOXFwVWpBMnJULU1FRkNCd3YzbWxTcDM4eFhwTkI4VjJLVXlvWXFBQk1ORVBFU01fU3AxVGFuTnRPQUtHMW5GSnlMSmFB?oc=5",
      "source": "Yahoo Finance",
      "tone": 0
-    },
-    {
-     "title": "How to Play META Stock as Meta Platforms Tests a New Prediction Markets App - Barchart.com",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY1pIcENNWE1fdjdWTzhuUzdkTUVra21hbzZLbjNFa1ptTm4wSXQ0UTNpUno2bzdueHg4WllFY1BiS09lTEVkMHVJVFl5Q0I4MllsUFJfWFlkM3d5N1BRdUZGRWo1VDdHT2E4RXBIc3dDSThOVDZqQmJyS2I1RUs4ckF5SGc2TUthQVoyUnY0TGV0MUt5eWNaUlVza0NTbDZuMlJCdEg1MUZPVWJRZWg2T25aekNacWNIWS1Z?oc=5",
-     "source": "Barchart.com",
-     "tone": 0
     }
    ],
    "errors": {},
@@ -728,7 +722,7 @@
     "profit_growth": -3.1,
     "eps": 23.49,
     "debt_to_equity": 0.27,
-    "pe": 26.3,
+    "pe": 26.2,
     "ok": true
    }
   },
@@ -736,16 +730,10 @@
    "ticker": "TSLA",
    "name": "טסלה",
    "direction": "neutral",
-   "confidence": 47,
-   "score": -0.05,
+   "confidence": 56,
+   "score": -0.65,
    "alert": true,
    "signals": [
-    {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (11 מול 1)",
-     "weight": 0.6,
-     "source": "https://stocktwits.com/symbol/TSLA",
-     "agent": "רשתות"
-    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -778,20 +766,20 @@
     }
    ],
    "price": {
-    "price": 380.11,
-    "date": "2026-11-17",
-    "chg": 0.1,
-    "chg5": 0.09,
-    "vol_ratio": 0.57,
-    "rsi": 41.4,
-    "sma50": 375.49,
-    "sma200": 382.27,
-    "chg1y": -7.0
+    "price": 383.72,
+    "date": "2026-11-18",
+    "chg": 0.95,
+    "chg5": -1.82,
+    "vol_ratio": 0.69,
+    "rsi": 43.2,
+    "sma50": 375.81,
+    "sma200": 382.08,
+    "chg1y": -4.4
    },
    "news": {
-    "news_24h": 7,
+    "news_24h": 6,
     "news_per_day": 7.3,
-    "tone": 0.29
+    "tone": 0.25
    },
    "headlines": [
     {
@@ -841,7 +829,7 @@
     "profit_growth": -46.5,
     "eps": 1.08,
     "debt_to_equity": 0.08,
-    "pe": 352.0,
+    "pe": 355.3,
     "ok": true
    }
   },
@@ -849,15 +837,21 @@
    "ticker": "AMD",
    "name": "AMD",
    "direction": "neutral",
-   "confidence": 47,
-   "score": -0.05,
+   "confidence": 46,
+   "score": 0.45,
    "alert": true,
    "signals": [
     {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (14 מול 1)",
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (15 מול 1)",
      "weight": 0.6,
      "source": "https://stocktwits.com/symbol/AMD",
      "agent": "רשתות"
+    },
+    {
+     "text": "זזה +5.3% ביום אחד, תזוזה חריגה",
+     "weight": 0.5,
+     "source": "https://www.tiingo.com/AMD/overview",
+     "agent": "מסחר"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -897,15 +891,15 @@
     }
    ],
    "price": {
-    "price": 503.41,
-    "date": "2026-11-17",
-    "chg": -0.17,
-    "chg5": -2.29,
-    "vol_ratio": 1.02,
-    "rsi": 42.2,
-    "sma50": 555.04,
-    "sma200": 425.74,
-    "chg1y": 109.3
+    "price": 530.14,
+    "date": "2026-11-18",
+    "chg": 5.31,
+    "chg5": -4.12,
+    "vol_ratio": 0.91,
+    "rsi": 46.3,
+    "sma50": 555.22,
+    "sma200": 427.18,
+    "chg1y": 130.2
    },
    "news": {
     "news_24h": 16,
@@ -960,7 +954,7 @@
     "profit_growth": 164.2,
     "eps": 2.65,
     "debt_to_equity": 0.04,
-    "pe": 190.0,
+    "pe": 200.1,
     "ok": true
    }
   },
@@ -1022,20 +1016,20 @@
     }
    ],
    "price": {
-    "price": 59.68,
-    "date": "2026-11-17",
-    "chg": -1.76,
-    "chg5": -5.66,
-    "vol_ratio": 0.76,
-    "rsi": 42.2,
-    "sma50": 68.49,
-    "sma200": 80.27,
-    "chg1y": -45.9
+    "price": 59.82,
+    "date": "2026-11-18",
+    "chg": 0.23,
+    "chg5": -7.31,
+    "vol_ratio": 0.6,
+    "rsi": 42.5,
+    "sma50": 68.17,
+    "sma200": 80.17,
+    "chg1y": -47.6
    },
    "news": {
-    "news_24h": 6,
-    "news_per_day": 4.3,
-    "tone": -0.32
+    "news_24h": 5,
+    "news_per_day": 4.2,
+    "tone": -0.12
    },
    "headlines": [
     {
@@ -1055,12 +1049,6 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbWhTM3J4WllPNGFERXpxT044V2JKVmRHY2syREZ2Zi1KY1B4YUs4NGdfLVptc1dLM0VYVlE1ZEdIUlVhLXNoc2J1cFNGQ25RQXhjd01KT2JPejU1VG5idUdNNDZNMEdoT3paQU1OV3pxZzZZdnV3LThGeld6dGtrTmhuNlRMMWRtNkUzYjRuMmZZOExpYlJwempkNkh0R0JackpoUzF2QnJkUDZsMGp4TFdPRTZDdW8?oc=5",
      "source": "Benzinga",
      "tone": 0
-    },
-    {
-     "title": "Why Did ASTS, NFLX, RCAT Stocks Plunge To 52-Week Lows Today? - Stocktwits",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRnNLdE1sMGhCRWFfMzFFeHEzY1I5eTR0YVd3Rkw4SDNnb1BFU19EY0RKWmxlUmJORlN5aTU1Rld4WkJ5eGdRaWExNUpFckV3MlkxU0s2ZzYtRlpBZHZKbkt4R3pLMjNsY3FiR1BqUkpaT2tUNlJETnNKcGJrUzkxNU4tNm1JcUc3UFU1NmNFN3ktNXBsZTdYS2xsaDhOTWdsNXdkd1RiRExpOXQtWG9aVUZ1aVkyX25iTE02NF9HOA?oc=5",
-     "source": "Stocktwits",
-     "tone": -1.3
     },
     {
      "title": "Netflix (NFLX) Stock: $59.68, Down 1.76% Nov 17 - JournalArta",
@@ -1129,22 +1117,28 @@
     }
    ],
    "price": {
-    "price": 329.96,
-    "date": "2026-11-17",
-    "chg": -2.44,
-    "chg5": -3.54,
-    "vol_ratio": 1.28,
-    "rsi": 44.0,
-    "sma50": 338.9,
-    "sma200": 322.77,
-    "chg1y": 12.0
+    "price": 324.11,
+    "date": "2026-11-18",
+    "chg": -1.77,
+    "chg5": -5.61,
+    "vol_ratio": 0.97,
+    "rsi": 37.7,
+    "sma50": 338.32,
+    "sma200": 322.83,
+    "chg1y": 10.3
    },
    "news": {
-    "news_24h": 8,
-    "news_per_day": 6.0,
-    "tone": -0.25
+    "news_24h": 9,
+    "news_per_day": 5.7,
+    "tone": -0.28
    },
    "headlines": [
+    {
+     "title": "JPMorgan Chase & Co. (NYSE:JPM) Shares Down 1.9% - Should You Sell? - MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSjl5aTd3Xzd3c2J5MnZnUkFPc1lBLWt1d1lPTFI4cHJ6cHJLaE1ORVJoRTQ1N016ZGtLRGpvVUs3dE41cXV3ZTd6N0pqOXhTSUFaajBkLTRCb0pYM05LZGRhcTA5ZW9OaEpoYmhEZDlhMndtVk9YT0huZ18tWjhvREUzZjdnREJBNTM1WThlWGdqNWM0Mm1hS24tekxkTGUtM3VBTDc4VkkzaDBYUjBhX0c1ZzlMUVF5?oc=5",
+     "source": "MarketBeat",
+     "tone": -0.5
+    },
     {
      "title": "Visa (V) Stock Price Prediction: Visa holds a constructive pullback as analysts stay broadly positive - Blockchain News",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOczhnSEFuZExsb0JGb0tyakZPT2RGTmh4eUs3VnlVam1fRnFUeHF2LWQzRlJBNTFSMUhha1dDbzRDUFk1OEdETUZzVGtQRU9IcTB4TGthZHVIb0h0SDN4TmppdGtibkhKVnRWWEZNWHZfYnJvZXYzV0pDQTMzWURZcXZEc1Z1T29VYXh5VGpwVGhxaklnbFA2TzFR?oc=5",
@@ -1174,12 +1168,6 @@
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTUpzSnc0Um5MZFBYNHg0OW1lMTVQeDVxZnR1Z2VrVjFPN0VGUHJOQUNNY2cwUFNBdHM1a0dtOThKZWd5dTVrcUEzWjFDUnlLR0VDMnVsVjFvX3BlamYtWTFvSmRkY01uU3lIQWVLSTAwRU96QnF2dURzLVd4TDVIaUMwQnZ0S1FpMExJYmptVmVsT29E?oc=5",
      "source": "GuruFocus",
      "tone": 0
-    },
-    {
-     "title": "JPMorgan Chase & Co. $JPM Stock: Aberdeen Group plc Grows Holdings - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNU9sa1NCSFNrQjRQbVdnYllTYlNORWIzRlFkczR6SEN3Z2dTWF80UnI4YUkzTVI5S0g1WHY3a2NhLWJfRGtzTjQzQ0Q1alhfamlJRl9KS0pqVExEbzJFYmhkeE9uNGRnQ05Kb0VUbWV3aDQ2bnlnVjE5ejMwcjdYZmg1djFhRzEwMUhpc2kycFNodlEtSUpkZjVlYkJyb2x6c2ZrWVNlcFI1dzl4LV91aGJja2hmbWdKSW5ORFRsUQ?oc=5",
-     "source": "MarketBeat",
-     "tone": 0
     }
    ],
    "errors": {},
@@ -1191,7 +1179,7 @@
     "margin": 31.3,
     "profit_growth": -2.4,
     "eps": 20.02,
-    "pe": 16.5,
+    "pe": 16.2,
     "ok": true
    }
   },
@@ -1229,22 +1217,34 @@
     }
    ],
    "price": {
-    "price": 167.21,
-    "date": "2026-11-17",
-    "chg": 0.2,
-    "chg5": 2.32,
-    "vol_ratio": 0.83,
-    "rsi": 32.0,
-    "sma50": 168.62,
-    "sma200": 154.62,
-    "chg1y": 45.8
+    "price": 160.58,
+    "date": "2026-11-18",
+    "chg": -3.97,
+    "chg5": -3.06,
+    "vol_ratio": 1.2,
+    "rsi": 25.2,
+    "sma50": 168.57,
+    "sma200": 154.73,
+    "chg1y": 38.5
    },
    "news": {
-    "news_24h": 6,
+    "news_24h": 8,
     "news_per_day": 3.7,
-    "tone": 0.25
+    "tone": 0.19
    },
    "headlines": [
+    {
+     "title": "ExxonMobil (NYSE:XOM) Stock Price Down 3.9% - Here's Why - MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTE1nSTcwXzRxcnRVWGI5SDNNcWZZVXdDOE5kT3YtSjU2ZDN1eGo3aklQUE9Gb1lpMjljUGlLZmF1WUdFRHExRXRPSGdkMmU3UTZHMVczUFVMR1lLVGhqaTAxWS1jV25EaURkb1lyLUxFMHlpMy1TR2w3UXd4UlM4alcyaEd2bkZWVW9TdG9BYVptdHI1NVZ5NE01VVB3S0FTRlN4SVRrV293T2RIc3c?oc=5",
+     "source": "MarketBeat",
+     "tone": 0
+    },
+    {
+     "title": "ExxonMobil (XOM) Just Achieved Something 95% of S&P 500 (GSPC) Members Haven't Done - Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa1o4a3ZqRUR6bWtibHl1YUN4T0NDSXFwTDJYbHNiNXNhMDVEalpPR2pFWDRsd0pEXzQ4LUU0cHNSTmVXTUJJb3dObXlWZzlabTYtUnVhZlJFVWo5X1FFQUxCc21mWTdqSUJhMThMWnMwVjBxT3JDbHR6bEN5QlpEQlA5V2FxcWVkRVpjV2FBbWFUT3VGRnVIMWpjWjJBR3JTcWwyT3N3?oc=5",
+     "source": "Yahoo Finance",
+     "tone": 0
+    },
     {
      "title": "Exxon Mobil Corp Stock (XOM) Moved Down by 3.28% on Nov 18: A Full Analysis - TradingKey",
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX2NCaV9QVHM0czFGcVVKMjUzaXJVck16WEtyUk1rYmo5NlBPSHlnc3VZRm1sbFZkdWdQd3BHbzM3QU1CdzlEWWdYMFkwSTdJVW1UQnpmUGVpenpfdTMzRHpKcHFhMGZnSFdXTW85OS1ucDA4b201U3ZsOWd0RGR2c2JJSVdrR3VnWEE?oc=5",
@@ -1268,18 +1268,6 @@
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSHVGVUNRR1lSdlhyVHctVVQzRGFXRG1UMElyOWNOdm94N0lJdG1HbkdqM210ZEpQamREU0kweGtRUUU0SkdGRDFMb09Sbmh2bzQ3V2JYemplUGhuQzVUbDJ4UEpJSktSb0szR1pkZFoxUUxPVDRiLXpaRTU3SkwtY3lwcmRfQlRCNk41dkRtWHdHeFpOZExOdFhHa0FENnRQWVJ6WDRJRHJUZXozcWFoemE2SjY0SHhCVmU0eTB4QjVoVnhkTkgtUXZKVF94djh3WjBvYmhUbkpSSms3aGxieDV3?oc=5",
      "source": "MarketBeat",
      "tone": 0
-    },
-    {
-     "title": "ExxonMobil Corporation $XOM Stock: Cibc World Market Inc. Increases Position - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd21SNjMwSEFGR1VWbk5XaGdRRkVMUkYxTjRDZzlHLWxPcHFiUVpoUlZzMVJoWUloSDdDSHZvX3hkWFk2MWkzTjktWjlDNkhPZC1qNmlMYkFleXNWNkQ4MEpndzNGbDg1WEgtSzdyVS1wZlA5ZkkySFF6LTNISVlkUmhkYmVzb01qZFg5b3M4a181dThlWjVlUUVoZjFOOHpYcXJ5d1BKS1F5QXVRM19IRjltV1BHQUVXcVZQX1JuMVI3czBuX2dvUjcwc19GSEU?oc=5",
-     "source": "MarketBeat",
-     "tone": 0
-    },
-    {
-     "title": "ExxonMobil (XOM) Stock Price Prediction: Bears Still Control the Tape as XOM Tests Support After Fresh Analyst Split - Blockchain News",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcUotZlA2Y2xYdzlaSk9GX29haWdnM1dycGNERVpMWEdYNWVhRWg1NnkwTG83MC1OVzNfSy1OSDdWdnBTTFFubDlfUF8zQ3lOdXdJME5PQnZGRTFwWHhpejd0bE1pUW9URzhUWUpnS2lndlctUnNhYmYzOV95S2dvYUFod1U4YWpYUFVmajNrbGsyeEdr?oc=5",
-     "source": "Blockchain News",
-     "tone": 0
     }
    ],
    "errors": {},
@@ -1291,7 +1279,7 @@
     "margin": 8.7,
     "profit_growth": -14.4,
     "eps": 6.7,
-    "pe": 25.0,
+    "pe": 24.0,
     "ok": true
    }
   },
@@ -1299,8 +1287,8 @@
    "ticker": "KO",
    "name": "קוקה קולה",
    "direction": "neutral",
-   "confidence": 46,
-   "score": -0.45,
+   "confidence": 45,
+   "score": -0.25,
    "alert": true,
    "signals": [
     {
@@ -1310,22 +1298,10 @@
      "agent": "מסחר"
     },
     {
-     "text": "עלתה מהר מדי לאחרונה, לפעמים אחרי זה מגיעה ירידה קטנה",
-     "weight": -0.7,
-     "source": "https://www.tiingo.com/KO/overview",
-     "agent": "מסחר"
-    },
-    {
-     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (10 מול 2)",
+     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (9 מול 2)",
      "weight": -0.6,
      "source": "https://stocktwits.com/symbol/KO",
      "agent": "רשתות"
-    },
-    {
-     "text": "במחיר הכי גבוה שלה בשנה האחרונה",
-     "weight": 0.5,
-     "source": "https://www.tiingo.com/KO/overview",
-     "agent": "מסחר"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -1359,15 +1335,15 @@
     }
    ],
    "price": {
-    "price": 98.79,
-    "date": "2026-11-17",
-    "chg": -0.69,
-    "chg5": 1.94,
-    "vol_ratio": 1.04,
-    "rsi": 82.0,
-    "sma50": 91.21,
-    "sma200": 82.92,
-    "chg1y": 43.5
+    "price": 98.09,
+    "date": "2026-11-18",
+    "chg": -0.71,
+    "chg5": 0.53,
+    "vol_ratio": 0.88,
+    "rsi": 74.8,
+    "sma50": 91.44,
+    "sma200": 83.03,
+    "chg1y": 41.4
    },
    "news": {
     "news_24h": 16,
@@ -1421,7 +1397,7 @@
     "margin": 27.3,
     "profit_growth": 23.3,
     "eps": 3.04,
-    "pe": 32.5,
+    "pe": 32.3,
     "ok": true
    }
   },
@@ -1465,15 +1441,15 @@
     }
    ],
    "price": {
-    "price": 156.56,
-    "date": "2026-11-17",
-    "chg": -2.39,
-    "chg5": -7.26,
-    "vol_ratio": 0.72,
-    "rsi": 23.5,
-    "sma50": 184.24,
-    "sma200": 153.84,
-    "chg1y": -8.6
+    "price": 156.67,
+    "date": "2026-11-18",
+    "chg": 0.07,
+    "chg5": -9.12,
+    "vol_ratio": 0.6,
+    "rsi": 23.7,
+    "sma50": 183.98,
+    "sma200": 153.83,
+    "chg1y": -6.4
    },
    "news": {
     "news_24h": 7,
@@ -1512,9 +1488,9 @@
      "tone": 1.5
     },
     {
-     "title": "Palantir director Alexander Moore sells $2.69M in PLTR stock By Investing.com - Investing.com India",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUHhvUjZPUHZqUE1WSEtlLVhocTJndzFETTgzbzA4TFBwdzJ0THczc3pKLXZKcE5nZVZqaTZKZFlPekZraFRBQVFtSWsxUnBBcURwdmpqSXZoZFl2MGR5ay1uTlRBV1oyYVY5YUo1ZnlqNkI4Tk5HNllfTk5OZVNpcTNlcmJmVXZMY3QxV3pXSHpzdUFMUGJSZzc5dDcxeEhyZTJDTmVWMzdEbklyQklacmVyTGtPZ2E1bk9J?oc=5",
-     "source": "Investing.com India",
+     "title": "Palantir director Alexander Moore sells $2.69M in PLTR stock By Investing.com - Investing.com UK",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdFlsbnpJUi1GQW1LZFJlbnVzTkxOREVMSGhiajlUczU2SHhERjlhQjNTWkh0RkR2M3l2dHR0WDFKTkdhV3JESEFwTU1Pb0hheGlHcjNsSjBrSkhKSW1aODVzUC1ZNUJETW1VbmU0YThYbVVNSTVfQTJMYzBUVHhlX3hnQUxZWFdmOTkza2RNVzhLX0hlSlJSeW5SQVB3aVdYV2dCNlh1T1pTTTNKaXJYVUlDaFpVS2ZocTZr?oc=5",
+     "source": "Investing.com UK",
      "tone": 0
     }
    ],
@@ -1527,7 +1503,7 @@
     "margin": 36.3,
     "profit_growth": 251.6,
     "eps": 0.63,
-    "pe": 248.5,
+    "pe": 248.7,
     "ok": true
    }
   },
@@ -1546,7 +1522,7 @@
      "agent": "מסחר"
     },
     {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (12 מול 2)",
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (13 מול 2)",
      "weight": 0.6,
      "source": "https://stocktwits.com/symbol/INTC",
      "agent": "רשתות"
@@ -1583,20 +1559,20 @@
     }
    ],
    "price": {
-    "price": 55.17,
-    "date": "2026-11-17",
-    "chg": -0.54,
-    "chg5": -5.09,
-    "vol_ratio": 0.72,
-    "rsi": 18.7,
-    "sma50": 93.18,
-    "sma200": 87.48,
-    "chg1y": 58.9
+    "price": 54.67,
+    "date": "2026-11-18",
+    "chg": -0.91,
+    "chg5": -12.53,
+    "vol_ratio": 0.55,
+    "rsi": 19.6,
+    "sma50": 92.15,
+    "sma200": 87.5,
+    "chg1y": 59.2
    },
    "news": {
-    "news_24h": 22,
+    "news_24h": 21,
     "news_per_day": 9.2,
-    "tone": -0.15
+    "tone": -0.18
    },
    "headlines": [
     {
@@ -1651,10 +1627,10 @@
   {
    "ticker": "TEVA",
    "name": "טבע",
-   "direction": "up",
-   "confidence": 51,
-   "score": 1.1,
-   "alert": false,
+   "direction": "neutral",
+   "confidence": 48,
+   "score": 0.15,
+   "alert": true,
    "signals": [
     {
      "text": "כבר כמה חודשים במגמת עלייה יציבה",
@@ -1663,10 +1639,10 @@
      "agent": "מסחר"
     },
     {
-     "text": "החדשות עליה ביממה האחרונה חיוביות",
-     "weight": 0.75,
-     "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
-     "agent": "חדשות"
+     "text": "התחלף מנהל בכיר (18/11, דיווח רשמי)",
+     "weight": -0.2,
+     "source": "https://www.sec.gov/Archives/edgar/data/818686/000119312526467276/teva-20261117.htm",
+     "agent": "דוחות"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -1693,6 +1669,12 @@
      "agent": "מאקרו"
     },
     {
+     "text": "הודעה למשקיעים (18/11, דיווח רשמי)",
+     "weight": 0.0,
+     "source": "https://www.sec.gov/Archives/edgar/data/818686/000119312526467276/teva-20261117.htm",
+     "agent": "דוחות"
+    },
+    {
      "text": "7 דיווחים השבוע על מנהלים שקנו או מכרו מניות של החברה",
      "weight": 0.0,
      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=818686&type=4",
@@ -1700,22 +1682,40 @@
     }
    ],
    "price": {
-    "price": 42.62,
-    "date": "2026-11-17",
-    "chg": 0.12,
-    "chg5": 0.52,
-    "vol_ratio": 0.97,
-    "rsi": 62.4,
-    "sma50": 40.42,
-    "sma200": 35.18,
-    "chg1y": 73.3
+    "price": 42.23,
+    "date": "2026-11-18",
+    "chg": -0.92,
+    "chg5": -2.34,
+    "vol_ratio": 1.2,
+    "rsi": 54.0,
+    "sma50": 40.53,
+    "sma200": 35.21,
+    "chg1y": 70.0
    },
    "news": {
-    "news_24h": 2,
-    "news_per_day": 4.3,
-    "tone": 0.5
+    "news_24h": 5,
+    "news_per_day": 4.5,
+    "tone": 0.2
    },
    "headlines": [
+    {
+     "title": "Teva Pharmaceutical Industries Ltd. Announces Departure of R&D Chief Medical Officer Dr. Eric Hughes - Quiver Quantitative",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdTZ0FIY0FEcGJCc1luLW0wMzN4LWhITm9LWUNDcjV2aTVXYjlBSGoyOVVGeExTSm1PalJBV2V5XzVpb2tzZ3NtTGM3WS1mYThYeGJuMThVUl9PUHBzSS1xUlhsMFJsMWdaSU1FcXMzTF9oVkM1WnNIenoyR2F2LV96TUh3YTBOM29mSENFYXczY01yWGZPVy1PUVlmaUpBck5KU1F2WF9yYWZ2MjJPTkZKbjRuMTQ1QkJNb2FLeHUxRHdYWmVEOWpQZHVCU29U?oc=5",
+     "source": "Quiver Quantitative",
+     "tone": 0
+    },
+    {
+     "title": "Teva chief medical officer Eric Hughes to leave company - TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObFNQWW4wYllNRUJmNXRkZjdjNzdpTWk5T2s0dHBPNU9QNlp0THFDNWZ5a1AwWjBtek5lOVRGay1uaDd6ajlpTGZncDBhZThDcGZRT0lJNHY5Z2lzTUdHbDdqRTZqTHhTU3E4Q2VEX3JyQjVPZUZ0elJGeDN2RWpMUnhpQ3kyWU5KYkpUazZVNlhWemtfWlhFUUV2ZUFNQV90WkN3Z24ybHA?oc=5",
+     "source": "TipRanks",
+     "tone": 0
+    },
+    {
+     "title": "A $6–7 billion medicines revenue goal for 2030 stays in place as Teva's research chief prepares to leave. - Stock Titan",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcXhUdXpzWFRpd0FqZV8zUFdTUkJsR0pnNW1Ld1BnNWlhZHEyOWQ5Q3gtLXVOQTFGUExKUzJaSEdPRGFqWl9JR3BUcmZ1Tm0wTkdpMS1yREstSlExVTN6ZF9XVFVjT3hVSXB5LTZyQ0NCQW85aTAtdlVsSjhDWWx0RlFsbU11R1NIa1RKSjZUTzRiMkJMREVtYWd3NmRaM2F2dy1ua01HQmlORDdMNXpWRUFUd0Y0QnQybklkSk1B?oc=5",
+     "source": "Stock Titan",
+     "tone": 0
+    },
     {
      "title": "Teva Pharmaceutical Industries stock target raised to $50 by Argus - ad-hoc-news.de",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
@@ -1737,7 +1737,7 @@
     "profit": 1410000000,
     "margin": 8.2,
     "eps": 1.21,
-    "pe": 35.2,
+    "pe": 34.9,
     "ok": true
    }
   }
