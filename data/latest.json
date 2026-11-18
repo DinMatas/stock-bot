@@ -1,13 +1,18 @@
 {
- "run_time": "2026-11-18T17:31:29+00:00",
+ "run_time": "2026-11-18T18:06:31+00:00",
  "macro": {
   "ok": true,
-  "score": -0.9,
+  "score": -1.3,
   "signals": [
    {
     "text": "הפחד בשוק עולה (VIX 25)",
     "weight": -0.4,
     "source": "https://fred.stlouisfed.org/series/VIXCLS"
+   },
+   {
+    "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+    "weight": -0.4,
+    "source": "https://fred.stlouisfed.org/series/SP500"
    },
    {
     "text": "ה-S&P 500 מתחת לממוצע החודשי שלו (רוח נגדית)",
@@ -23,9 +28,9 @@
   "data": {
    "vix": 25.46,
    "vix_date": "2026-11-17",
-   "spx": 7416.59,
-   "spx_5d": -1.77,
-   "spx_date": "2026-11-16",
+   "spx": 7340.53,
+   "spx_5d": -2.4,
+   "spx_date": "2026-11-17",
    "t10": 5.12,
    "t10_5d_bp": 26
   }
@@ -35,14 +40,20 @@
    "ticker": "AAPL",
    "name": "אפל",
    "direction": "neutral",
-   "confidence": 22,
-   "score": -0.45,
+   "confidence": 38,
+   "score": -0.65,
    "alert": false,
    "signals": [
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
      "source": "https://fred.stlouisfed.org/series/VIXCLS",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
     },
     {
@@ -61,7 +72,7 @@
    "price": {},
    "news": {
     "news_24h": 7,
-    "news_per_day": 7.0,
+    "news_per_day": 6.8,
     "tone": 0.39
    },
    "headlines": [
@@ -103,22 +114,27 @@
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "MSFT",
    "name": "מיקרוסופט",
    "direction": "neutral",
-   "confidence": 22,
-   "score": -0.45,
+   "confidence": 38,
+   "score": -0.65,
    "alert": true,
    "signals": [
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
      "source": "https://fred.stlouisfed.org/series/VIXCLS",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
     },
     {
@@ -134,7 +150,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "גל חריג של כתבות: 15 ב-24 שעות (רגיל: כ-5 ביום)",
+     "text": "גל חריג של כתבות: 16 ב-24 שעות (רגיל: כ-5 ביום)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU3lFMWFTTnBhU21mU3BPU1R6cDJUVTVpS1JLMTRrOUZReVBtb05ad2tHQVNJdDMwRFoyR0hLLThhNDkybUFaQlFVSTNoOHJqbFdKWmNZbEVfeXRpQnZ6WmZiMWFEdVd1ejlqMDJOeWg0MTZadC16YWtQT0JSOHlYWlNTemxLM1gyR1ZNOTV5MXVSQnp4WmZ1YTAwZ2pHckpYV2c?oc=5",
      "agent": "חדשות"
@@ -142,9 +158,9 @@
    ],
    "price": {},
    "news": {
-    "news_24h": 15,
+    "news_24h": 16,
     "news_per_day": 5.2,
-    "tone": 0.14
+    "tone": 0.13
    },
    "headlines": [
     {
@@ -172,29 +188,28 @@
      "tone": 0
     },
     {
+     "title": "Microsoft Scales Agentic AI To The Enterprise - Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWEZTcU9TMGpmaUtoekh1dm5MMEFJZ1kwanpXMURVUGNpbzBaYXNiNF9rTkZyWURNUkN3UTByeEJlczdFc09Sck1HamMtdVVPT3l1d0IwWTlxZDFZWHlwbktrVzhBVGFlU0FCd3I4OTdVemJTeUowTnRuSEx1NXNzczBnSk95elNTTnc?oc=5",
+     "source": "Seeking Alpha",
+     "tone": 0
+    },
+    {
      "title": "Microsoft Stock (MSFT) Forecast – Mizuho Stays Bullish on Strong Revenue Growth Prospects - TipRanks",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeDdfSDlXLWdfRXBMam9ibGRHY3F4dFpuZkNaTWt3Y3M2dUNDTElGOXNsaWM3UjZZNTlEcUxURVYzLVNneWJmSkdnM1VrcVB6ZlVjS0w4RGpKMWRwaWhNOWRha0VzM2I4YXJKanFPQVdGMmdMVDNqanBJX1lVeWZXblpySmpyZUt0bzMtWHoyODMxbjNqWjVUM2Y4YWVWNnNUZE5ZMF9qejZ4WTlsREVJN2FIWWdUQQ?oc=5",
      "source": "TipRanks",
      "tone": 2.2
-    },
-    {
-     "title": "Microsoft Stock Hits Seven-Week Low: Is a Bigger Drop Coming? - BeInCrypto",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MNUlzT3liQ3N6bGx5RjJsLU5mNk5LdUFCVE8tNk1HMzBCbVlZa0F3Rzg5S3VSZjF5UlVLN2xSYXFqbS1ZX0oyS3BsbUVKOVliTXEzYVRsZTk2ZFk3bFpOc1ZXNGk3ckUtTkc5RGF3?oc=5",
-     "source": "BeInCrypto",
-     "tone": -0.8
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "NVDA",
    "name": "אנבידיה",
    "direction": "neutral",
-   "confidence": 22,
-   "score": -0.45,
+   "confidence": 38,
+   "score": -0.65,
    "alert": true,
    "signals": [
     {
@@ -204,6 +219,12 @@
      "agent": "מאקרו"
     },
     {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
+     "agent": "מאקרו"
+    },
+    {
      "text": "הריבית לטווח ארוך קפצה ב-26 נקודות בשבוע, לרוב לוחץ על מניות צמיחה",
      "weight": -0.15,
      "source": "https://fred.stlouisfed.org/series/DGS10",
@@ -216,19 +237,37 @@
      "agent": "מאקרו"
     },
     {
-     "text": "גל חריג של כתבות: 52 ב-24 שעות (רגיל: כ-7 ביום)",
+     "text": "גל חריג של כתבות: 54 ב-24 שעות (רגיל: כ-7 ביום)",
      "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLTJWTW1wYmRzVzF4NzYyelVibTBqdERLdWRrdmI1UmNnY0pmQ1IzMEtQTnZESGZLUnZScThpTk5tT1MtV1ppejVLWXB3UEk3X2ZWWDJqelduRFFKSTkzSzItcUhTM193NmNtTkN0VklnSmgtTzZvNldfWDZIRWllcndqUXNEZEVNR2pRS09oTXo?oc=5",
+     "source": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5UHBVNVQ0dFREUnNUaEVXMXNKZnA4ODd6eWtaWExjclEzeXV4R0s2alpVNFQxR2pCbU9tZlZpb2JEVkdOQWYyeGU2OHJaR3FUZ3RaM3lRS3A0WkFUaklla0lmM3ptdUpXWGU1N3JKdWc3Y3R4cmNOXzVLa1dpUQ?oc=5",
      "agent": "חדשות"
+    },
+    {
+     "text": "דיווח מיידי (17/11): פורסמו תוצאות כספיות (דוח רבעוני)",
+     "weight": 0.0,
+     "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
+     "agent": "דוחות"
     }
    ],
    "price": {},
    "news": {
-    "news_24h": 52,
-    "news_per_day": 7.3,
-    "tone": 0.35
+    "news_24h": 54,
+    "news_per_day": 7.0,
+    "tone": 0.28
    },
    "headlines": [
+    {
+     "title": "Where Does Nvidia Stock Go After Earnings? What the Charts Tell Us. - Barron's",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5UHBVNVQ0dFREUnNUaEVXMXNKZnA4ODd6eWtaWExjclEzeXV4R0s2alpVNFQxR2pCbU9tZlZpb2JEVkdOQWYyeGU2OHJaR3FUZ3RaM3lRS3A0WkFUaklla0lmM3ptdUpXWGU1N3JKdWc3Y3R4cmNOXzVLa1dpUQ?oc=5",
+     "source": "Barron's",
+     "tone": 0
+    },
+    {
+     "title": "Nvidia: The Real Risk Goes Beyond Jensen Huang (NASDAQ:NVDA) - Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZXZKaG9LcldhTmpzam1FeHlobUJmRXpKUVdId1Jsb1FMdU55ekdQUG55YUdBV25UcjdMYmpjX0pNa2RCZGt4ZXNPOFk5YmIyMmVPU2Z1UlZjUVZybTMxYkZ0el9qREFHY3l5WDJBMlJKeHlKdU9EODVvQUNoREVtZlhPZU5IZGtWSFV0WENoYw?oc=5",
+     "source": "Seeking Alpha",
+     "tone": 0
+    },
     {
      "title": "Nvidia (NVDA Stock) Posts Record $115.8 Billion Revenue as AI Boom Raises Emissions Concerns - CarbonCredits.com",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLTJWTW1wYmRzVzF4NzYyelVibTBqdERLdWRrdmI1UmNnY0pmQ1IzMEtQTnZESGZLUnZScThpTk5tT1MtV1ppejVLWXB3UEk3X2ZWWDJqelduRFFKSTkzSzItcUhTM193NmNtTkN0VklnSmgtTzZvNldfWDZIRWllcndqUXNEZEVNR2pRS09oTXo?oc=5",
@@ -236,47 +275,34 @@
      "tone": 1.2000000000000002
     },
     {
-     "title": "2 Reasons NVIDIA Is a Buy After Its Latest Earnings Report - The Motley Fool",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOekFFSzBSVHRFOFhKazZ3QUZiQXNiWUJiX3ZzQkM1QUVtZkRqU1dBSi1GZGhLaXMzMUIwYVVNSDhSV2FzN3A1UHpHWkRfYjdEbUpCdU9oVENuSlNLSHRUSS1qUGZZOFZjSlA1cm9fclJkbTVWeUE1dnBXYmplekJQdnpYNHYxM0ZXME5KdjlCVWMxZk5iUGVEcHAwMHltYzZkdXdz?oc=5",
-     "source": "The Motley Fool",
-     "tone": 0.5
+     "title": "NVDA Stock Set For Fifth Day Lower: House Committee Goes Steps Up Nvidia Investigation, Asks Kress To Testify - TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQaUFLbVZucTNFSEFNcVNrWHVoTnpaVDY0S3VBaVVPaXhGOGFtanBvUm5HWTV5QWhDNEstaENKTnpNUXF5eV9PQ1QzRnREWVNWY3I0R2UtalQ4WTFNRjRkbWJfek1NN0ZYYWtEbkRFdVpUREVnbkxJZHI3dE1PUGwzekltbzBPbEwxVkhNOFR4MUQ3d2pXYkpYOWhDLWZOQ0Zmb0RJLVNoWFFtOERDR0haVi10enBIME1uQ2dWcWh4enYycG5Mb3FlMGFKVW9wem0yOTNrUU1vRVhkV2daT0tOa0h3ZlQzeGMxRUVUcVRIRlA3c2xsYXUzMFh2NEI?oc=5",
+     "source": "TradingView",
+     "tone": -1.6
+    },
+    {
+     "title": "Nvidia Is AI, And AI Is The Market (NASDAQ:NVDA) - Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPc3NfVkdMZ1VDaWdxaWFCNG5tYVVIT3dFUHpZOTNDeHgxTDJKQThTaF9jb2FBN19udWxlZXNCRUtybmt2ZmFNc2daOVljUGlaUE0wVXJrZHIxUzBXS3FvUHJRMlBNMGdJc2x2U2I0dnV3by1Bb0luTlRZekc0cmJfc0UtTUJrSURRNlJCZXVJOVFaVlk?oc=5",
+     "source": "Seeking Alpha",
+     "tone": 0
     },
     {
      "title": "Nvidia expands stock buyback amid SEC and attorney general scrutiny: NVDA remains under pressure - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZjJYMlQ5R21mOVhyeVlMb3VSU2U4X0p0LWxLcDFTTUVQeFZyV2NwSDFocW9lZ1lwNUVuNG1GSXV2c2k5eTFpcWxWUU56NTNfTlZJYnpUUDJJMllkbEl5Y2RSZ0tkdTVwd2xNT2o0Q2RFSDRNVEJ1dlNOT2h6TE15SzJ3R0Z1NDBpcWR5WHZPNHJGZw?oc=5",
      "source": "Traders Union",
      "tone": 1
-    },
-    {
-     "title": "Why Is Nvidia (NVDA) Stock Falling After Record Earnings? - Stocks Down Under",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBFOVFHRlJnRTd1eTF3aG9HVUJzLVpJZVJIand2T2dFMzk3QU5mRkhwNXU5aXdzYmREWFk1dEdvR0ZOS1pQYWNJTk5CWGM1akFQTjQxbV82U0pEQVRTZUEzbXNFUkpObTJvU2NQb28zeVBPRFZLeDg5NW1JOTVfdw?oc=5",
-     "source": "Stocks Down Under",
-     "tone": 0.8
-    },
-    {
-     "title": "Nvidia Delivers Reassuring Results, Outlook. But Wall Street Split. - Investor's Business Daily",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObHpoYzVnOGhBdFcwdk92al85TVZqYW41YTh0dzM5VmpPR3B2N1o3UURqN2E5MWkwcFRGaVJQQlRBTTZHNDZZc1hHZ2V0Z0loblRUUTFlaFJzZXNPU0tINHRVSFNHY2E0M2hlTl95T3ltVkZ6WXNhd1hJMlN2YzBGaW8tYlQ2NzB3WFhUMkplTQ?oc=5",
-     "source": "Investor's Business Daily",
-     "tone": 0
-    },
-    {
-     "title": "Why Nvidia Just Slashed Its Stake in Intel Stock by 25% - Barchart.com",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcVpicUpvNE4yVmR6eTlqUTNVbUYxeFc5NGRMWlNqNlFscDZiWTRXT1A5UXFNYVdfZWdhUWk3eThiMXEteXBVeFVRTmFrdWt5T0RQTS1qbk5nczNhMjBKemNPTU9lNUV4SjljUTEteVN4X2pELVZxYlIxM3YyNllpN1NNa3AyVFNyUXczODlOb3NOQzQxOTJUVVFxbXJDM0U?oc=5",
-     "source": "Barchart.com",
-     "tone": 0
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "AMZN",
    "name": "אמזון",
    "direction": "neutral",
-   "confidence": 22,
-   "score": -0.45,
+   "confidence": 38,
+   "score": -0.65,
    "alert": false,
    "signals": [
     {
@@ -286,6 +312,12 @@
      "agent": "מאקרו"
     },
     {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
+     "agent": "מאקרו"
+    },
+    {
      "text": "הריבית לטווח ארוך קפצה ב-26 נקודות בשבוע, לרוב לוחץ על מניות צמיחה",
      "weight": -0.15,
      "source": "https://fred.stlouisfed.org/series/DGS10",
@@ -296,15 +328,27 @@
      "weight": -0.1,
      "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
+    },
+    {
+     "text": "8 דיווחים של בעלי עניין (קניות/מכירות של מנהלים) בשבוע האחרון",
+     "weight": 0.0,
+     "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1018724&type=4",
+     "agent": "דוחות"
     }
    ],
    "price": {},
    "news": {
     "news_24h": 20,
-    "news_per_day": 11.0,
-    "tone": 0.05
+    "news_per_day": 11.3,
+    "tone": 0.08
    },
    "headlines": [
+    {
+     "title": "Amazon (AMZN) Stock Gains as $150 Billion Opportunity Emerges - Blockonomi",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOajN6TURHQzNiVk1hV2xPamhWeHhqNzdjRjRqQlJvS1Y0eFZuOThPem9OenNTQ1hTamNEM0g3dlNieFpCZTQ1dy02X3B4OEE3ZHp6Y2tQa0lGSEctSVlVMjFjcVVXNmZGcWFQVll6WDNvNnhFV2hjWHhaTXhHbHRMYU90dmVwaDhjYUE?oc=5",
+     "source": "Blockonomi",
+     "tone": 0.7
+    },
     {
      "title": "Amazon Stock Moves Higher: What's Going On? - Benzinga",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMlZzcndHVHcxM3A0VFVKY2NVZUhMejNRLXJJVjZBV1RiR3o1cXk3c28xcnRNbjAtTl8wUmtsUVFxc1RUZGxtNzVza3Y5cmNoZTF5dExRNUNuWnRSV0RFU1BFaFVxeHd2VHljbW5iUTVQMFR2QmR6VDN0Q1VLazNjZXRwVU81b0M2MHVXY3AydVpXb1FXQTBiMnpQLXBrR1MxQTVXZUJn?oc=5",
@@ -334,31 +378,30 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMjFpeEVuUHhRQ1BqMXFmNDNDVWpGdlJoS1lwNnVRbm0ybkRkQ3M4MXJ2RjBFZE5hWlFNV2pmZDdHakhrZE1DWkU1eVA0aUhVRG1nbzg3VjR0OUZHTW9mV1Y2SnNWSFZDR2FBREpRRktkaWN0clVQVE9mbmZaRElIUE5MblB2aklhbl8tbk5NUjBmSVlOTTVHNUczM2ZNUGc0aXhYcldOWjAyYllBcW9YcEctZW5DNDFnMWtTR3I2MmU?oc=5",
      "source": "MarketBeat",
      "tone": 0
-    },
-    {
-     "title": "Amazon.com, Inc. $AMZN Stock Acquired by Summit Global Investments - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdWhYWFY1NWkwQ2pwNjVXRzJ5aFp2cm1FX2JsWXFqcERzQTNiTzhVNS1lcTlCdHJBUHBIRnJGbWZQTHhfV1I1WHd1TEJjWjdiVW1IdkRjZk9wclpORV9aMGU4QlFjc0lWRGZEemZ0N1g2VWNONTExUF9YaVVtV0NJVkZvVngxcVVJQTlFSXRqTUFCbUpCRlhWeF9pWmlBREdydVdyZnhFMFk1RklqZ2tER3VUQjRoV19YQ2gyZGhqN1A?oc=5",
-     "source": "MarketBeat",
-     "tone": 0
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "GOOGL",
    "name": "גוגל (אלפאבית)",
    "direction": "neutral",
-   "confidence": 22,
-   "score": -0.45,
+   "confidence": 38,
+   "score": -0.65,
    "alert": false,
    "signals": [
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
      "source": "https://fred.stlouisfed.org/series/VIXCLS",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
     },
     {
@@ -376,11 +419,17 @@
    ],
    "price": {},
    "news": {
-    "news_24h": 4,
+    "news_24h": 5,
     "news_per_day": 3.7,
-    "tone": -0.12
+    "tone": -0.1
    },
    "headlines": [
+    {
+     "title": "Google Stock Price Forecast — GOOGL ($280.20) $325 Upside Target on Anthropic IPO - TradingNEWS",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbWM4bXluSm52ZXpxbE1uVkJoMlJNR1hSY1pFU1Y0eVRheDRWVHBxSDc1M21uSlRneGR0MjRFVEt2REptUW80OUliSkFQNFBxbU51cG5hTHg2amkyQVlLenZtVTFLMmRwcEl5bmFpWXY4WkJjekgyNnBPaWhqM1VmS3JPX1FhU0FTNzhiWHhjOThLbGdnLV85WjJqckc4QnBsOHg4TVRmMDFBcFRPYS1tZzE3T2dTMjhNTGdfTEZKa2ZOT3dySHR4bUhn?oc=5",
+     "source": "TradingNEWS",
+     "tone": 0
+    },
     {
      "title": "Billionaires Walk Away From Alphabet in Q3 - Hedge Funds Google ‘How to Sell’ and Hit Enter - Benzinga",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRXZTZTloS1R1S25oYk4zWmlNLWZQT1Zudi1hYl9rUEVpSU0wbjFCQW5xSEpoNTQxam9nVDBxQVN5ZUpnbWQtUkRPaHBhaFdtMmZ4bzR2aHNlWVpWRmV4VGVBMGxRaEdaZmFaSXIwdllMU1hlVDRMZjBNNDZzbEN0YmNJNl93UHhZQWVWVDJ2aS0ySjVWMzczQlFrNVVlUQ?oc=5",
@@ -407,22 +456,27 @@
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "META",
    "name": "מטא (פייסבוק)",
    "direction": "neutral",
-   "confidence": 22,
-   "score": -0.45,
+   "confidence": 38,
+   "score": -0.65,
    "alert": true,
    "signals": [
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
      "source": "https://fred.stlouisfed.org/series/VIXCLS",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
     },
     {
@@ -438,16 +492,22 @@
      "agent": "מאקרו"
     },
     {
-     "text": "גל חריג של כתבות: 35 ב-24 שעות (רגיל: כ-10 ביום)",
+     "text": "גל חריג של כתבות: 35 ב-24 שעות (רגיל: כ-9 ביום)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSE5XaWtSYmRNSnRjOWNnclNZRWJsSWI1WGFPSmJhODk3dExuaWhFckxnd3JMSnBoc2p5YzlWZ3Z5bklQRWdtdFprOXNQeXI4S0dRdE9Yalh2Mlo1WnJSVlkzSTJJdExYUldycXF4THh0TEVJMG5kbEYzSXpVSjMwX3J1MVBQbzZSRS1TS3VmbmZueWNKTm1xb3kzcVlMend4VFp3aFFMWXU2WGpsNzlrdXVxQQ?oc=5",
      "agent": "חדשות"
+    },
+    {
+     "text": "14 דיווחים של בעלי עניין (קניות/מכירות של מנהלים) בשבוע האחרון",
+     "weight": 0.0,
+     "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1326801&type=4",
+     "agent": "דוחות"
     }
    ],
    "price": {},
    "news": {
     "news_24h": 35,
-    "news_per_day": 9.5,
+    "news_per_day": 9.2,
     "tone": 0.03
    },
    "headlines": [
@@ -489,22 +549,27 @@
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "TSLA",
    "name": "טסלה",
    "direction": "neutral",
-   "confidence": 22,
-   "score": -0.45,
+   "confidence": 38,
+   "score": -0.65,
    "alert": false,
    "signals": [
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
      "source": "https://fred.stlouisfed.org/series/VIXCLS",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
     },
     {
@@ -522,11 +587,23 @@
    ],
    "price": {},
    "news": {
-    "news_24h": 4,
-    "news_per_day": 7.7,
-    "tone": 0.2
+    "news_24h": 6,
+    "news_per_day": 7.5,
+    "tone": 0.25
    },
    "headlines": [
+    {
+     "title": "Tesla Stock (NASDAQ:TSLA) Notches Up with New Powercore Reveal - TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcnpERWNITGstQ0R4eTltTlY2a1paMEpDZTlYTFd5Z3lJUG1iLUpPMHFYLTRfUnhoN3oxc29SYnViRDhkVnVkN2FsU2JtaE1VOXhvRXhYbjB6SU5GaThLWm5rdjd2M1c4OVEyS0lrSFdBY042bENMczcwYWVacHpONlFWVG5vNkFlNFBhSXkyVVFmMm8?oc=5",
+     "source": "TipRanks",
+     "tone": 0
+    },
+    {
+     "title": "Tesla (TSLA) Stock Gains as Waymo Pauses Freeway Robotaxi Rides - Blockonomi",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMnZFWDQ5M2tfeFpQRk9VbzBXZXV0SVpIbmtfM1FOeHRDSHZXdlpPTmdtUFA2TnBmMFlyWGhwZE1XZzVGOGNaUDBXX1JiLVFXS3FXVUtKMkQ4SDJsZkNZSlJmQ2J4a2dXNWxSblVhRi1qdExxUE9Za0oyN2ZlQWZDZlhEdExiX0RyNXZSazJn?oc=5",
+     "source": "Blockonomi",
+     "tone": 0.7
+    },
     {
      "title": "As Tesla Plans to Roll Out the Cybercab for Individual Use, TSLA Stock Is a Tough Nut to Crack - Barchart.com",
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYmZUZ0xqN1EwRUJac2hWcmVtc2ZGVVJSNzdBMWhyb2o3dnBDRjNHektVOEJrQm9XQ01TUER5T3BKVmlJZ3d0b2pTREJsLTVfT0Y4Z0REQUVsZWk0N1dTcTd5VkJCZVhXWnkzTTZsSS1oLUNMT1luY0hDV2hrREpSOXJ1X2p0a2tXQmp4cHUtMFNVTVg4RU5fbDUxRXNOWXFSemxRZGJMaUd0V3ZxTHZWY3c3Tk9uOEJLQjRJR0VtUC1Yc3JITUpZOFA0Y09majhSZEhn?oc=5",
@@ -553,22 +630,27 @@
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "AMD",
    "name": "AMD",
    "direction": "neutral",
-   "confidence": 22,
-   "score": -0.45,
+   "confidence": 38,
+   "score": -0.65,
    "alert": false,
    "signals": [
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
      "source": "https://fred.stlouisfed.org/series/VIXCLS",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
     },
     {
@@ -582,15 +664,39 @@
      "weight": -0.1,
      "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
+    },
+    {
+     "text": "10 דיווחים של בעלי עניין (קניות/מכירות של מנהלים) בשבוע האחרון",
+     "weight": 0.0,
+     "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2488&type=4",
+     "agent": "דוחות"
     }
    ],
    "price": {},
    "news": {
-    "news_24h": 23,
-    "news_per_day": 12.5,
-    "tone": 0.21
+    "news_24h": 20,
+    "news_per_day": 13.0,
+    "tone": 0.16
    },
    "headlines": [
+    {
+     "title": "Broadcom Already Eclipsed AMD as The 2nd Biggest Chip Maker, But The Market Won’t Recognize That Truth Until 2027 - Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX2pZWFI3MXZTSnpyS2xDQ3ppb3VOQUFYcmJ5eThrdXZJYUtqRWR5RE1YS3Z4dGNWMHhYNTNMdnFpTjczY1pkSWhFYlQ5cXFBb1BOMHgtLXo1aXVLMnJfckhUWnFFRllacTY5ZEc4djJGQnJQOWFUd0pqNFBtM2JrTVNYZlZrdDczX1ZuNmJyU1dwSGRPOEFZWm5n?oc=5",
+     "source": "Yahoo Finance",
+     "tone": 0
+    },
+    {
+     "title": "Is Nvidia's Margin Lead Over AMD Shrinking? - Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdERrMFdCNEtPNzRKeXR3dl9ldlBqT3pnd1dCb2U4Y0FBbVhsenJNUzI4aTBDdm5fVjJuWXVJWGZkLUdGczNhNm1UZ0NQcExFT0tJbEdieTdTSmx1RXpVQjA1ZjFfVHppVXBTZ3BCRjlOYnQxbS1UeWlzSXFtRHZMRXM1UXRXUktJRmg4d2FycDAzcWxsT1FoUg?oc=5",
+     "source": "Yahoo Finance",
+     "tone": 0
+    },
+    {
+     "title": "Nvidia’s CEO Calls Customer Shifts “Just Not True.” Broadcom and AMD’s Frontier Deal Share Says Otherwise - Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOXJHdUN3ZEtKOUxsZXdLT2lkc054UzFfNHlwb1g0T1RRZUJ1MGp1am50TjcxSWJUMzJKaGlWNVliaGM5dVF1Mm4wdXNyX0hWcEFoVE5KQlk0MDRCbUNjbUZYNy1FU0xSZEJqVXN1bDJ4SXAybUx2LTdBMW9uZVVEMEhoNTYtRUNkb0tON2hRaDU3ZWRSMDZXdTc2cFJ6dw?oc=5",
+     "source": "Yahoo Finance",
+     "tone": 0.5
+    },
     {
      "title": "AMD Stock Climbs After Nvidia's Blowout Results - TradingView",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeVQxR0RfOGhjaDZUY1VNSm5IYi0xX2NiRzI1d3lJdXpKRWlNbG1RVjZTOW1Yai1QUFFoOXlVVGVKcFZBdkdRTXU1azBJUHpCd0hmalVOSms5akhPUlcwRWhHM25md28tcE9IejcyMzhuaG53V2xHRHNwZzhCakU1UXQtOUt1U2l5dDA0MzdTcDVlRVNJX0lnWjAtZGl2czM4OFJSQ2RNZkNNUGs?oc=5",
@@ -608,37 +714,18 @@
      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
      "source": "Yahoo Finance",
      "tone": 1.5
-    },
-    {
-     "title": "Advanced Micro Devices finalizes Taalas buyout: Can AMD stock build sustained upside? - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMl9fYU5XYWFkbzZTbDk5Ti1lSUNfRTBfaHlOM0ZLTHpidkxfNDNETVRENGpDRmg1TFZ6d1JtRmd2RnJfR2N1RURVeWVSS194ZEVwYzB2ZW5BaDhtWjEyZC1nOE80WHhObDVMM3psR1BSWk5aM3JBTkdUODhvazFIdktYaVg?oc=5",
-     "source": "Traders Union",
-     "tone": 0
-    },
-    {
-     "title": "AMD stock: Blue box trading setup delivers a rally - FXStreet",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZENGYXBiN2l2TFc5Z2VNUXduSndBaUpQbC1jTEFRXzhMOTMyVm1aSUk4YThyR2J5cnBkYk1SZXdYbURrYlUyaWR2bER1a1dHcXgyQ0hZTkJ1T084OV9mdGNtQ1lzaG5TMjJFYTQ2eE13Y052TExyVUNObHhYOUtFU0I1ejIxcXRURkFmTnlXX3pzVnVYSm1V?oc=5",
-     "source": "FXStreet",
-     "tone": 1
-    },
-    {
-     "title": "Why AMD stock is rallying in premarket trading on Wednesday? - TradingView",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTHZ3WWNDZmVRd0RGaG9jbnNvNXo5dnVab0xLN2ZzV1lQRFhxVFl5REVJbHY5MEtyZTB2ZG5oTDkySzVoOVNuQkJvWFVZMzFnX2RSMzdIVmV3X01hLURBMm5TMWlMRkx3bkpJb0JIT3VTUGRqTTQ2ZzlDV21NRDNQdkI2WS1HMy1JMTRsNVpnbG1KcHhBSWtqQnMxT2FrOUlUclRIMjQwWGtYRFZnaWJLMVZ4Y20zM2M?oc=5",
-     "source": "TradingView",
-     "tone": 0
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "NFLX",
    "name": "נטפליקס",
    "direction": "down",
-   "confidence": 32,
-   "score": -1.23,
+   "confidence": 44,
+   "score": -1.43,
    "alert": false,
    "signals": [
     {
@@ -651,6 +738,12 @@
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
      "source": "https://fred.stlouisfed.org/series/VIXCLS",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
     },
     {
@@ -705,22 +798,33 @@
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "JPM",
    "name": "ג'יי.פי מורגן",
    "direction": "neutral",
-   "confidence": 22,
-   "score": -0.45,
-   "alert": false,
+   "confidence": 39,
+   "score": -0.85,
+   "alert": true,
    "signals": [
+    {
+     "text": "דיווח מיידי (17/11): שינוי בהנהלה הבכירה",
+     "weight": -0.2,
+     "source": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000407/jpm-20261117.htm",
+     "agent": "דוחות"
+    },
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
      "source": "https://fred.stlouisfed.org/series/VIXCLS",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
     },
     {
@@ -738,65 +842,70 @@
    ],
    "price": {},
    "news": {
-    "news_24h": 11,
-    "news_per_day": 5.7,
-    "tone": -0.34
+    "news_24h": 10,
+    "news_per_day": 14.7,
+    "tone": 0.0
    },
    "headlines": [
     {
-     "title": "Visa (V) Stock Price Prediction: Visa holds a constructive pullback as analysts stay broadly positive - Blockchain News",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOczhnSEFuZExsb0JGb0tyakZPT2RGTmh4eUs3VnlVam1fRnFUeHF2LWQzRlJBNTFSMUhha1dDbzRDUFk1OEdETUZzVGtQRU9IcTB4TGthZHVIb0h0SDN4TmppdGtibkhKVnRWWEZNWHZfYnJvZXYzV0pDQTMzWURZcXZEc1Z1T29VYXh5VGpwVGhxaklnbFA2TzFR?oc=5",
-     "source": "Blockchain News",
+     "title": "JPMorgan Chase & Co. (JPM) Stock Price, News, Quote & History - Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimwNBVV95cUxQbmMyR1dfRXZLVF8wX2x0eGg1N2U0SnVzV3FUQl80dnM3M2JHeEQwNXJiaFlIUkFqeVJidlZhaC1ZY2N5ekV0X0VmTWEtOVVlWDRucTZCQ2lCQjh2Ni1JWENEeXNueG9hd3daSml6TjFOZmJXUG0xdGpqclFNY1M0cHZhQ09qQS1GUnY5a25sam81OUozZGZOdlc2a3hONXF1WElMRmxtYTZ6Z3lrOFNROUV3RWQtTlVTT1F1dDdycFZoT1B6SktFdDhEbVRTMGhiNzdqSklEMmpmaTZnZzZ2OHhRSFhERHhJSVQ2WTgyZEd0NlBDWmpLQzg1QW95dWY0c3gtWHYxZ1BqVDdOQUlfMHFicnV0X0U4NEphUmU0SjgwMmJpWTNCcWU2SmkzZDBxekxsci1veEplOU5YamJTblVtRDRvV0xoQ0xUUGZnQVZLaVpHYS0zYzN5TEtMLVpQUTJtX2ZaMy1CS3YxUHYxQ2l6MURIQVlUcUtJMFFPYUZCaUlmazJKQWJ1bTU3dERtc1o0NWI2TEkyX3c?oc=5",
+     "source": "Yahoo Finance",
      "tone": 0
     },
     {
-     "title": "JPMorgan Chase (JPM) Stock Price Prediction: JPM slips below short-term averages as buyers test support - Blockchain News",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWkRKU0VmTHNZVTEyVTBlSzFJTDhLOTJZbGpSc0V6bTZOOTFlOHl0QlgyQlI3aFUtQTNWdG9pN0dRTFQ3OC1CaV9nTXB0c2NCSWVVTG1QVkwwelZiX1M2SkpuNDRjR3FBaDBqMW55RzlUYnRFaWd6ZENsb1pzLVBCQ1JleVdyUXdUMlZNSVZDZGxVTUJLZ3JLS1hB?oc=5",
-     "source": "Blockchain News",
+     "title": "JPM Nov 2026 415.000 call (JPM261120C00415000) Interactive Stock Chart - Yahoo Finance - Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40TTV4dVVTMGdSTUR0QzF2eV85cWc0U0hHalB0V3lYYUZGYTNJeUpxcndsSGstaFBuM2pXTjRPcU9hZW5QaDU3bGloZFBqUnAwNlF4d1JubnU3c21abGw5NVNJYUMwbnBnQ3RJeA?oc=5",
+     "source": "Yahoo! Finance Canada",
      "tone": 0
     },
     {
-     "title": "JPMorgan Names New CFO: Is Jamie Dimon's Succession Plan Taking Shape? - TradingView",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSUxFQXU2NjU3YUcxYmxSVVpuYWxtcDZ1OXF0RmlLMjdZVlRlUGdBZGc4dENaZWUyT1lqSER6U3AzWFVBSnNsQWVlOEtpc0doZkMxaDQwc0FMcXdYa3R2cGljVE5pVktqeHBuc29ZYmJ0V083WGg0YWR5X3MtajE1V0l2VGZCRnNQazhTVFVVdkhaYUh0Tmxqb3pRMHR0QWxPdGxKSkYwcTFLSWthUDl0d1poajRONUszbHpTdmUwb1RSUQ?oc=5",
-     "source": "TradingView",
+     "title": "JPM Euroland Dynamic A perf dist EUR (0P000162JM.F) Seasonal returns chart - Yahoo Finance UK",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OeFV1MS1UenRDWE0tODM0c1BhQmhPY2FDZEZmN3RkbFBxQ0VTamUyVGktbGVYT2tCYWhYSm5MZlFGbnd4djZCalNoS0lBM3RjR0t1YkY1bDVyeGRILWZ0UXktdUJqU2kxdmdKYQ?oc=5",
+     "source": "Yahoo Finance UK",
      "tone": 0
     },
     {
-     "title": "JPMorgan Chase & Co. $JPM Stock Holdings Decreased by Mawer Investment Management Ltd. - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNODdCdGc3cmxFOFpOUDJMdEpFMFpoNWYtUjR4QjRkQWdSQ3B3SkMyMVpvRkd3NXVGanNQa3JvVlBJUEJ1QlVYaEUxa3NQT3FHdkN4R2ZTTmJhVjZwU0I0aTdhWEVRTm5ydjFWeDZBTUxTZkc3cTI2UFNKdi13cm1rYUJicUwtN3Z5MDVYS2o2RjAwUFRqRFZBRFhHaWJjR2FBQm9hNmFKNWZPNEpOS00tZUNyN2NJekZkNXVoRGxtSTVRVVdMemFBRkJMVTBLT0dubjFNVmtOV19GQQ?oc=5",
-     "source": "MarketBeat",
+     "title": "JPM Nov 2026 332.500 call (JPM261120C00332500) Interactive Stock Chart - Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HLWM5OTk3WWg1c1kwTTFhMkJZaVRhV0xTRHRlZmJMLUpMSkd1ZjNVV3BYYXJoTWRHRmFvM1prb3gyTnFUd1h3dTQwYUhrX3gyR0JqREppY2VSejktSkRIMllZcTFVRkZFUGMxWQ?oc=5",
+     "source": "Yahoo! Finance Canada",
      "tone": 0
     },
     {
-     "title": "US Faces Debt Challenges Amid Recovery, Says JPM (JPM) - GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTUpzSnc0Um5MZFBYNHg0OW1lMTVQeDVxZnR1Z2VrVjFPN0VGUHJOQUNNY2cwUFNBdHM1a0dtOThKZWd5dTVrcUEzWjFDUnlLR0VDMnVsVjFvX3BlamYtWTFvSmRkY01uU3lIQWVLSTAwRU96QnF2dURzLVd4TDVIaUMwQnZ0S1FpMExJYmptVmVsT29E?oc=5",
-     "source": "GuruFocus",
+     "title": "JPMorgan ETFs Ireland ICAV - JPM EUR IG Corporate Bond Active UCITS ETF - EUR (acc) (JRBE.L) - Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QMFBFVFJCazI1SUpiQlpJZ1BTYW9FSC1TMjVJMC1mQ1lOV1I2V1BDU0FlRzBMb2x0M1JWaU9ObXlJYlFNc1dGSzVlbFNaS3hRZ1E3VnhvSkhuMWF0UnZEeWhqMmg?oc=5",
+     "source": "Yahoo! Finance Canada",
      "tone": 0
     },
     {
-     "title": "JPMorgan Chase & Co. $JPM Stock: Aberdeen Group plc Grows Holdings - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNU9sa1NCSFNrQjRQbVdnYllTYlNORWIzRlFkczR6SEN3Z2dTWF80UnI4YUkzTVI5S0g1WHY3a2NhLWJfRGtzTjQzQ0Q1alhfamlJRl9KS0pqVExEbzJFYmhkeE9uNGRnQ05Kb0VUbWV3aDQ2bnlnVjE5ejMwcjdYZmg1djFhRzEwMUhpc2kycFNodlEtSUpkZjVlYkJyb2x6c2ZrWVNlcFI1dzl4LV91aGJja2hmbWdKSW5ORFRsUQ?oc=5",
-     "source": "MarketBeat",
+     "title": "JPM Nov 2026 385.000 put (JPM261120P00385000) interactive stock chart - Yahoo Finance UK",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtVTIwZW9QTFhvbUJYM1plVmpjNW1YQ1pzWHEwc3hBMkdadVJxcVJuVlVnTnZCQmNwTlFMUnpRZVhKRERwa2RBS1ZZUzFJVURTYnVGU2djaFd6ZEcyWXE3UDJnS0MzRnJ0SjdfOQ?oc=5",
+     "source": "Yahoo Finance UK",
      "tone": 0
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "XOM",
    "name": "אקסון מוביל",
    "direction": "neutral",
-   "confidence": 22,
-   "score": -0.45,
+   "confidence": 38,
+   "score": -0.65,
    "alert": false,
    "signals": [
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
      "source": "https://fred.stlouisfed.org/series/VIXCLS",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
     },
     {
@@ -857,22 +966,27 @@
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "KO",
    "name": "קוקה קולה",
    "direction": "neutral",
-   "confidence": 22,
-   "score": -0.45,
+   "confidence": 38,
+   "score": -0.65,
    "alert": true,
    "signals": [
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
      "source": "https://fred.stlouisfed.org/series/VIXCLS",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
     },
     {
@@ -888,7 +1002,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "גל חריג של כתבות: 9 ב-24 שעות (רגיל: כ-3 ביום)",
+     "text": "גל חריג של כתבות: 10 ב-24 שעות (רגיל: כ-3 ביום)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMVd5Mjc4M3o5bkJFZGNrZ1hEQnFfTWpqMDV5V1hLeThxcmZxMW1MaXNDTVFWM0l5bmlyZWtNbmNyNFR1MUhPX2gxVkRBcEdBWHVHT0ZmOHoyMDdhVEZxNWhHTEVKWDFjS2FpbmZVNTNGVF9VSFpPQ3hVOTAwalFPaGhzTVdGNVRiN2NieHZ5MjR1bnRZd3IzYnRVcG92NElQZUFJQm9yQQ?oc=5",
      "agent": "חדשות"
@@ -896,9 +1010,9 @@
    ],
    "price": {},
    "news": {
-    "news_24h": 9,
+    "news_24h": 10,
     "news_per_day": 2.8,
-    "tone": 0.19
+    "tone": 0.17
    },
    "headlines": [
     {
@@ -939,28 +1053,33 @@
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "PLTR",
    "name": "פלנטיר",
    "direction": "neutral",
-   "confidence": 20,
-   "score": 0.39,
+   "confidence": 29,
+   "score": 0.08,
    "alert": false,
    "signals": [
     {
      "text": "הטון בכותרות של היממה האחרונה חיובי",
-     "weight": 0.84,
-     "source": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVTk4cDdJNGtyS1hRczdxdXZRSWtoLTF1ZmJPUDBSRkQ1NFVVNmZiQ2FNaVE3RVA2WkxGYThHT0kwVkQyT09UenNHRU1TNnhHVndrNFVHQ1dncHlweUFzWmdzaXVUZHA4TTVrUjRzVFFGcW96Wk9GRUh0S21CNVJNckFhcm5aU280aEIxTHRGR2xGcDRsN2VnT25IN2FDQkVNd0Zxd2lYeGlFM00?oc=5",
+     "weight": 0.73,
+     "source": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjhyT3ZlX05yT0tsandwaUU5Um53aW1LWTNUWk9mQ3B4N1BYSXF1YjRQeFJvSUhTUkZZbE95czRiekI0TDdpa3Z6bGJieDVieDdmUGNITWRVb1AxZVJlRm9Sc0xwa3NUaDhhTGlzQk9PSVItV254eWE3QWVfc2Q3dmNfbEptNW9PTVdBdUJwbk5HekpNZ1otVEVvMVZxSUE?oc=5",
      "agent": "חדשות"
     },
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
      "source": "https://fred.stlouisfed.org/series/VIXCLS",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
     },
     {
@@ -978,11 +1097,17 @@
    ],
    "price": {},
    "news": {
-    "news_24h": 7,
+    "news_24h": 8,
     "news_per_day": 4.5,
-    "tone": 0.56
+    "tone": 0.49
    },
    "headlines": [
+    {
+     "title": "Palantir’s Political Controversy Is Hiding a Much Bigger Story - MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjhyT3ZlX05yT0tsandwaUU5Um53aW1LWTNUWk9mQ3B4N1BYSXF1YjRQeFJvSUhTUkZZbE95czRiekI0TDdpa3Z6bGJieDVieDdmUGNITWRVb1AxZVJlRm9Sc0xwa3NUaDhhTGlzQk9PSVItV254eWE3QWVfc2Q3dmNfbEptNW9PTVdBdUJwbk5HekpNZ1otVEVvMVZxSUE?oc=5",
+     "source": "MarketBeat",
+     "tone": 0
+    },
     {
      "title": "Palantir Technologies (PLTR) Lands Changshin Deal, Is The Valuation Still Too Pricey? - Yahoo Finance",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVTk4cDdJNGtyS1hRczdxdXZRSWtoLTF1ZmJPUDBSRkQ1NFVVNmZiQ2FNaVE3RVA2WkxGYThHT0kwVkQyT09UenNHRU1TNnhHVndrNFVHQ1dncHlweUFzWmdzaXVUZHA4TTVrUjRzVFFGcW96Wk9GRUh0S21CNVJNckFhcm5aU280aEIxTHRGR2xGcDRsN2VnT25IN2FDQkVNd0Zxd2lYeGlFM00?oc=5",
@@ -1002,9 +1127,9 @@
      "tone": 1.5
     },
     {
-     "title": "Palantir director Alexander Moore sells $2.69M in PLTR stock By Investing.com - Investing.com India",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUHhvUjZPUHZqUE1WSEtlLVhocTJndzFETTgzbzA4TFBwdzJ0THczc3pKLXZKcE5nZVZqaTZKZFlPekZraFRBQVFtSWsxUnBBcURwdmpqSXZoZFl2MGR5ay1uTlRBV1oyYVY5YUo1ZnlqNkI4Tk5HNllfTk5OZVNpcTNlcmJmVXZMY3QxV3pXSHpzdUFMUGJSZzc5dDcxeEhyZTJDTmVWMzdEbklyQklacmVyTGtPZ2E1bk9J?oc=5",
-     "source": "Investing.com India",
+     "title": "Palantir director Alexander Moore sells $2.69M in PLTR stock By Investing.com - Investing.com Canada",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTWFncTNGV1Vmb0RsR0plTkd2YXBoUFZiMFR6bm5NVllrQzdCcUhaNE1XWFF1Ul9HRGhuZHNWOUI1OElfbGZwZkZhVlFFd1gyYl91X01Sa21TclFSaE5WeTBoeE9fTGh1S3lGSTIwZHJvOFE2blB2SElhcERzbklCSG1xaFktOURya0ZIM0UwMVR6MGpjdnNGVDdoSTdad0ljQVkwcnl5ODh1RkZxOVBNSDFjTjF5UUpoZmUw?oc=5",
+     "source": "Investing.com Canada",
      "tone": 0
     },
     {
@@ -1012,31 +1137,30 @@
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMGl5clk0Sms0Z3RaeXAwTVl6Qi1BOXdHVDNRT29sS2Y3OTViU1JSZ05wSjE0QWk4V2FJdHZ3SjBDdkpqdDZCVGJTZFNsTE9BZGlMMndKdWM2b0Z0LWlqbW9vVXo5eXlCU0t2eHFGSUROTzJXZGlYcHNCX0hndGV4U0ctWVdKWGlmRDl3R3ZDMjU2TUdzWTR0NkY2dmpidmtkMVVSLW45VE5YZEtDOEtXRnJDTTBJWTdWNkNJ?oc=5",
      "source": "Stock Titan",
      "tone": 0
-    },
-    {
-     "title": "Palantir's 148% U.S. Commercial Revenue Surge Signals AI Momentum - TradingView",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb3RLMHdzYmJ6SnAtU0lSMEl5V2YyYS1SWlB1NWlDZVlnSkZ0V2xlbEU2R1psb2pBVkU3MVEwMXVOWGREMndDODZtWGVPbUl1MUZWZmVTTy00RjdLZkM4U3MzY3c5cjVMenpYOW5SeTJidDhNc1B6VUU4TlZ4ZG01Y3BSNTB1MTluNDZ5OHY1YzN3dnN3VXdDbGVQN3ExSDFFR3k4UmNMclpScUdQUWFva08yWVh1TTROQ1Zr?oc=5",
-     "source": "TradingView",
-     "tone": 1.2
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "INTC",
    "name": "אינטל",
    "direction": "neutral",
-   "confidence": 22,
-   "score": -0.45,
+   "confidence": 38,
+   "score": -0.65,
    "alert": false,
    "signals": [
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
      "source": "https://fred.stlouisfed.org/series/VIXCLS",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
     },
     {
@@ -1097,16 +1221,15 @@
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   },
   {
    "ticker": "TEVA",
    "name": "טבע",
-   "direction": "up",
-   "confidence": 27,
-   "score": 1.05,
+   "direction": "neutral",
+   "confidence": 35,
+   "score": 0.85,
    "alert": false,
    "signals": [
     {
@@ -1122,6 +1245,12 @@
      "agent": "מאקרו"
     },
     {
+     "text": "השוק כולו ירד -2.4% בשבוע האחרון",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
+     "agent": "מאקרו"
+    },
+    {
      "text": "הריבית לטווח ארוך קפצה ב-26 נקודות בשבוע, לרוב לוחץ על מניות צמיחה",
      "weight": -0.15,
      "source": "https://fred.stlouisfed.org/series/DGS10",
@@ -1132,12 +1261,18 @@
      "weight": -0.1,
      "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
+    },
+    {
+     "text": "7 דיווחים של בעלי עניין (קניות/מכירות של מנהלים) בשבוע האחרון",
+     "weight": 0.0,
+     "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=818686&type=4",
+     "agent": "דוחות"
     }
    ],
    "price": {},
    "news": {
     "news_24h": 1,
-    "news_per_day": 4.5,
+    "news_per_day": 4.7,
     "tone": 1.0
    },
    "headlines": [
@@ -1149,8 +1284,7 @@
     }
    ],
    "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests",
-    "דוחות": "HTTP Error 403: Forbidden"
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
    }
   }
  ]
