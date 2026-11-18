@@ -1,0 +1,31 @@
+name: run-bot
+on:
+  schedule:
+    # כל שעה בזמן המסחר בארה"ב (שני-שישי). השעות ב-UTC.
+    - cron: "40 14-21 * * 1-5"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: run-bot
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run agents
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          TIINGO_KEY: ${{ secrets.TIINGO_KEY }}
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+        run: python run.py
+      - name: Save results
+        run: |
+          git config user.name "stock-bot"
+          git config user.email "stock-bot@users.noreply.github.com"
+          git add data docs
+          git commit -m "עדכון אוטומטי" || echo "no changes"
+          git push
