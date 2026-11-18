@@ -23,7 +23,13 @@ def chat_id():
     if os.path.exists(CHAT_FILE):
         return json.load(open(CHAT_FILE))["chat_id"]
     upd = _api("getUpdates").get("result", [])
-    chats = [u["message"]["chat"]["id"] for u in upd if "message" in u and u["message"]["chat"]["type"] == "private"]
+    me = _api("getMe").get("result", {})
+    print(f"בוט: @{me.get('username')} · עדכונים שהתקבלו: {len(upd)} · סוגים: {[list(u.keys())[1:] for u in upd][:5]}")
+    chats = []
+    for u in upd:
+        for k in ("message", "edited_message", "my_chat_member"):
+            if k in u and u[k]["chat"]["type"] == "private":
+                chats.append(u[k]["chat"]["id"])
     if not chats:
         return None
     json.dump({"chat_id": chats[-1]}, open(CHAT_FILE, "w"))
