@@ -1,5 +1,5 @@
 {
- "run_time": "2026-11-18T18:52:10+00:00",
+ "run_time": "2026-11-18T19:09:08+00:00",
  "macro": {
   "ok": true,
   "score": -1.3,
@@ -40,10 +40,16 @@
    "ticker": "AAPL",
    "name": "אפל",
    "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
-   "alert": false,
+   "confidence": 49,
+   "score": 0.35,
+   "alert": true,
    "signals": [
+    {
+     "text": "כבר כמה חודשים במגמת עלייה יציבה",
+     "weight": 1.0,
+     "source": "https://www.tiingo.com/AAPL/overview",
+     "agent": "מסחר"
+    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -67,12 +73,28 @@
      "weight": -0.1,
      "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
+    },
+    {
+     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
+     "weight": 0.0,
+     "source": "https://stocktwits.com/symbol/AAPL",
+     "agent": "רשתות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 351.91,
+    "date": "2026-11-17",
+    "chg": -0.25,
+    "chg5": 1.05,
+    "vol_ratio": 0.78,
+    "rsi": 55.9,
+    "sma50": 340.17,
+    "sma200": 301.66,
+    "chg1y": 32.0
+   },
    "news": {
     "news_24h": 7,
-    "news_per_day": 7.0,
+    "news_per_day": 6.7,
     "tone": 0.39
    },
    "headlines": [
@@ -113,18 +135,22 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "MSFT",
    "name": "מיקרוסופט",
    "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
+   "confidence": 47,
+   "score": -0.05,
    "alert": true,
    "signals": [
+    {
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (13 מול 2)",
+     "weight": 0.6,
+     "source": "https://stocktwits.com/symbol/MSFT",
+     "agent": "רשתות"
+    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -150,19 +176,41 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (15 כתבות ביממה, בדרך כלל כ-5)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (16 כתבות ביממה, בדרך כלל כ-5)",
      "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYVdhOFhuckUwSm5CZHlQeEcyMFZyeUZnaEM5NnN1Y3k1VlRmUU1FVi1WUW5PTDFzZlNjTTVya0ZlYXFmdW1DeXNBR1FUVVZpTERaSXlJR0s5VGV5NE1JeVIwNWpEUk5lSVllWURfRjF3UzFaWXhxaUlzbzVzaHE3SWVqb1p6SEZhUnd3WjNlRVBZcWxNVGJzejJYWDNvakloQ0N3ZDJBU0tZa2o1X2hr?oc=5",
+     "source": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMGN1TjRPLXdTdUNaZWZjTWNaTHRYbnBPaklTeTl6c3RFb3REUDlMV2ZiV19SN3I0M3dKYUdSWWtZTzRjcnU5aG5jYU53bGE0ekZLc0tCVmo3cVRlNUdKYmcxQlVjSGs5eHY2cVMtSGhEN0NJYXU1TXBDUHlMX3U1TGwzY2lDa2RNYnVYOUdaQ2ZPWnduMEFRUUZqM2VlZ09PQUNFbzBlaWFTMmhzb3dpeGlNb1RCZkZTSF9Xc2lSeE5nTjZSUUxHRnQzSktiUQ?oc=5",
      "agent": "חדשות"
+    },
+    {
+     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
+     "weight": 0.0,
+     "source": "https://stocktwits.com/symbol/MSFT",
+     "agent": "רשתות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 506.24,
+    "date": "2026-11-17",
+    "chg": -2.27,
+    "chg5": -5.05,
+    "vol_ratio": 1.04,
+    "rsi": 42.1,
+    "sma50": 519.61,
+    "sma200": 441.37,
+    "chg1y": 0.6
+   },
    "news": {
-    "news_24h": 15,
+    "news_24h": 16,
     "news_per_day": 5.3,
-    "tone": 0.11
+    "tone": 0.15
    },
    "headlines": [
+    {
+     "title": "Microsoft, Intel Deepen Azure Partnership Amid Increasing AI, Cloud Demand - TradingView",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMGN1TjRPLXdTdUNaZWZjTWNaTHRYbnBPaklTeTl6c3RFb3REUDlMV2ZiV19SN3I0M3dKYUdSWWtZTzRjcnU5aG5jYU53bGE0ekZLc0tCVmo3cVRlNUdKYmcxQlVjSGs5eHY2cVMtSGhEN0NJYXU1TXBDUHlMX3U1TGwzY2lDa2RNYnVYOUdaQ2ZPWnduMEFRUUZqM2VlZ09PQUNFbzBlaWFTMmhzb3dpeGlNb1RCZkZTSF9Xc2lSeE5nTjZSUUxHRnQzSktiUQ?oc=5",
+     "source": "TradingView",
+     "tone": 0.7
+    },
     {
      "title": "“The New OS For Work”: Microsoft Stock (NASDAQ:MSFT) Slips as Microsoft Pushes Copilot - TipRanks",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYVdhOFhuckUwSm5CZHlQeEcyMFZyeUZnaEM5NnN1Y3k1VlRmUU1FVi1WUW5PTDFzZlNjTTVya0ZlYXFmdW1DeXNBR1FUVVZpTERaSXlJR0s5VGV5NE1JeVIwNWpEUk5lSVllWURfRjF3UzFaWXhxaUlzbzVzaHE3SWVqb1p6SEZhUnd3WjNlRVBZcWxNVGJzejJYWDNvakloQ0N3ZDJBU0tZa2o1X2hr?oc=5",
@@ -192,26 +240,30 @@
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLVhaeG14d3E3ZFVLNG9pQjVPSVFVT2xfZ2lPRTRJbTVEeTFhQ09VU2Nhc2g1MG92NUIySlZfQUU2WGFvcjE5NlNVSzZFd0UyTm1RZzVCaWtiMkpWR2I0NGo2WlBqNlZZaHdSX240RDVfR2pORzFNbVRYZ0lfMGQzSm5wN2g5TEdKemY3YTJRNG5WdFJsVGRnazJOQ2NsdDRkbk04YzR3?oc=5",
      "source": "TipRanks",
      "tone": 0
-    },
-    {
-     "title": "Microsoft Scales Agentic AI To The Enterprise - Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWEZTcU9TMGpmaUtoekh1dm5MMEFJZ1kwanpXMURVUGNpbzBaYXNiNF9rTkZyWURNUkN3UTByeEJlczdFc09Sck1HamMtdVVPT3l1d0IwWTlxZDFZWHlwbktrVzhBVGFlU0FCd3I4OTdVemJTeUowTnRuSEx1NXNzczBnSk95elNTTnc?oc=5",
-     "source": "Seeking Alpha",
-     "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "NVDA",
    "name": "אנבידיה",
    "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
+   "confidence": 54,
+   "score": -0.45,
    "alert": true,
    "signals": [
+    {
+     "text": "ירדה מהר מדי לאחרונה, לפעמים אחרי זה מגיעה קפיצה חזרה",
+     "weight": 0.7,
+     "source": "https://www.tiingo.com/NVDA/overview",
+     "agent": "מסחר"
+    },
+    {
+     "text": "במחיר הכי נמוך שלה בשנה האחרונה",
+     "weight": -0.5,
+     "source": "https://www.tiingo.com/NVDA/overview",
+     "agent": "מסחר"
+    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -247,13 +299,29 @@
      "weight": 0.0,
      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
      "agent": "דוחות"
+    },
+    {
+     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
+     "weight": 0.0,
+     "source": "https://stocktwits.com/symbol/NVDA",
+     "agent": "רשתות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 155.46,
+    "date": "2026-11-17",
+    "chg": -0.44,
+    "chg5": -7.95,
+    "vol_ratio": 1.84,
+    "rsi": 16.3,
+    "sma50": 211.75,
+    "sma200": 203.6,
+    "chg1y": -16.5
+   },
    "news": {
     "news_24h": 54,
     "news_per_day": 7.0,
-    "tone": 0.24
+    "tone": 0.22
    },
    "headlines": [
     {
@@ -261,6 +329,12 @@
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLU5JTklISkY4VFJ3NjdFb0NDdDlyZzY4Z2UtT1Q1OGdRMk95dWNXQ2FwRi13cVJvSTBwNXdwbjc3cDdlN0p6RC15V1BDNDVRMlA1dUFKUnRGSlZ0N3k1MjRXaDBmSUk4dW1HeUtmRTNnVGc1eHB4UU1kemM4eGRxZ0ViTXI4OENfdmo3Z1pUbXBwbE1paWI1OTA5YW8zRTcwQWc2Mzd5N09RdGd0SDVFWk9BRV81N0JzelRwQ0t0Mk94MS02c2FoTWwzYW1iZzA?oc=5",
      "source": "Benzinga",
      "tone": -0.8
+    },
+    {
+     "title": "Nvidia: Debunking The Positives From The Q3 Report (NASDAQ:NVDA) - Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeDZ5QUYyVTVna2JRQ0dYWldMNlhnc1FPYTE2ZmhUQW9McHE4OFdyXzhxa0d6VUtkb3g3ZzhGakpuaGhVV2JTQ2p4ck44ODZRUkRPcV9YWWxwUjIzRHYyOVpveXZDamdvVjltRlNDVTJyZnQtRTFCNWhza1RLOHNsNXI1YzNGOVlYTVhlaXpDd0ZJVS1pS0RWZ1BYM2w1MHduU3IyTXdCeUp2SERiU2c?oc=5",
+     "source": "Seeking Alpha",
+     "tone": 0
     },
     {
      "title": "Where Does Nvidia Stock Go After Earnings? What the Charts Tell Us. - Barron's",
@@ -285,26 +359,30 @@
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLTJWTW1wYmRzVzF4NzYyelVibTBqdERLdWRrdmI1UmNnY0pmQ1IzMEtQTnZESGZLUnZScThpTk5tT1MtV1ppejVLWXB3UEk3X2ZWWDJqelduRFFKSTkzSzItcUhTM193NmNtTkN0VklnSmgtTzZvNldfWDZIRWllcndqUXNEZEVNR2pRS09oTXo?oc=5",
      "source": "CarbonCredits.com",
      "tone": 1.2000000000000002
-    },
-    {
-     "title": "2 Reasons NVIDIA Is a Buy After Its Latest Earnings Report - Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd0hwSm1sWTNwdzBEZi1WWjdxMXBaX0pWdjctVHBTX0lHdFdlTVpPeGdVdjlvYWxWVEdzcE9lR3FBVXBUWnJsdy1adWl1UlVYeC1OTFQ0Q3VROVVmcHJjYU1MQlFkU0ZCRHdRSWtOQUZhQVZrbkZpOWFSOVFvUkRtcjFaOXh1OTBONDc2Y3dJT1VUQUotLVZv?oc=5",
-     "source": "Yahoo Finance",
-     "tone": 0.5
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "AMZN",
    "name": "אמזון",
    "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
-   "alert": false,
+   "confidence": 50,
+   "score": 0.95,
+   "alert": true,
    "signals": [
+    {
+     "text": "כבר כמה חודשים במגמת עלייה יציבה",
+     "weight": 1.0,
+     "source": "https://www.tiingo.com/AMZN/overview",
+     "agent": "מסחר"
+    },
+    {
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (12 מול 2)",
+     "weight": 0.6,
+     "source": "https://stocktwits.com/symbol/AMZN",
+     "agent": "רשתות"
+    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -334,12 +412,28 @@
      "weight": 0.0,
      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1018724&type=4",
      "agent": "דוחות"
+    },
+    {
+     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
+     "weight": 0.0,
+     "source": "https://stocktwits.com/symbol/AMZN",
+     "agent": "רשתות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 257.89,
+    "date": "2026-11-17",
+    "chg": 0.05,
+    "chg5": -4.79,
+    "vol_ratio": 0.78,
+    "rsi": 52.2,
+    "sma50": 254.81,
+    "sma200": 244.76,
+    "chg1y": 10.7
+   },
    "news": {
     "news_24h": 19,
-    "news_per_day": 11.2,
+    "news_per_day": 11.0,
     "tone": 0.09
    },
    "headlines": [
@@ -380,18 +474,28 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "GOOGL",
    "name": "גוגל (אלפאבית)",
-   "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
-   "alert": false,
+   "direction": "down",
+   "confidence": 51,
+   "score": -1.05,
+   "alert": true,
    "signals": [
+    {
+     "text": "כבר כמה חודשים במגמת ירידה",
+     "weight": -1.0,
+     "source": "https://www.tiingo.com/GOOGL/overview",
+     "agent": "מסחר"
+    },
+    {
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (6 מול 2)",
+     "weight": 0.6,
+     "source": "https://stocktwits.com/symbol/GOOGL",
+     "agent": "רשתות"
+    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -415,9 +519,25 @@
      "weight": -0.1,
      "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
+    },
+    {
+     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
+     "weight": 0.0,
+     "source": "https://stocktwits.com/symbol/GOOGL",
+     "agent": "רשתות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 280.2,
+    "date": "2026-11-17",
+    "chg": -1.24,
+    "chg5": -2.5,
+    "vol_ratio": 0.77,
+    "rsi": 27.3,
+    "sma50": 325.93,
+    "sma200": 337.62,
+    "chg1y": -1.4
+   },
    "news": {
     "news_24h": 5,
     "news_per_day": 3.8,
@@ -455,18 +575,22 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "META",
    "name": "מטא (פייסבוק)",
    "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
+   "confidence": 47,
+   "score": -0.05,
    "alert": true,
    "signals": [
+    {
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (12 מול 2)",
+     "weight": 0.6,
+     "source": "https://stocktwits.com/symbol/META",
+     "agent": "רשתות"
+    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -502,9 +626,25 @@
      "weight": 0.0,
      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1326801&type=4",
      "agent": "דוחות"
+    },
+    {
+     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
+     "weight": 0.0,
+     "source": "https://stocktwits.com/symbol/META",
+     "agent": "רשתות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 618.87,
+    "date": "2026-11-17",
+    "chg": -1.2,
+    "chg5": -3.51,
+    "vol_ratio": 0.55,
+    "rsi": 51.8,
+    "sma50": 680.03,
+    "sma200": 629.21,
+    "chg1y": 3.1
+   },
    "news": {
     "news_24h": 36,
     "news_per_day": 9.3,
@@ -525,7 +665,7 @@
     },
     {
      "title": "Meta: Financial Engineering Masks The Real Debt Burden (NASDAQ:META) - Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSE5XaWtSYmRNSnRjOWNnclNZRWJsSWI1WGFPSmJhODk3dExuaWhFckxnd3JMSnBoc2p5YzlWZ3Z5bklQRWdtdFprOXNQeXI4S0dRdE9Yalh2Mlo1WnJSVlkzSTJJdExYUldycXF4THh0TEVJMG5kbEYzSXpVSjMwX3J1MVBQbzZSRS1TS3VmbmZueWNKTm1xb3kzcVlMend4VFp3aFFMWXU2WGpsNzlrdXVxQQ?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMlZicDVJOTRlektoMWZvdXpjZEpKbjNQWjU0MXB3TVNlcURyV09BUTVyREVtVVhMaUpKS3VLWmtNOFFCX0Y4MUlra1hFVlJMMXFRS1FyZHdZbHpaTjM2THlCQ2RxM1RzelNvODFsbWJyWXBRVzRuTkh4SFVsb1F0allDN1F6MnNla3gyQ3Q0OWZwNUdOZDgxVk9R?oc=5",
      "source": "Seeking Alpha",
      "tone": 0
     },
@@ -548,17 +688,15 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "TSLA",
    "name": "טסלה",
    "direction": "neutral",
-   "confidence": 38,
+   "confidence": 56,
    "score": -0.65,
-   "alert": false,
+   "alert": true,
    "signals": [
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -583,13 +721,29 @@
      "weight": -0.1,
      "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
+    },
+    {
+     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
+     "weight": 0.0,
+     "source": "https://stocktwits.com/symbol/TSLA",
+     "agent": "רשתות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 380.11,
+    "date": "2026-11-17",
+    "chg": 0.1,
+    "chg5": 0.09,
+    "vol_ratio": 0.57,
+    "rsi": 41.4,
+    "sma50": 375.49,
+    "sma200": 382.27,
+    "chg1y": -7.0
+   },
    "news": {
-    "news_24h": 6,
+    "news_24h": 7,
     "news_per_day": 7.0,
-    "tone": 0.25
+    "tone": 0.29
    },
    "headlines": [
     {
@@ -629,17 +783,15 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "AMD",
    "name": "AMD",
    "direction": "neutral",
-   "confidence": 38,
+   "confidence": 56,
    "score": -0.65,
-   "alert": false,
+   "alert": true,
    "signals": [
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -670,13 +822,29 @@
      "weight": 0.0,
      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2488&type=4",
      "agent": "דוחות"
+    },
+    {
+     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
+     "weight": 0.0,
+     "source": "https://stocktwits.com/symbol/AMD",
+     "agent": "רשתות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 503.41,
+    "date": "2026-11-17",
+    "chg": -0.17,
+    "chg5": -2.29,
+    "vol_ratio": 1.02,
+    "rsi": 42.2,
+    "sma50": 555.04,
+    "sma200": 425.74,
+    "chg1y": 109.3
+   },
    "news": {
-    "news_24h": 21,
-    "news_per_day": 12.8,
-    "tone": 0.18
+    "news_24h": 20,
+    "news_per_day": 13.0,
+    "tone": 0.16
    },
    "headlines": [
     {
@@ -716,23 +884,33 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "NFLX",
    "name": "נטפליקס",
    "direction": "down",
-   "confidence": 44,
-   "score": -1.43,
-   "alert": false,
+   "confidence": 70,
+   "score": -2.93,
+   "alert": true,
    "signals": [
+    {
+     "text": "כבר כמה חודשים במגמת ירידה",
+     "weight": -1.0,
+     "source": "https://www.tiingo.com/NFLX/overview",
+     "agent": "מסחר"
+    },
     {
      "text": "החדשות עליה ביממה האחרונה שליליות",
      "weight": -0.78,
      "source": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbWhTM3J4WllPNGFERXpxT044V2JKVmRHY2syREZ2Zi1KY1B4YUs4NGdfLVptc1dLM0VYVlE1ZEdIUlVhLXNoc2J1cFNGQ25RQXhjd01KT2JPejU1VG5idUdNNDZNMEdoT3paQU1OV3pxZzZZdnV3LThGeld6dGtrTmhuNlRMMWRtNkUzYjRuMmZZOExpYlJwempkNkh0R0JackpoUzF2QnJkUDZsMGp4TFdPRTZDdW8?oc=5",
      "agent": "חדשות"
+    },
+    {
+     "text": "במחיר הכי נמוך שלה בשנה האחרונה",
+     "weight": -0.5,
+     "source": "https://www.tiingo.com/NFLX/overview",
+     "agent": "מסחר"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -757,9 +935,25 @@
      "weight": -0.1,
      "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
+    },
+    {
+     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
+     "weight": 0.0,
+     "source": "https://stocktwits.com/symbol/NFLX",
+     "agent": "רשתות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 59.68,
+    "date": "2026-11-17",
+    "chg": -1.76,
+    "chg5": -5.66,
+    "vol_ratio": 0.76,
+    "rsi": 42.2,
+    "sma50": 68.49,
+    "sma200": 80.27,
+    "chg1y": -45.9
+   },
    "news": {
     "news_24h": 5,
     "news_per_day": 4.2,
@@ -797,18 +991,22 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "JPM",
    "name": "ג'יי.פי מורגן",
-   "direction": "neutral",
-   "confidence": 39,
-   "score": -0.85,
+   "direction": "down",
+   "confidence": 58,
+   "score": -1.45,
    "alert": true,
    "signals": [
+    {
+     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (5 מול 3)",
+     "weight": -0.6,
+     "source": "https://stocktwits.com/symbol/JPM",
+     "agent": "רשתות"
+    },
     {
      "text": "התחלף מנהל בכיר (17/11, דיווח רשמי)",
      "weight": -0.2,
@@ -840,7 +1038,17 @@
      "agent": "מאקרו"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 329.96,
+    "date": "2026-11-17",
+    "chg": -2.44,
+    "chg5": -3.54,
+    "vol_ratio": 1.28,
+    "rsi": 44.0,
+    "sma50": 338.9,
+    "sma200": 322.77,
+    "chg1y": 12.0
+   },
    "news": {
     "news_24h": 11,
     "news_per_day": 5.5,
@@ -884,15 +1092,13 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "XOM",
    "name": "אקסון מוביל",
    "direction": "neutral",
-   "confidence": 38,
+   "confidence": 56,
    "score": -0.65,
    "alert": false,
    "signals": [
@@ -921,7 +1127,17 @@
      "agent": "מאקרו"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 167.21,
+    "date": "2026-11-17",
+    "chg": 0.2,
+    "chg5": 2.32,
+    "vol_ratio": 0.83,
+    "rsi": 32.0,
+    "sma50": 168.62,
+    "sma200": 154.62,
+    "chg1y": 45.8
+   },
    "news": {
     "news_24h": 6,
     "news_per_day": 3.7,
@@ -965,18 +1181,40 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "KO",
    "name": "קוקה קולה",
    "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
+   "confidence": 46,
+   "score": -0.45,
    "alert": true,
    "signals": [
+    {
+     "text": "כבר כמה חודשים במגמת עלייה יציבה",
+     "weight": 1.0,
+     "source": "https://www.tiingo.com/KO/overview",
+     "agent": "מסחר"
+    },
+    {
+     "text": "עלתה מהר מדי לאחרונה, לפעמים אחרי זה מגיעה ירידה קטנה",
+     "weight": -0.7,
+     "source": "https://www.tiingo.com/KO/overview",
+     "agent": "מסחר"
+    },
+    {
+     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (12 מול 3)",
+     "weight": -0.6,
+     "source": "https://stocktwits.com/symbol/KO",
+     "agent": "רשתות"
+    },
+    {
+     "text": "במחיר הכי גבוה שלה בשנה האחרונה",
+     "weight": 0.5,
+     "source": "https://www.tiingo.com/KO/overview",
+     "agent": "מסחר"
+    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -1002,17 +1240,27 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (13 כתבות ביממה, בדרך כלל כ-3)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (12 כתבות ביממה, בדרך כלל כ-3)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSkMwVkp3WFNEaTlnUnpCRVRnY0xMcEQtVGRWMy1oVHlPQWVUV282SWxlVUYzVnE4ekM0ZnFiNkdzbEdxamVlOUdMdm9fbWZ6NlNveWpHSjVfZ0JORmU1VGxoMlE1UUc1YXNndUlXNjRuYTdJRGRCQnVkOWQxZGhwZFkzeFV0Q3oyMnpKUXUwUVMxSXlSM2x4bVpyYmMwRTY3QlR1VXo5TzNfVzV0eUowbExuRzNkTHc4a3hZSFFBVXo1T3FW?oc=5",
      "agent": "חדשות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 98.79,
+    "date": "2026-11-17",
+    "chg": -0.69,
+    "chg5": 1.94,
+    "vol_ratio": 1.04,
+    "rsi": 82.0,
+    "sma50": 91.21,
+    "sma200": 82.92,
+    "chg1y": 43.5
+   },
    "news": {
-    "news_24h": 13,
-    "news_per_day": 3.0,
-    "tone": 0.13
+    "news_24h": 12,
+    "news_per_day": 3.2,
+    "tone": 0.14
    },
    "headlines": [
     {
@@ -1052,16 +1300,14 @@
      "tone": 0.7
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "PLTR",
    "name": "פלנטיר",
    "direction": "neutral",
-   "confidence": 29,
-   "score": 0.08,
+   "confidence": 49,
+   "score": 0.78,
    "alert": false,
    "signals": [
     {
@@ -1069,6 +1315,12 @@
      "weight": 0.73,
      "source": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjhyT3ZlX05yT0tsandwaUU5Um53aW1LWTNUWk9mQ3B4N1BYSXF1YjRQeFJvSUhTUkZZbE95czRiekI0TDdpa3Z6bGJieDVieDdmUGNITWRVb1AxZVJlRm9Sc0xwa3NUaDhhTGlzQk9PSVItV254eWE3QWVfc2Q3dmNfbEptNW9PTVdBdUJwbk5HekpNZ1otVEVvMVZxSUE?oc=5",
      "agent": "חדשות"
+    },
+    {
+     "text": "ירדה מהר מדי לאחרונה, לפעמים אחרי זה מגיעה קפיצה חזרה",
+     "weight": 0.7,
+     "source": "https://www.tiingo.com/PLTR/overview",
+     "agent": "מסחר"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -1095,10 +1347,20 @@
      "agent": "מאקרו"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 156.56,
+    "date": "2026-11-17",
+    "chg": -2.39,
+    "chg5": -7.26,
+    "vol_ratio": 0.72,
+    "rsi": 23.5,
+    "sma50": 184.24,
+    "sma200": 153.84,
+    "chg1y": -8.6
+   },
    "news": {
     "news_24h": 8,
-    "news_per_day": 4.5,
+    "news_per_day": 4.3,
     "tone": 0.49
    },
    "headlines": [
@@ -1139,18 +1401,22 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "INTC",
    "name": "אינטל",
    "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
-   "alert": false,
+   "confidence": 47,
+   "score": 0.05,
+   "alert": true,
    "signals": [
+    {
+     "text": "ירדה מהר מדי לאחרונה, לפעמים אחרי זה מגיעה קפיצה חזרה",
+     "weight": 0.7,
+     "source": "https://www.tiingo.com/INTC/overview",
+     "agent": "מסחר"
+    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -1174,13 +1440,29 @@
      "weight": -0.1,
      "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
+    },
+    {
+     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
+     "weight": 0.0,
+     "source": "https://stocktwits.com/symbol/INTC",
+     "agent": "רשתות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 55.17,
+    "date": "2026-11-17",
+    "chg": -0.54,
+    "chg5": -5.09,
+    "vol_ratio": 0.72,
+    "rsi": 18.7,
+    "sma50": 93.18,
+    "sma200": 87.48,
+    "chg1y": 58.9
+   },
    "news": {
-    "news_24h": 21,
-    "news_per_day": 9.3,
-    "tone": -0.12
+    "news_24h": 19,
+    "news_per_day": 9.7,
+    "tone": -0.05
    },
    "headlines": [
     {
@@ -1220,23 +1502,27 @@
      "tone": -0.7
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "TEVA",
    "name": "טבע",
-   "direction": "neutral",
-   "confidence": 29,
-   "score": 0.1,
+   "direction": "up",
+   "confidence": 57,
+   "score": 1.85,
    "alert": false,
    "signals": [
     {
      "text": "החדשות עליה ביממה האחרונה חיוביות",
-     "weight": 0.75,
+     "weight": 1.5,
      "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
      "agent": "חדשות"
+    },
+    {
+     "text": "כבר כמה חודשים במגמת עלייה יציבה",
+     "weight": 1.0,
+     "source": "https://www.tiingo.com/TEVA/overview",
+     "agent": "מסחר"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -1269,11 +1555,21 @@
      "agent": "דוחות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 42.62,
+    "date": "2026-11-17",
+    "chg": 0.12,
+    "chg5": 0.52,
+    "vol_ratio": 0.97,
+    "rsi": 62.4,
+    "sma50": 40.42,
+    "sma200": 35.18,
+    "chg1y": 73.3
+   },
    "news": {
-    "news_24h": 2,
+    "news_24h": 1,
     "news_per_day": 4.5,
-    "tone": 0.5
+    "tone": 1.0
    },
    "headlines": [
     {
@@ -1281,17 +1577,9 @@
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
      "source": "ad-hoc-news.de",
      "tone": 1
-    },
-    {
-     "title": "Teva Pharmaceutical Industries (TEVA) Stock Forecasts - Yahoo! Finance Canada",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeFRIclRSRFF6UTloMW1FbHpFenJuWnNMa0c3SzJqT25rUDI0S0NRV1lENHNiWXlVeEtJeGpubC1vNEtXSzdnS2JwdzlPbHJNQjlWRUR5WFozSENiTXI1LWdibGtxS3dobDhITjV5TUU1eEFyQ1pScFAyZGdxdE84NTdMemlmZFhVcGFadg?oc=5",
-     "source": "Yahoo! Finance Canada",
-     "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_tiingo: HTTP Error 429: Too Many Requests; _yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   }
  ]
 }
