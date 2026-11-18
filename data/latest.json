@@ -1,5 +1,5 @@
 {
- "run_time": "2026-11-18T19:09:08+00:00",
+ "run_time": "2026-11-18T19:46:15+00:00",
  "macro": {
   "ok": true,
   "score": -1.3,
@@ -94,7 +94,7 @@
    },
    "news": {
     "news_24h": 7,
-    "news_per_day": 6.7,
+    "news_per_day": 6.3,
     "tone": 0.39
    },
    "headlines": [
@@ -146,7 +146,7 @@
    "alert": true,
    "signals": [
     {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (13 מול 2)",
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (12 מול 2)",
      "weight": 0.6,
      "source": "https://stocktwits.com/symbol/MSFT",
      "agent": "רשתות"
@@ -176,16 +176,10 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (16 כתבות ביממה, בדרך כלל כ-5)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (16 כתבות ביממה, בדרך כלל כ-6)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMGN1TjRPLXdTdUNaZWZjTWNaTHRYbnBPaklTeTl6c3RFb3REUDlMV2ZiV19SN3I0M3dKYUdSWWtZTzRjcnU5aG5jYU53bGE0ekZLc0tCVmo3cVRlNUdKYmcxQlVjSGs5eHY2cVMtSGhEN0NJYXU1TXBDUHlMX3U1TGwzY2lDa2RNYnVYOUdaQ2ZPWnduMEFRUUZqM2VlZ09PQUNFbzBlaWFTMmhzb3dpeGlNb1RCZkZTSF9Xc2lSeE5nTjZSUUxHRnQzSktiUQ?oc=5",
      "agent": "חדשות"
-    },
-    {
-     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
-     "weight": 0.0,
-     "source": "https://stocktwits.com/symbol/MSFT",
-     "agent": "רשתות"
     }
    ],
    "price": {
@@ -201,8 +195,8 @@
    },
    "news": {
     "news_24h": 16,
-    "news_per_day": 5.3,
-    "tone": 0.15
+    "news_per_day": 5.5,
+    "tone": 0.19
    },
    "headlines": [
     {
@@ -236,9 +230,9 @@
      "tone": 1.2
     },
     {
-     "title": "Microsoft (MSFT) Sees Need for Nvidia Alternatives After Jensen Huang Exits - TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLVhaeG14d3E3ZFVLNG9pQjVPSVFVT2xfZ2lPRTRJbTVEeTFhQ09VU2Nhc2g1MG92NUIySlZfQUU2WGFvcjE5NlNVSzZFd0UyTm1RZzVCaWtiMkpWR2I0NGo2WlBqNlZZaHdSX240RDVfR2pORzFNbVRYZ0lfMGQzSm5wN2g5TEdKemY3YTJRNG5WdFJsVGRnazJOQ2NsdDRkbk04YzR3?oc=5",
-     "source": "TipRanks",
+     "title": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uOUNhWEIyM0RRVERRZVRjUWx6dFJ2N2tGYXBpVWl2RVI3MjM2b3kzVmtabzNDRjdGMGw2Z2hJSTB0S2Q5YWRWT1dab25WVERnZlE?oc=5",
+     "source": "Yahoo! Finance Canada",
      "tone": 0
     }
    ],
@@ -289,7 +283,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (54 כתבות ביממה, בדרך כלל כ-7)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (51 כתבות ביממה, בדרך כלל כ-8)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLU5JTklISkY4VFJ3NjdFb0NDdDlyZzY4Z2UtT1Q1OGdRMk95dWNXQ2FwRi13cVJvSTBwNXdwbjc3cDdlN0p6RC15V1BDNDVRMlA1dUFKUnRGSlZ0N3k1MjRXaDBmSUk4dW1HeUtmRTNnVGc1eHB4UU1kemM4eGRxZ0ViTXI4OENfdmo3Z1pUbXBwbE1paWI1OTA5YW8zRTcwQWc2Mzd5N09RdGd0SDVFWk9BRV81N0JzelRwQ0t0Mk94MS02c2FoTWwzYW1iZzA?oc=5",
      "agent": "חדשות"
@@ -319,9 +313,9 @@
     "chg1y": -16.5
    },
    "news": {
-    "news_24h": 54,
-    "news_per_day": 7.0,
-    "tone": 0.22
+    "news_24h": 51,
+    "news_per_day": 7.5,
+    "tone": 0.25
    },
    "headlines": [
     {
@@ -332,7 +326,7 @@
     },
     {
      "title": "Nvidia: Debunking The Positives From The Q3 Report (NASDAQ:NVDA) - Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeDZ5QUYyVTVna2JRQ0dYWldMNlhnc1FPYTE2ZmhUQW9McHE4OFdyXzhxa0d6VUtkb3g3ZzhGakpuaGhVV2JTQ2p4ck44ODZRUkRPcV9YWWxwUjIzRHYyOVpveXZDamdvVjltRlNDVTJyZnQtRTFCNWhza1RLOHNsNXI1YzNGOVlYTVhlaXpDd0ZJVS1pS0RWZ1BYM2w1MHduU3IyTXdCeUp2SERiU2c?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbmZDRXRwZ25qMHdYMUVSRXdzZk13LVFtN1ZpakM5aDRFbV9pdzJ5dWJmZmhVSHd3NHRRN0gydVVSd1c3a2FXRHQzeEVjZ3J3UW95c05ZNkg5d2QydG9vU05hdkZGU1Iyai0yNmp2Sk5jMDZDMExteUd3VG5DeVMyd0lrNzRXaEprejRYZlBpU3VvVlcz?oc=5",
      "source": "Seeking Alpha",
      "tone": 0
     },
@@ -367,8 +361,8 @@
    "ticker": "AMZN",
    "name": "אמזון",
    "direction": "neutral",
-   "confidence": 50,
-   "score": 0.95,
+   "confidence": 49,
+   "score": 0.35,
    "alert": true,
    "signals": [
     {
@@ -376,12 +370,6 @@
      "weight": 1.0,
      "source": "https://www.tiingo.com/AMZN/overview",
      "agent": "מסחר"
-    },
-    {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (12 מול 2)",
-     "weight": 0.6,
-     "source": "https://stocktwits.com/symbol/AMZN",
-     "agent": "רשתות"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -432,9 +420,9 @@
     "chg1y": 10.7
    },
    "news": {
-    "news_24h": 19,
-    "news_per_day": 11.0,
-    "tone": 0.09
+    "news_24h": 16,
+    "news_per_day": 10.8,
+    "tone": 0.11
    },
    "headlines": [
     {
@@ -462,14 +450,14 @@
      "tone": 0
     },
     {
-     "title": "Amazon.com, Inc. $AMZN Stock Purchased by Modera Wealth Management LLC - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY3ZpeHlNSVRwNllKbHFIUnlXcndpeERRVjNvMHY1OVJYZ1NPbExRMlV5UlluZWVpdUY1U3JiQkI5M0FCNVFOWVhmbHlJQm85SGQtblRDQzhyTmJsME0tbHBzR2RONlNQS3VNVHEwa3g1U3hUQTI0Zm9aYWI5em5LaEVXT3ZoZHBxNTN3alVueGIyNjhrTlJfaVV3bFlSOUx2bnljOGlnay05ZGNJWHB2RzhCRkZyMDM1TlNTREtvelAtTUIzVnc?oc=5",
-     "source": "MarketBeat",
+     "title": "Amazon.com, Inc. (AMZN) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52VmlnWW8wU2RIQTdZRHNkNlhzSXhpMHUwd29BNmZIV0x2R0pUYkN3SjhldXZIeW5xQTh6UkxienZKWHpwMExhaXZwYXZHM3dBUmc?oc=5",
+     "source": "Yahoo! Finance Canada",
      "tone": 0
     },
     {
-     "title": "Amazon.com, Inc. $AMZN Shares Purchased by Investment Partners LTD. - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMjFpeEVuUHhRQ1BqMXFmNDNDVWpGdlJoS1lwNnVRbm0ybkRkQ3M4MXJ2RjBFZE5hWlFNV2pmZDdHakhrZE1DWkU1eVA0aUhVRG1nbzg3VjR0OUZHTW9mV1Y2SnNWSFZDR2FBREpRRktkaWN0clVQVE9mbmZaRElIUE5MblB2aklhbl8tbk5NUjBmSVlOTTVHNUczM2ZNUGc0aXhYcldOWjAyYllBcW9YcEctZW5DNDFnMWtTR3I2MmU?oc=5",
+     "title": "Amazon.com, Inc. $AMZN Stock Purchased by Modera Wealth Management LLC - MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY3ZpeHlNSVRwNllKbHFIUnlXcndpeERRVjNvMHY1OVJYZ1NPbExRMlV5UlluZWVpdUY1U3JiQkI5M0FCNVFOWVhmbHlJQm85SGQtblRDQzhyTmJsME0tbHBzR2RONlNQS3VNVHEwa3g1U3hUQTI0Zm9aYWI5em5LaEVXT3ZoZHBxNTN3alVueGIyNjhrTlJfaVV3bFlSOUx2bnljOGlnay05ZGNJWHB2RzhCRkZyMDM1TlNTREtvelAtTUIzVnc?oc=5",
      "source": "MarketBeat",
      "tone": 0
     }
@@ -480,8 +468,8 @@
    "ticker": "GOOGL",
    "name": "גוגל (אלפאבית)",
    "direction": "down",
-   "confidence": 51,
-   "score": -1.05,
+   "confidence": 56,
+   "score": -1.65,
    "alert": true,
    "signals": [
     {
@@ -489,12 +477,6 @@
      "weight": -1.0,
      "source": "https://www.tiingo.com/GOOGL/overview",
      "agent": "מסחר"
-    },
-    {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (6 מול 2)",
-     "weight": 0.6,
-     "source": "https://stocktwits.com/symbol/GOOGL",
-     "agent": "רשתות"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -581,16 +563,10 @@
    "ticker": "META",
    "name": "מטא (פייסבוק)",
    "direction": "neutral",
-   "confidence": 47,
-   "score": -0.05,
+   "confidence": 56,
+   "score": -0.65,
    "alert": true,
    "signals": [
-    {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (12 מול 2)",
-     "weight": 0.6,
-     "source": "https://stocktwits.com/symbol/META",
-     "agent": "רשתות"
-    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -647,7 +623,7 @@
    },
    "news": {
     "news_24h": 36,
-    "news_per_day": 9.3,
+    "news_per_day": 9.2,
     "tone": 0.01
    },
    "headlines": [
@@ -742,7 +718,7 @@
    },
    "news": {
     "news_24h": 7,
-    "news_per_day": 7.0,
+    "news_per_day": 7.2,
     "tone": 0.29
    },
    "headlines": [
@@ -789,10 +765,16 @@
    "ticker": "AMD",
    "name": "AMD",
    "direction": "neutral",
-   "confidence": 56,
-   "score": -0.65,
+   "confidence": 47,
+   "score": -0.05,
    "alert": true,
    "signals": [
+    {
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (9 מול 2)",
+     "weight": 0.6,
+     "source": "https://stocktwits.com/symbol/AMD",
+     "agent": "רשתות"
+    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -842,17 +824,11 @@
     "chg1y": 109.3
    },
    "news": {
-    "news_24h": 20,
-    "news_per_day": 13.0,
-    "tone": 0.16
+    "news_24h": 17,
+    "news_per_day": 13.5,
+    "tone": 0.13
    },
    "headlines": [
-    {
-     "title": "Broadcom Already Eclipsed AMD as The 2nd Biggest Chip Maker, But The Market Won’t Recognize That Truth Until 2027 - Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX2pZWFI3MXZTSnpyS2xDQ3ppb3VOQUFYcmJ5eThrdXZJYUtqRWR5RE1YS3Z4dGNWMHhYNTNMdnFpTjczY1pkSWhFYlQ5cXFBb1BOMHgtLXo1aXVLMnJfckhUWnFFRllacTY5ZEc4djJGQnJQOWFUd0pqNFBtM2JrTVNYZlZrdDczX1ZuNmJyU1dwSGRPOEFZWm5n?oc=5",
-     "source": "Yahoo Finance",
-     "tone": 0
-    },
     {
      "title": "Nvidia’s CEO Calls Customer Shifts “Just Not True.” Broadcom and AMD’s Frontier Deal Share Says Otherwise - Yahoo Finance",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOXJHdUN3ZEtKOUxsZXdLT2lkc054UzFfNHlwb1g0T1RRZUJ1MGp1am50TjcxSWJUMzJKaGlWNVliaGM5dVF1Mm4wdXNyX0hWcEFoVE5KQlk0MDRCbUNjbUZYNy1FU0xSZEJqVXN1bDJ4SXAybUx2LTdBMW9uZVVEMEhoNTYtRUNkb0tON2hRaDU3ZWRSMDZXdTc2cFJ6dw?oc=5",
@@ -882,6 +858,12 @@
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMl9fYU5XYWFkbzZTbDk5Ti1lSUNfRTBfaHlOM0ZLTHpidkxfNDNETVRENGpDRmg1TFZ6d1JtRmd2RnJfR2N1RURVeWVSS194ZEVwYzB2ZW5BaDhtWjEyZC1nOE80WHhObDVMM3psR1BSWk5aM3JBTkdUODhvazFIdktYaVg?oc=5",
      "source": "Traders Union",
      "tone": 0
+    },
+    {
+     "title": "AMD stock: Blue box trading setup delivers a rally - FXStreet",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZENGYXBiN2l2TFc5Z2VNUXduSndBaUpQbC1jTEFRXzhMOTMyVm1aSUk4YThyR2J5cnBkYk1SZXdYbURrYlUyaWR2bER1a1dHcXgyQ0hZTkJ1T084OV9mdGNtQ1lzaG5TMjJFYTQ2eE13Y052TExyVUNObHhYOUtFU0I1ejIxcXRURkFmTnlXX3pzVnVYSm1V?oc=5",
+     "source": "FXStreet",
+     "tone": 1
     }
    ],
    "errors": {}
@@ -1050,9 +1032,9 @@
     "chg1y": 12.0
    },
    "news": {
-    "news_24h": 11,
-    "news_per_day": 5.5,
-    "tone": -0.34
+    "news_24h": 10,
+    "news_per_day": 5.7,
+    "tone": -0.37
    },
    "headlines": [
     {
@@ -1140,7 +1122,7 @@
    },
    "news": {
     "news_24h": 6,
-    "news_per_day": 3.7,
+    "news_per_day": 3.8,
     "tone": 0.25
    },
    "headlines": [
@@ -1204,7 +1186,7 @@
      "agent": "מסחר"
     },
     {
-     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (12 מול 3)",
+     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (11 מול 3)",
      "weight": -0.6,
      "source": "https://stocktwits.com/symbol/KO",
      "agent": "רשתות"
@@ -1240,7 +1222,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (12 כתבות ביממה, בדרך כלל כ-3)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (14 כתבות ביממה, בדרך כלל כ-3)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSkMwVkp3WFNEaTlnUnpCRVRnY0xMcEQtVGRWMy1oVHlPQWVUV282SWxlVUYzVnE4ekM0ZnFiNkdzbEdxamVlOUdMdm9fbWZ6NlNveWpHSjVfZ0JORmU1VGxoMlE1UUc1YXNndUlXNjRuYTdJRGRCQnVkOWQxZGhwZFkzeFV0Q3oyMnpKUXUwUVMxSXlSM2x4bVpyYmMwRTY3QlR1VXo5TzNfVzV0eUowbExuRzNkTHc4a3hZSFFBVXo1T3FW?oc=5",
      "agent": "חדשות"
@@ -1258,9 +1240,9 @@
     "chg1y": 43.5
    },
    "news": {
-    "news_24h": 12,
+    "news_24h": 14,
     "news_per_day": 3.2,
-    "tone": 0.14
+    "tone": 0.12
    },
    "headlines": [
     {
@@ -1294,10 +1276,10 @@
      "tone": 0
     },
     {
-     "title": "Coca-Cola Stock (KO) May Struggle to Repeat Its Strong 2026 Performance - The Globe and Mail",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQ3VMZUY1dmhfanZILUt0M3Rfd3R4Q2pBczBqNTJZX1otOW5PTnB4cndJRFhDLUtTZnlNZnhrZXVsMHYwQklkYkdlTmp1MlZSMVcyTkcwNWE5cTVzcWFjMmFfenpTQVpCX0VqanlCR2dqbUdvNmNNeFc1QW1URjRPM0cwUGN2MWprWFlPR183VTJfMWRiYWw2ZFdVMm80dTdDRW9ORFg1dV92WkpXemUyUEhDNzZ0X1NpVXRJdS13eDFXRk5CWWtOaDhvNTgzU2RBeUFTdm5kRmR5V1REd1k5c0FHRWNIeldjbE9XMA?oc=5",
-     "source": "The Globe and Mail",
-     "tone": 0.7
+     "title": "How Analyst Backing Will Impact Coca Cola (KO) Stock - Yahoo Finance UK",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWC13NWlIV3hGVTQ3UkFaUF91bG5tNHJKN1lqNTMwT0t6RkJEaXM0TDdvWXhOVm03T2dzbjQ1WFY0ZXBzd29qMjRJM0RndVNXcnRsSkh3R1VsOVIzLXFva05RUTByY01mb0lKcDdvNlVZUF8zYmU0TWV0SFpMd2NzQVI5aG9nc3dh?oc=5",
+     "source": "Yahoo Finance UK",
+     "tone": 0
     }
    ],
    "errors": {}
@@ -1306,13 +1288,13 @@
    "ticker": "PLTR",
    "name": "פלנטיר",
    "direction": "neutral",
-   "confidence": 49,
-   "score": 0.78,
+   "confidence": 50,
+   "score": 0.89,
    "alert": false,
    "signals": [
     {
      "text": "החדשות עליה ביממה האחרונה חיוביות",
-     "weight": 0.73,
+     "weight": 0.84,
      "source": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjhyT3ZlX05yT0tsandwaUU5Um53aW1LWTNUWk9mQ3B4N1BYSXF1YjRQeFJvSUhTUkZZbE95czRiekI0TDdpa3Z6bGJieDVieDdmUGNITWRVb1AxZVJlRm9Sc0xwa3NUaDhhTGlzQk9PSVItV254eWE3QWVfc2Q3dmNfbEptNW9PTVdBdUJwbk5HekpNZ1otVEVvMVZxSUE?oc=5",
      "agent": "חדשות"
     },
@@ -1359,9 +1341,9 @@
     "chg1y": -8.6
    },
    "news": {
-    "news_24h": 8,
-    "news_per_day": 4.3,
-    "tone": 0.49
+    "news_24h": 7,
+    "news_per_day": 4.5,
+    "tone": 0.56
    },
    "headlines": [
     {
@@ -1460,11 +1442,23 @@
     "chg1y": 58.9
    },
    "news": {
-    "news_24h": 19,
+    "news_24h": 20,
     "news_per_day": 9.7,
-    "tone": -0.05
+    "tone": -0.06
    },
    "headlines": [
+    {
+     "title": "News of Further Layoffs Gives Intel Stock (NASDAQ:INTC) No Help - TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeVBxX2JBdTVMZTJzd1FlQU5ubTBFUHdSTVE1Zk16Xy1mdy15bnQ5VElNUHJMNDNybzd3bDJlUGFvVzN5Zlc0TkdVSlJJbjA3Z09Rc29Fb0ZYQVZyd0Z3SmY1MkFWS0RaTW84dk0zQlNCLTR4Z0N3R2VoSkRQVWZfdktkYXJ2SHNMYWM2NjQtOS1EcHQz?oc=5",
+     "source": "TipRanks",
+     "tone": -0.7
+    },
+    {
+     "title": "Intel Is Down 39% in a Month but Still Up 48% in 2026. Can a Deeper Microsoft Azure Deal Help Get INTC Stock Back to $90? - 24/7 Wall St.",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQSVNWOGd4aTZlZ0tqTjljbzgydzVBN21PQUVtSDRGTjNad3llaUlla0lEWnJjUmgyLXVyZU1FeUF5MlQyLXFBS21MU3UtQzVHVzRxY0wtUGtzT3lmakNoX3J6eE1sZnplN0tyS0djYTNibW0tci14VWttNDIyY01LbVl0LW5vN0lxY0tWNDl4VXlaLXU5Z3FFVnFFOHdXV2ZlaV9yTXNfUGE4S0haTmxrQ3VjbTBLNmxCUjUyM1hSMjZ3NkJQV2dVN3M3ejJreHF1ZzlCYldjSFhyY0dMVGU4Nl9kYW5UYW1CdEx6NFRDZnFhUQ?oc=5",
+     "source": "24/7 Wall St.",
+     "tone": 0.5
+    },
     {
      "title": "Azure database backups can run up to 2.5 times faster with Intel technology. - Stock Titan",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVTAtbUV5N2RPUV96S0NqOTROdE5XbVBwbTc4UjhOY2htWlVJWmY1NFhXU1RvYk1KRmZfc2h6YWNldWFuWkpJazVsOXdpT0RWVmNlZW9vSmlGdV9oYzAxTEt5UnczclIwVGwtZVRaRl9FRkNEejJIZHF0VDdJMUdXOE1vQUNBdl9uSzV6WWo4WkxZYndhazM2aE8wMWt6RVU1Y01yaWo0SXltS2FVQ2xCbVp3Y2RrN1ZSbHJLUlFB?oc=5",
@@ -1488,18 +1482,6 @@
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNkNCR1Q0ckttb0tWZGNfSXVmOFVaNjJGcnQydFBKZnJienpfN3JQNXNNS3V6T1Nma1VPckZ3eHM1YjJJNmlqTUhpVGhpcmR5UGdObHBJTU1NSHhTNS1jRFpxbzdxZWl5dmlnVWtRWjJHekJaaklKOVNLdW9Xek1LV2ctUndyZ2hIOEhrMDZfRWtLbTFNUDk3ZE92Y2dDYy1keFdUUldNMVBqakdhT0pFLU52NjhmUTA3WENJdmFxZU1hSzc2UkE?oc=5",
      "source": "24/7 Wall St.",
      "tone": -0.8
-    },
-    {
-     "title": "Intel (INTC) Stock: $55 Wednesday After Nvidia’s Results, Bull $60, Bear $52 - FinanceFeeds",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOank4NzMtNXNUdko1MTZlNEl1V2lIY1I0V0RNeVJVcFRUZGtvU0h5Y0o1QUQ4MkhvMTBnN1M0bnI2TlhnNUk5ZVdZQWRnOEFtYmNoQ1RxNEN3clFYcy1ZblRPVnZnOWFmV19fQmk0aTFSZkNGdkZXdEgxd25xYndkNmhCdHUtV21XZnAyUWY4SWJtUTMzOE1j?oc=5",
-     "source": "FinanceFeeds",
-     "tone": 0
-    },
-    {
-     "title": "Intel conducting another round of layoffs: report (INTC:NASDAQ) - Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS1VrUnpoanNWV2dJczhNWDRPWUZ0T1RYRTRvUmhLa1N0Sjh1ZXNIVzlrM2hTcFRGYW9ocUQ3cGtkWnF6YWNNMlZVTG9QS0NHblNfZ2Z4eW9UdG40N2dCemtoQWd6YXFRNk11WDFrNUVibC0xRjVzWnZDVUpkZENaU29rVEU4LXFmYkVmSWdETQ?oc=5",
-     "source": "Seeking Alpha",
-     "tone": -0.7
     }
    ],
    "errors": {}
@@ -1508,21 +1490,21 @@
    "ticker": "TEVA",
    "name": "טבע",
    "direction": "up",
-   "confidence": 57,
-   "score": 1.85,
+   "confidence": 51,
+   "score": 1.1,
    "alert": false,
    "signals": [
-    {
-     "text": "החדשות עליה ביממה האחרונה חיוביות",
-     "weight": 1.5,
-     "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
-     "agent": "חדשות"
-    },
     {
      "text": "כבר כמה חודשים במגמת עלייה יציבה",
      "weight": 1.0,
      "source": "https://www.tiingo.com/TEVA/overview",
      "agent": "מסחר"
+    },
+    {
+     "text": "החדשות עליה ביממה האחרונה חיוביות",
+     "weight": 0.75,
+     "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
+     "agent": "חדשות"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -1567,9 +1549,9 @@
     "chg1y": 73.3
    },
    "news": {
-    "news_24h": 1,
+    "news_24h": 2,
     "news_per_day": 4.5,
-    "tone": 1.0
+    "tone": 0.5
    },
    "headlines": [
     {
@@ -1577,6 +1559,12 @@
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
      "source": "ad-hoc-news.de",
      "tone": 1
+    },
+    {
+     "title": "Teva Pharmaceutical Industries (TEVA) Stock Forecasts - Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeFRIclRSRFF6UTloMW1FbHpFenJuWnNMa0c3SzJqT25rUDI0S0NRV1lENHNiWXlVeEtJeGpubC1vNEtXSzdnS2JwdzlPbHJNQjlWRUR5WFozSENiTXI1LWdibGtxS3dobDhITjV5TUU1eEFyQ1pScFAyZGdxdE84NTdMemlmZFhVcGFadg?oc=5",
+     "source": "Yahoo! Finance Canada",
+     "tone": 0
     }
    ],
    "errors": {}
