@@ -2,6 +2,7 @@ name: run-bot
 on:
   schedule:
     # כל שעה בזמן המסחר בארה"ב (שני-שישי). השעות ב-UTC.
+    - cron: "50 13 * * 1-5"   # הודעת בוקר, לפני פתיחת המסחר
     - cron: "40 14-21 * * 1-5"
   workflow_dispatch: {}
 permissions:
@@ -21,6 +22,7 @@ jobs:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
           TIINGO_KEY: ${{ secrets.TIINGO_KEY }}
           FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         run: python run.py
       - name: Save results
         run: |

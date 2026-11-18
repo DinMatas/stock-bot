@@ -1,6 +1,6 @@
 """בונה את לוח הבקרה: דף אחד בעברית, נוח בטלפון ובמחשב."""
 import datetime as dt, html, os
-import config
+import config, advisor
 
 DIR_HE = {"up": "עלייה", "down": "ירידה", "neutral": "ניטרלי"}
 DIR_ICON = {"up": "▲", "down": "▼", "neutral": "●"}
@@ -60,6 +60,14 @@ th{color:var(--muted);font-weight:500;font-size:.8rem}
 .big{font-family:var(--f-head);font-size:1.6rem;font-weight:700;font-variant-numeric:tabular-nums}
 .empty{color:var(--muted);font-size:.9rem}
 .err{color:var(--warn);font-size:.8rem}
+.todo{display:grid;gap:8px}
+.row{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;align-items:start;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.act{border-radius:8px;padding:4px 10px;font-weight:700;font-size:.9rem;white-space:nowrap;text-align:center}
+.act.buy{background:var(--up-bg);color:var(--up)}.act.sell,.act.avoid{background:var(--down-bg);color:var(--down)}.act.hold,.act.wait,.act.unknown{background:var(--flat-bg);color:var(--flat)}
+.row .what{font-weight:600}.row .why{grid-column:2;color:var(--muted);font-size:.88rem}
+.trial{background:var(--warn-bg);border-radius:10px;padding:10px 14px;font-size:.9rem}
+dl.gl{display:grid;gap:8px;margin:0}dl.gl dt{font-weight:600}dl.gl dd{margin:0;color:var(--muted);font-size:.9rem}
+details.more>summary{font-family:var(--f-head);font-size:1.05rem;font-weight:600;padding:8px 0}
 a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 """
 
@@ -95,6 +103,48 @@ def _card(r):
 </article>"""
 
 
+GLOSSARY = [
+    ("טווח קצר", "קנייה ומכירה תוך כמה ימים או שבועות, כדי לתפוס תזוזה קטנה."),
+    ("טווח ארוך", "לקנות ולהחזיק חודשים או שנים, בלי להתרגש מתנודות יומיות."),
+    ("ביטחון", "כמה הבוט בטוח בתחזית. 50% זה כמעט ניחוש, 70%+ זה חזק. עד שנבדוק את הבוט, גם המספר הזה הוא הערכה."),
+    ("ניטרלי / להמתין", "אין סיבה טובה לקנות או למכור עכשיו."),
+    ("מדד הפחד (VIX)", "מספר שמראה כמה המשקיעים לחוצים. מתחת ל-15 רגוע, מעל 20 לחוץ, מעל 30 פאניקה."),
+    ("S&P 500", "מדד של 500 החברות הגדולות בארה\"ב. כשאומרים \"השוק עלה\" בדרך כלל מתכוונים אליו."),
+    ("ריבית 10 שנים", "הריבית שממשלת ארה\"ב משלמת על הלוואה ל-10 שנים. כשהיא עולה, מניות בדרך כלל יורדות."),
+    ("מחזור מסחר", "כמה מניות קנו ומכרו ביום. מחזור גבוה מהרגיל = משהו קורה."),
+    ("מגמה (ממוצע 50 / 200 יום)", "המחיר הממוצע ב-50 או 200 ימי המסחר האחרונים. מחיר מעל הממוצעים = מגמת עלייה."),
+    ("עלתה / ירדה מהר מדי (RSI)", "מדד בין 0 ל-100. מעל 70: קנו אותה בטירוף ולפעמים מגיעה ירידה. מתחת ל-30: מכרו אותה בטירוף ולפעמים מגיעה קפיצה."),
+    ("דיווח רשמי (SEC)", "הודעה שהחברה חייבת לפרסם לרשות ניירות הערך האמריקאית: רווחים, החלפת מנהלים, הסכמים."),
+    ("מנהלים שקנו או מכרו", "בכירים בחברה חייבים לדווח כשהם קונים או מוכרים מניות שלה. הרבה קניות זה לרוב סימן טוב."),
+    ("תחזית צדקה", "הכיוון שהבוט אמר (עלייה, ירידה, ניטרלי) הוא מה שקרה אחרי יום או 5 ימים."),
+]
+
+
+def _todo(planned):
+    short = sorted(planned, key=lambda p: ({"buy": 0, "sell": 1, "hold": 2}[p["short"]["action"]], -p["confidence"]))
+    srows = ""
+    for p in short:
+        a = p["short"]["action"]
+        if a == "hold":
+            continue
+        srows += (f'<div class="row"><span class="act {a}">{advisor.ACT_HE[a]}</span>'
+                  f'<span class="what">{_e(p["name"])} <span class="nm">{_e(p["ticker"])}</span> · ביטחון {advisor.conf_word(p["confidence"])} {p["confidence"]}%</span>'
+                  f'<span class="why">{_e(p["short"]["why"])}</span></div>')
+    holds = [p for p in short if p["short"]["action"] == "hold"]
+    if not srows:
+        srows = '<p class="empty">אין היום הזדמנות ברורה. לא לגעת.</p>'
+    if holds:
+        srows += f'<p class="sub">להמתין (אין סיבה לזוז): {", ".join(_e(p["name"]) for p in holds)}</p>'
+    order = {"buy": 0, "wait": 1, "avoid": 2, "unknown": 3}
+    lrows = ""
+    for p in sorted(planned, key=lambda p: order[p["long"]["action"]]):
+        a = p["long"]["action"]
+        lrows += (f'<div class="row"><span class="act {a}">{advisor.ACT_HE[a]}</span>'
+                  f'<span class="what">{_e(p["name"])} <span class="nm">{_e(p["ticker"])}</span></span>'
+                  f'<span class="why">{_e(p["long"]["why"])}</span></div>')
+    return srows, lrows
+
+
 def build(results, macro, stats, run_time):
     il = dt.datetime.fromisoformat(run_time).astimezone(dt.timezone(dt.timedelta(hours=2)))
     alerts = [r for r in results if r["alert"]]
@@ -102,8 +152,8 @@ def build(results, macro, stats, run_time):
     m = macro.get("data", {})
     market = ""
     if m:
-        market = (f'<div class="chip">S&amp;P 500 <b>{m["spx"]:,.0f}</b> · שבוע {_pct(m["spx_5d"])}</div>'
-                  f'<div class="chip">מדד הפחד <b>{m["vix"]:.1f}</b></div>'
+        market = (f'<div class="chip">השוק האמריקאי (S&amp;P 500) השבוע {_pct(m["spx_5d"])}</div>'
+                  f'<div class="chip">מדד הפחד <b>{m["vix"]:.1f}</b> ({"רגוע" if m["vix"] < 15 else "רגיל" if m["vix"] < 20 else "לחוץ" if m["vix"] < 30 else "פאניקה"})</div>'
                   f'<div class="chip">ריבית 10 שנים <b>{m["t10"]:.2f}%</b></div>')
         market += "".join(f'<div class="chip">{_e(s["text"])}</div>' for s in macro["signals"][:2])
     else:
@@ -130,6 +180,10 @@ def build(results, macro, stats, run_time):
             st += f'<div class="stat"><div class="sub">{label}</div><div class="big">—</div><div class="sub">עוד אין מספיק תחזיות שעבר עליהן הזמן</div></div>'
 
     cards = "".join(_card(r) for r in alerts) or '<p class="empty">כרגע אין משהו חריג. זה גם מידע.</p>'
+    srows, lrows = _todo(results)
+    trial, n_checked = advisor.is_trial(stats)
+    trial_html = (f'<div class="trial">🧪 <b>תקופת ניסיון.</b> עד עכשיו נבדקו {n_checked} תחזיות. רק אחרי בערך 30 בדיקות (כחודש) נדע אם הבוט באמת צודק. עד אז, תתייחס להמלצות כ"שווה להציץ" ולא כ"לרוץ לקנות".</div>' if trial else "")
+    gl = "".join(f"<dt>{_e(a)}</dt><dd>{_e(b)}</dd>" for a, b in GLOSSARY)
     return f"""<title>לוח המניות של דין</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -138,14 +192,20 @@ def build(results, macro, stats, run_time):
 <div class="wrap" dir="rtl" lang="he">
  <header style="display:grid;gap:4px"><h1>לוח המניות</h1>
   <div class="sub">עודכן {il:%d/%m/%Y %H:%M} (שעון ישראל) · {len(results)} מניות במעקב · {len(alerts)} שווה לבדוק</div></header>
- <div class="note">⚠️ זה כלי עזר אישי, לא ייעוץ השקעות ולא המלצה לקנות או למכור. התחזיות אוטומטיות ויכולות לטעות. ההחלטה תמיד שלך.</div>
+ <div class="note">⚠️ המלצות אוטומטיות לשימוש אישי, לא ייעוץ השקעות. הבוט יכול לטעות, וההחלטה תמיד שלך.</div>
+ {trial_html}
+ <section style="display:grid;gap:10px"><h2>⚡ טווח קצר: מה לעשות היום</h2><div class="sub">לכמה ימים עד שבועות. בשביל החלק ה"משחקי" של הכסף.</div><div class="todo">{srows}</div></section>
+ <section style="display:grid;gap:10px"><h2>🏦 טווח ארוך: מה מתאים להחזקה</h2><div class="sub">לחודשים ושנים. בשביל החלק הבטוח של הכסף.</div><div class="todo">{lrows}</div></section>
+ <details class="more"><summary>לפרטים המלאים (מצב השוק, טבלאות, כותרות)</summary><div style="display:grid;gap:22px;padding-top:8px">
  <section style="display:grid;gap:10px"><h2>מצב השוק</h2><div class="market">{market}</div></section>
- <section style="display:grid;gap:10px"><h2>שווה לבדוק</h2><div class="cards">{cards}</div></section>
+ <section style="display:grid;gap:10px"><h2>מניות עם משהו חריג</h2><div class="cards">{cards}</div></section>
  <section style="display:grid;gap:10px"><h2>כל המניות</h2><div class="tbl"><table>
-  <thead><tr><th>מניה</th><th>תרחיש</th><th>ביטחון</th><th>מחיר</th><th>היום</th><th>מחזור מול רגיל</th><th>כתבות 24ש׳</th><th>התראה</th></tr></thead>
+  <thead><tr><th>מניה</th><th>תרחיש</th><th>ביטחון</th><th>מחיר</th><th>היום</th><th>מחזור (פי כמה מהרגיל)</th><th>כתבות 24ש׳</th><th>התראה</th></tr></thead>
   <tbody>{rows}</tbody></table></div></section>
+ </div></details>
  <section style="display:grid;gap:10px"><h2>כמה הבוט צודק?</h2><div class="stats">{st}</div>
   <div class="sub">"צדקה" = הכיוון שנחזה (עלייה / ירידה / ניטרלי) הוא מה שקרה. תזוזה קטנה מ-{config.NEUTRAL_BAND_PCT:g}% נחשבת ניטרלי. מטבע הוגן היה צודק בערך שליש מהפעמים.</div></section>
+ <details class="more"><summary>📖 מילון מושגים</summary><dl class="gl">{gl}</dl></details>
  <footer class="sub">מקורות: יאהו פיננס, גוגל חדשות, SEC EDGAR, FRED (הבנק הפדרלי של סנט לואיס). נתונים מתעדכנים בהשהיה.</footer>
 </div>"""
 

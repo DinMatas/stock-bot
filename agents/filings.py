@@ -7,14 +7,14 @@ import config
 
 # סעיפים בדיווח מיידי (8-K): מה זה אומר ומשקל משוער לכיוון
 ITEMS = {
-    "1.01": ("נחתם הסכם מהותי", 0.3, True),
-    "1.03": ("פשיטת רגל / כינוס", -3.0, True),
-    "2.02": ("פורסמו תוצאות כספיות (דוח רבעוני)", 0.0, True),
-    "2.05": ("תוכנית התייעלות / קיצוצים", -0.4, True),
-    "2.06": ("מחיקת נכסים", -0.8, True),
-    "3.01": ("אזהרת מחיקה מהמסחר", -2.0, True),
-    "4.02": ("הדוחות הקודמים לא אמינים (תיקון דוחות)", -2.0, True),
-    "5.02": ("שינוי בהנהלה הבכירה", -0.2, True),
+    "1.01": ("החברה חתמה על הסכם גדול", 0.3, True),
+    "1.03": ("החברה בפשיטת רגל", -3.0, True),
+    "2.02": ("החברה פרסמה את הרווחים של הרבעון", 0.0, True),
+    "2.05": ("החברה הודיעה על קיצוצים", -0.4, True),
+    "2.06": ("החברה רשמה הפסד על נכסים", -0.8, True),
+    "3.01": ("אזהרה שהמניה עלולה לצאת מהבורסה", -2.0, True),
+    "4.02": ("החברה הודתה שהדוחות הקודמים שלה היו שגויים", -2.0, True),
+    "5.02": ("התחלף מנהל בכיר", -0.2, True),
     "7.01": ("הודעה למשקיעים", 0.0, False),
     "8.01": ("אירוע אחר שהחברה דיווחה", 0.0, False),
 }
@@ -69,18 +69,18 @@ def analyze(ticker, days=3):
             for item in [x.strip() for x in (r.get("items", [""] * (i + 1))[i] or "").split(",") if x.strip()]:
                 if item in ITEMS:
                     text, w, alert = ITEMS[item]
-                    out["signals"].append({"text": f"דיווח מיידי ({fdate:%d/%m}): {text}", "weight": w, "source": link})
+                    out["signals"].append({"text": f"{text} ({fdate:%d/%m}, דיווח רשמי)", "weight": w, "source": link})
                     out["alert"] |= alert
         elif form in ("10-Q", "10-K", "20-F"):
             kind = "דוח שנתי" if form in ("10-K", "20-F") else "דוח רבעוני"
-            out["signals"].append({"text": f"הוגש {kind} מלא ({fdate:%d/%m})", "weight": 0.0, "source": link})
+            out["signals"].append({"text": f"החברה הגישה {kind} מלא ({fdate:%d/%m})", "weight": 0.0, "source": link})
         elif form.startswith("SC 13D"):
-            out["signals"].append({"text": f"משקיע גדול דיווח על החזקה של 5%+ עם כוונה להשפיע ({fdate:%d/%m})",
+            out["signals"].append({"text": f"משקיע גדול קנה יותר מ-5% מהחברה ורוצה להשפיע עליה ({fdate:%d/%m})",
                                    "weight": 0.5, "source": link})
             out["alert"] = True
         out["filings"].append({"form": form, "date": fdate.isoformat(), "link": link})
     if insider7 >= 5:
-        out["signals"].append({"text": f"{insider7} דיווחים של בעלי עניין (קניות/מכירות של מנהלים) בשבוע האחרון",
+        out["signals"].append({"text": f"{insider7} דיווחים השבוע על מנהלים שקנו או מכרו מניות של החברה",
                                "weight": 0.0,
                                "source": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}&type=4"})
     out["data"] = {"insider_7d": insider7}

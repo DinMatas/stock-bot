@@ -81,12 +81,12 @@ def analyze(ticker, name=""):
     top = out["headlines"][0]["link"] if out["headlines"] else ""
 
     if len(last24) >= 5 and len(last24) >= 2.5 * max(per_day, 1):
-        out["signals"].append({"text": f"גל חריג של כתבות: {len(last24)} ב-24 שעות (רגיל: כ-{per_day:.0f} ביום)",
+        out["signals"].append({"text": f"מדברים עליה בחדשות הרבה יותר מהרגיל ({len(last24)} כתבות ביממה, בדרך כלל כ-{per_day:.0f})",
                                "weight": 0.0, "source": top})
         out["alert"] = True
     if last24 and abs(avg_tone) >= 0.4:
         w = max(-1.5, min(1.5, avg_tone * 1.5))
-        txt = "חיובי" if avg_tone > 0 else "שלילי"
-        out["signals"].append({"text": f"הטון בכותרות של היממה האחרונה {txt}", "weight": round(w, 2), "source": top})
+        txt = "חיובי" if avg_tone > 0 else "שלילי"  # + "ות" בטקסט
+        out["signals"].append({"text": f"החדשות עליה ביממה האחרונה {txt}ות", "weight": round(w, 2), "source": top})
     out["score"] = sum(s["weight"] for s in out["signals"])
     return out

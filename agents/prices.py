@@ -75,7 +75,9 @@ def analyze(ticker):
     gap = (last["open"] / prev["close"] - 1) * 100
 
     out["data"] = {"price": round(last["close"], 2), "date": last["date"], "chg": round(chg, 2), "chg5": round(chg5, 2),
-                   "vol_ratio": round(vol_ratio, 2), "rsi": round(rsi, 1) if rsi else None}
+                   "vol_ratio": round(vol_ratio, 2), "rsi": round(rsi, 1) if rsi else None,
+                   "sma50": round(sma50, 2) if sma50 else None, "sma200": round(sma200, 2) if sma200 else None,
+                   "chg1y": round((closes[-1] / closes[-252] - 1) * 100, 1) if len(closes) >= 252 else None}
     out["ok"] = True
     out["rows"] = rows
     sig = out["signals"]
@@ -84,28 +86,28 @@ def analyze(ticker):
         sig.append({"text": text, "weight": w, "source": link})
 
     if abs(chg) >= config.BIG_MOVE_PCT:
-        add(f"זזה {chg:+.1f}% ביום המסחר האחרון, תזוזה חריגה", 0.5 if chg > 0 else -0.5)
+        add(f"זזה {chg:+.1f}% ביום אחד, תזוזה חריגה", 0.5 if chg > 0 else -0.5)
         out["alert"] = True
     if vol_ratio >= config.VOLUME_SPIKE:
         # מחזור חריג מחזק את כיוון התזוזה
         w = 1.0 if chg > 0 else -1.0 if chg < 0 else 0
-        add(f"מחזור מסחר פי {vol_ratio:.1f} מהרגיל, משהו קורה במניה", w)
+        add(f"קנו ומכרו אותה פי {vol_ratio:.1f} מהרגיל, משהו קורה", w)
         out["alert"] = True
     if abs(gap) >= 3:
-        add(f"נפתחה בקפיצה של {gap:+.1f}% לעומת הסגירה הקודמת", 0.5 if gap > 0 else -0.5)
+        add(f"נפתחה בקפיצה של {gap:+.1f}% לעומת היום הקודם", 0.5 if gap > 0 else -0.5)
     if sma50 and sma200:
         if closes[-1] > sma50 > sma200:
-            add("מגמה עולה: המחיר מעל הממוצע של 50 ו-200 יום", 1.0)
+            add("כבר כמה חודשים במגמת עלייה יציבה", 1.0)
         elif closes[-1] < sma50 < sma200:
-            add("מגמה יורדת: המחיר מתחת לממוצע של 50 ו-200 יום", -1.0)
+            add("כבר כמה חודשים במגמת ירידה", -1.0)
     if rsi is not None:
         if rsi >= 75:
-            add(f"קנויה מאוד (מדד RSI {rsi:.0f}), לפעמים מגיע תיקון למטה", -0.7)
+            add("עלתה מהר מדי לאחרונה, לפעמים אחרי זה מגיעה ירידה קטנה", -0.7)
         elif rsi <= 25:
-            add(f"מכורה מאוד (מדד RSI {rsi:.0f}), לפעמים מגיע ריבאונד למעלה", 0.7)
+            add("ירדה מהר מדי לאחרונה, לפעמים אחרי זה מגיעה קפיצה חזרה", 0.7)
     if closes[-1] >= hi52 * 0.99:
-        add("נוגעת בשיא של השנה האחרונה", 0.5)
+        add("במחיר הכי גבוה שלה בשנה האחרונה", 0.5)
     elif closes[-1] <= lo52 * 1.01:
-        add("נוגעת בשפל של השנה האחרונה", -0.5)
+        add("במחיר הכי נמוך שלה בשנה האחרונה", -0.5)
     out["score"] = sum(s["weight"] for s in sig)
     return out
