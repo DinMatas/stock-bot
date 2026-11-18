@@ -1,5 +1,5 @@
 {
- "run_time": "2026-11-18T18:14:10+00:00",
+ "run_time": "2026-11-18T18:22:32+00:00",
  "macro": {
   "ok": true,
   "score": -1.3,
@@ -161,7 +161,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "גל חריג של כתבות: 16 ב-24 שעות (רגיל: כ-5 ביום)",
+     "text": "גל חריג של כתבות: 15 ב-24 שעות (רגיל: כ-6 ביום)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYVdhOFhuckUwSm5CZHlQeEcyMFZyeUZnaEM5NnN1Y3k1VlRmUU1FVi1WUW5PTDFzZlNjTTVya0ZlYXFmdW1DeXNBR1FUVVZpTERaSXlJR0s5VGV5NE1JeVIwNWpEUk5lSVllWURfRjF3UzFaWXhxaUlzbzVzaHE3SWVqb1p6SEZhUnd3WjNlRVBZcWxNVGJzejJYWDNvakloQ0N3ZDJBU0tZa2o1X2hr?oc=5",
      "agent": "חדשות"
@@ -176,9 +176,9 @@
     "rsi": 42.1
    },
    "news": {
-    "news_24h": 16,
-    "news_per_day": 5.3,
-    "tone": 0.18
+    "news_24h": 15,
+    "news_per_day": 5.5,
+    "tone": 0.11
    },
    "headlines": [
     {
@@ -265,7 +265,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "גל חריג של כתבות: 53 ב-24 שעות (רגיל: כ-7 ביום)",
+     "text": "גל חריג של כתבות: 52 ב-24 שעות (רגיל: כ-7 ביום)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5UHBVNVQ0dFREUnNUaEVXMXNKZnA4ODd6eWtaWExjclEzeXV4R0s2alpVNFQxR2pCbU9tZlZpb2JEVkdOQWYyeGU2OHJaR3FUZ3RaM3lRS3A0WkFUaklla0lmM3ptdUpXWGU1N3JKdWc3Y3R4cmNOXzVLa1dpUQ?oc=5",
      "agent": "חדשות"
@@ -286,9 +286,9 @@
     "rsi": 16.3
    },
    "news": {
-    "news_24h": 53,
-    "news_per_day": 7.2,
-    "tone": 0.29
+    "news_24h": 52,
+    "news_per_day": 7.3,
+    "tone": 0.3
    },
    "headlines": [
     {
@@ -304,10 +304,10 @@
      "tone": 0
     },
     {
-     "title": "Nvidia (NVDA Stock) Posts Record $115.8 Billion Revenue as AI Boom Raises Emissions Concerns - CarbonCredits.com",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLTJWTW1wYmRzVzF4NzYyelVibTBqdERLdWRrdmI1UmNnY0pmQ1IzMEtQTnZESGZLUnZScThpTk5tT1MtV1ppejVLWXB3UEk3X2ZWWDJqelduRFFKSTkzSzItcUhTM193NmNtTkN0VklnSmgtTzZvNldfWDZIRWllcndqUXNEZEVNR2pRS09oTXo?oc=5",
-     "source": "CarbonCredits.com",
-     "tone": 1.2000000000000002
+     "title": "2 Reasons NVIDIA Is a Buy After Its Latest Earnings Report - Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd0hwSm1sWTNwdzBEZi1WWjdxMXBaX0pWdjctVHBTX0lHdFdlTVpPeGdVdjlvYWxWVEdzcE9lR3FBVXBUWnJsdy1adWl1UlVYeC1OTFQ0Q3VROVVmcHJjYU1MQlFkU0ZCRHdRSWtOQUZhQVZrbkZpOWFSOVFvUkRtcjFaOXh1OTBONDc2Y3dJT1VUQUotLVZv?oc=5",
+     "source": "Yahoo Finance",
+     "tone": 0.5
     },
     {
      "title": "NVDA Stock Set For Fifth Day Lower: House Committee Goes Steps Up Nvidia Investigation, Asks Kress To Testify - TradingView",
@@ -547,7 +547,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "גל חריג של כתבות: 35 ב-24 שעות (רגיל: כ-9 ביום)",
+     "text": "גל חריג של כתבות: 36 ב-24 שעות (רגיל: כ-9 ביום)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSE5XaWtSYmRNSnRjOWNnclNZRWJsSWI1WGFPSmJhODk3dExuaWhFckxnd3JMSnBoc2p5YzlWZ3Z5bklQRWdtdFprOXNQeXI4S0dRdE9Yalh2Mlo1WnJSVlkzSTJJdExYUldycXF4THh0TEVJMG5kbEYzSXpVSjMwX3J1MVBQbzZSRS1TS3VmbmZueWNKTm1xb3kzcVlMend4VFp3aFFMWXU2WGpsNzlrdXVxQQ?oc=5",
      "agent": "חדשות"
@@ -568,7 +568,7 @@
     "rsi": 51.8
    },
    "news": {
-    "news_24h": 35,
+    "news_24h": 36,
     "news_per_day": 9.2,
     "tone": 0.03
    },
@@ -1117,7 +1117,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "גל חריג של כתבות: 11 ב-24 שעות (רגיל: כ-3 ביום)",
+     "text": "גל חריג של כתבות: 12 ב-24 שעות (רגיל: כ-3 ביום)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSkMwVkp3WFNEaTlnUnpCRVRnY0xMcEQtVGRWMy1oVHlPQWVUV282SWxlVUYzVnE4ekM0ZnFiNkdzbEdxamVlOUdMdm9fbWZ6NlNveWpHSjVfZ0JORmU1VGxoMlE1UUc1YXNndUlXNjRuYTdJRGRCQnVkOWQxZGhwZFkzeFV0Q3oyMnpKUXUwUVMxSXlSM2x4bVpyYmMwRTY3QlR1VXo5TzNfVzV0eUowbExuRzNkTHc4a3hZSFFBVXo1T3FW?oc=5",
      "agent": "חדשות"
@@ -1132,9 +1132,9 @@
     "rsi": 82.0
    },
    "news": {
-    "news_24h": 11,
+    "news_24h": 12,
     "news_per_day": 3.0,
-    "tone": 0.15
+    "tone": 0.14
    },
    "headlines": [
     {
@@ -1260,9 +1260,9 @@
      "tone": 1.5
     },
     {
-     "title": "Palantir director Alexander Moore sells $2.69M in PLTR stock By Investing.com - Investing.com UK",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdFlsbnpJUi1GQW1LZFJlbnVzTkxOREVMSGhiajlUczU2SHhERjlhQjNTWkh0RkR2M3l2dHR0WDFKTkdhV3JESEFwTU1Pb0hheGlHcjNsSjBrSkhKSW1aODVzUC1ZNUJETW1VbmU0YThYbVVNSTVfQTJMYzBUVHhlX3hnQUxZWFdmOTkza2RNVzhLX0hlSlJSeW5SQVB3aVdYV2dCNlh1T1pTTTNKaXJYVUlDaFpVS2ZocTZr?oc=5",
-     "source": "Investing.com UK",
+     "title": "Palantir director Alexander Moore sells $2.69M in PLTR stock By Investing.com - Investing.com India",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUHhvUjZPUHZqUE1WSEtlLVhocTJndzFETTgzbzA4TFBwdzJ0THczc3pKLXZKcE5nZVZqaTZKZFlPekZraFRBQVFtSWsxUnBBcURwdmpqSXZoZFl2MGR5ay1uTlRBV1oyYVY5YUo1ZnlqNkI4Tk5HNllfTk5OZVNpcTNlcmJmVXZMY3QxV3pXSHpzdUFMUGJSZzc5dDcxeEhyZTJDTmVWMzdEbklyQklacmVyTGtPZ2E1bk9J?oc=5",
+     "source": "Investing.com India",
      "tone": 0
     },
     {
@@ -1280,7 +1280,7 @@
    "direction": "neutral",
    "confidence": 43,
    "score": 0.05,
-   "alert": true,
+   "alert": false,
    "signals": [
     {
      "text": "מכורה מאוד (מדד RSI 19), לפעמים מגיע ריבאונד למעלה",
@@ -1311,12 +1311,6 @@
      "weight": -0.1,
      "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
-    },
-    {
-     "text": "גל חריג של כתבות: 23 ב-24 שעות (רגיל: כ-9 ביום)",
-     "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVTAtbUV5N2RPUV96S0NqOTROdE5XbVBwbTc4UjhOY2htWlVJWmY1NFhXU1RvYk1KRmZfc2h6YWNldWFuWkpJazVsOXdpT0RWVmNlZW9vSmlGdV9oYzAxTEt5UnczclIwVGwtZVRaRl9FRkNEejJIZHF0VDdJMUdXOE1vQUNBdl9uSzV6WWo4WkxZYndhazM2aE8wMWt6RVU1Y01yaWo0SXltS2FVQ2xCbVp3Y2RrN1ZSbHJLUlFB?oc=5",
-     "agent": "חדשות"
     }
    ],
    "price": {
@@ -1328,7 +1322,7 @@
     "rsi": 18.7
    },
    "news": {
-    "news_24h": 23,
+    "news_24h": 22,
     "news_per_day": 9.2,
     "tone": -0.11
    },
