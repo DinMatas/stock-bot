@@ -4,7 +4,7 @@
 import datetime as dt, json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import config, central, tracker, dashboard, advisor, notify
-from agents import prices, news, filings, macro, social
+from agents import prices, news, filings, macro, social, xfeed
 
 
 def main():
@@ -20,7 +20,7 @@ def main():
         n = news.analyze(t, name)
         f = filings.analyze(t)
         s = social.analyze(t)
-        results.append(central.combine(t, name, p, n, f, mac, s))
+        results.append(central.combine(t, name, p, n, f, mac, s, xfeed.analyze(t)))
     preds = tracker.log(results, run_time)
     preds = tracker.score_all(preds, hist)
     stats = tracker.stats(preds)

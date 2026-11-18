@@ -7,10 +7,12 @@ import config
 MACRO_WEIGHT = 0.5  # השוק הכללי משפיע, אבל פחות מהמניה עצמה
 
 
-def combine(ticker, name, price, news, filings, macro, social=None):
+def combine(ticker, name, price, news, filings, macro, social=None, xfeed=None):
     parts = {"מסחר": price, "חדשות": news, "דוחות": filings}
     if social is not None:
         parts["רשתות"] = social
+    if xfeed is not None and xfeed.get("ok"):
+        parts["טוויטר"] = xfeed
     signals = []
     for agent, res in parts.items():
         for s in res.get("signals", []):
