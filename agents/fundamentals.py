@@ -93,7 +93,7 @@ def quality(f):
             s += 2; why.append(f"המכירות גדלו {g:.0f}% בשנה")
         elif g >= 5:
             s += 1; why.append(f"המכירות גדלו {g:.0f}% בשנה")
-        elif g < 0:
+        elif g <= -1:
             s -= 1; why.append(f"המכירות ירדו {abs(g):.0f}% בשנה")
     p = f.get("profit")
     if p is not None:

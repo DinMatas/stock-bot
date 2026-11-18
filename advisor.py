@@ -50,6 +50,9 @@ def long_term(r):
         if up and not (rsi and rsi >= 70):
             return {"action": "buy", "q": 1, "why": "במגמת עלייה יציבה כבר חודשים"}
         return {"action": "avoid" if down else "wait", "q": q, "why": "במגמת ירידה כבר חודשים" if down else "בלי כיוון ברור כרגע"}
+    pe = (r.get("fund") or {}).get("pe")
+    if q >= 3 and pe and pe >= 60:
+        return {"action": "wait", "q": q, "why": f"חברה שגדלה מהר ({qtxt}), אבל המניה יקרה מאוד. לחכות לירידה"}
     if q >= 3:
         if down:
             return {"action": "buy", "q": q, "why": f"חברה חזקה שהמחיר שלה ירד ({qtxt}). אפשר לקנות בהדרגה"}
