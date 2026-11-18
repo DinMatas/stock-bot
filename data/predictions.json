@@ -2,7 +2,7 @@
  {
   "ticker": "AAPL",
   "price_date": "2026-11-17",
-  "made_at": "2026-11-18T18:31:34+00:00",
+  "made_at": "2026-11-18T18:40:00+00:00",
   "direction": "neutral",
   "confidence": 45,
   "score": 0.35,
@@ -17,7 +17,7 @@
  {
   "ticker": "MSFT",
   "price_date": "2026-11-17",
-  "made_at": "2026-11-18T18:31:34+00:00",
+  "made_at": "2026-11-18T18:40:00+00:00",
   "direction": "neutral",
   "confidence": 52,
   "score": -0.65,
@@ -32,7 +32,7 @@
  {
   "ticker": "NVDA",
   "price_date": "2026-11-17",
-  "made_at": "2026-11-18T18:31:34+00:00",
+  "made_at": "2026-11-18T18:40:00+00:00",
   "direction": "neutral",
   "confidence": 50,
   "score": -0.45,
@@ -47,7 +47,7 @@
  {
   "ticker": "AMZN",
   "price_date": "2026-11-17",
-  "made_at": "2026-11-18T18:31:34+00:00",
+  "made_at": "2026-11-18T18:40:00+00:00",
   "direction": "neutral",
   "confidence": 45,
   "score": 0.35,
@@ -62,7 +62,7 @@
  {
   "ticker": "GOOGL",
   "price_date": "2026-11-17",
-  "made_at": "2026-11-18T18:31:34+00:00",
+  "made_at": "2026-11-18T18:40:00+00:00",
   "direction": "down",
   "confidence": 56,
   "score": -1.65,
