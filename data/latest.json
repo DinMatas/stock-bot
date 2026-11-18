@@ -1,5 +1,5 @@
 {
- "run_time": "2026-11-18T19:56:15+00:00",
+ "run_time": "2026-11-18T20:16:04+00:00",
  "macro": {
   "ok": true,
   "score": -1.3,
@@ -94,7 +94,7 @@
    },
    "news": {
     "news_24h": 7,
-    "news_per_day": 6.3,
+    "news_per_day": 6.5,
     "tone": 0.39
    },
    "headlines": [
@@ -135,7 +135,19 @@
      "tone": 0
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2026",
+    "rev_growth": 15.1,
+    "profit": 132175000000,
+    "margin": 27.6,
+    "profit_growth": 18.0,
+    "eps": 8.98,
+    "debt_to_equity": 0.61,
+    "pe": 39.2,
+    "ok": true
+   }
   },
   {
    "ticker": "MSFT",
@@ -146,7 +158,7 @@
    "alert": true,
    "signals": [
     {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (11 מול 2)",
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (11 מול 1)",
      "weight": 0.6,
      "source": "https://stocktwits.com/symbol/MSFT",
      "agent": "רשתות"
@@ -236,7 +248,19 @@
      "tone": 0
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2026",
+    "rev_growth": 17.8,
+    "profit": 133749000000,
+    "margin": 40.3,
+    "profit_growth": 31.3,
+    "eps": 17.95,
+    "debt_to_equity": 0.07,
+    "pe": 28.2,
+    "ok": true
+   }
   },
   {
    "ticker": "NVDA",
@@ -283,9 +307,9 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (51 כתבות ביממה, בדרך כלל כ-7)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (52 כתבות ביממה, בדרך כלל כ-7)",
      "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLU5JTklISkY4VFJ3NjdFb0NDdDlyZzY4Z2UtT1Q1OGdRMk95dWNXQ2FwRi13cVJvSTBwNXdwbjc3cDdlN0p6RC15V1BDNDVRMlA1dUFKUnRGSlZ0N3k1MjRXaDBmSUk4dW1HeUtmRTNnVGc1eHB4UU1kemM4eGRxZ0ViTXI4OENfdmo3Z1pUbXBwbE1paWI1OTA5YW8zRTcwQWc2Mzd5N09RdGd0SDVFWk9BRV81N0JzelRwQ0t0Mk94MS02c2FoTWwzYW1iZzA?oc=5",
+     "source": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeGZ2Rks3ZVhmaFBDODNaaG1vb05VRE15X3hUZldoMW5MT1VsWXU4bmlvekxSc3JES29aaExEVVRieTU0ZThrUndXaXBzRFBtQmY5NFB2bUxlLXlFN2NCeU9qVXVoNlh2UWpBU3FWaDdzSmZLWG5TZzJnVmpYaEFUS2lUODVTOGF6dUxqUEt3bjBuQQ?oc=5",
      "agent": "חדשות"
     },
     {
@@ -313,11 +337,29 @@
     "chg1y": -16.5
    },
    "news": {
-    "news_24h": 51,
+    "news_24h": 52,
     "news_per_day": 7.3,
-    "tone": 0.25
+    "tone": 0.22
    },
    "headlines": [
+    {
+     "title": "NVIDIA Is Near Its 52-Week Low. Will NVDA Stock Hit $100 or $200 First? - Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeGZ2Rks3ZVhmaFBDODNaaG1vb05VRE15X3hUZldoMW5MT1VsWXU4bmlvekxSc3JES29aaExEVVRieTU0ZThrUndXaXBzRFBtQmY5NFB2bUxlLXlFN2NCeU9qVXVoNlh2UWpBU3FWaDdzSmZLWG5TZzJnVmpYaEFUS2lUODVTOGF6dUxqUEt3bjBuQQ?oc=5",
+     "source": "Yahoo Finance",
+     "tone": 0
+    },
+    {
+     "title": "SpaceX Is Now Nvidia's Biggest Stock Holding, Ahead of Intel. Here's What That Says About SpaceX. - The Motley Fool",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcG5ZNTBWOTlvdkdPc3VPdVNTZ1hiT2NiZEw4aU1OWVhWUklwOG5zRUpvTnNsY2VsZW5UaDFZM0tNbzJMV2dISXd1YTZrcGpfbVlIWXVPZ296VW9mNWU3eFpCT2dKc2Vnbm45dTdPTXBlSjgzMzNJV2x5Rkt2TWxnUzFmRk1NSVpHN1RoOG1xRUtoS3RKQ3hVVF96dVVRcFRwSmZpX1g3OGZaU3pzdVRkOEZ4NEZNWE94ekJ6TWx0eEJyaWFwZ1FTMVFSd2NRUHFPRHU4?oc=5",
+     "source": "The Motley Fool",
+     "tone": 0
+    },
+    {
+     "title": "Jensen Huang and Howard Lutnick will appear publicly before a powerful Senate panel - Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeDN5WjlMNEk2bndfVWFuek5uRm1pdDlYNi1nbVM2cjk0VXpTU245S3N2aWxkVGh5elZsTzV6WU5rZS1ZWXNTbWxXNXRhNFZWT181N3hYZUdHb3RsSDBwMmpwVEdYaHZXNl94Qmh2eENEN1QzenFadlpYMXdXOU5USWNneUJPQWNCVFZBbS05ZFVYZGxhX3NTd3hVeTN3X05YQnd0VzNRYzNDLUNIWm80cFVXUkp6TkpZckFQbFNGdEFta3RHdHNxMm1QVVRDV0ZBOGJkS05BOA?oc=5",
+     "source": "Yahoo Finance",
+     "tone": 0
+    },
     {
      "title": "Dow Drops as Nvidia Slips After Earnings, Dollar Hits 19-Month High: Stock Market Today - Benzinga",
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLU5JTklISkY4VFJ3NjdFb0NDdDlyZzY4Z2UtT1Q1OGdRMk95dWNXQ2FwRi13cVJvSTBwNXdwbjc3cDdlN0p6RC15V1BDNDVRMlA1dUFKUnRGSlZ0N3k1MjRXaDBmSUk4dW1HeUtmRTNnVGc1eHB4UU1kemM4eGRxZ0ViTXI4OENfdmo3Z1pUbXBwbE1paWI1OTA5YW8zRTcwQWc2Mzd5N09RdGd0SDVFWk9BRV81N0JzelRwQ0t0Mk94MS02c2FoTWwzYW1iZzA?oc=5",
@@ -335,27 +377,21 @@
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUzhvYkxzRld1VG11TlpOSE5wWjE5WE94RkMwVkJJWnRReDFRTUZ1X1FQWU55Rnh5b1hqU0VvTzBCay10WE5iVzJYWHdtVWJ0dlU5aFhhX2Yxa09Ub0otUkVUQ0hCTC1OUHBhRTU5UDBlRVZfNEx4cUtoVXRRanEwazFaQTBwYmpBREc2MVlsaVlDNWptenNNZkpDNzd2blFtS3pJX0oxWDl2RlcyMFNucDRILTRlRF9iUWFPRTA3VFo5NGRVZUJTaDkyTmpYcF9xcGJtMw?oc=5",
      "source": "Yahoo Finance",
      "tone": 0
-    },
-    {
-     "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance Australia",
-     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Nb3Qya2dEajFPaUk5dEVveFlBb0lMSjVhTXBHYldhYUI1TlAwUXYxZjFoZHhmRURWd3BRTjRZVDk1REF1NXNOUzRXWFhkT2d4b1E?oc=5",
-     "source": "Yahoo Finance Australia",
-     "tone": 0
-    },
-    {
-     "title": "Nvidia: The Real Risk Goes Beyond Jensen Huang (NASDAQ:NVDA) - Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZXZKaG9LcldhTmpzam1FeHlobUJmRXpKUVdId1Jsb1FMdU55ekdQUG55YUdBV25UcjdMYmpjX0pNa2RCZGt4ZXNPOFk5YmIyMmVPU2Z1UlZjUVZybTMxYkZ0el9qREFHY3l5WDJBMlJKeHlKdU9EODVvQUNoREVtZlhPZU5IZGtWSFV0WENoYw?oc=5",
-     "source": "Seeking Alpha",
-     "tone": 0
-    },
-    {
-     "title": "Nvidia (NVDA Stock) Posts Record $115.8 Billion Revenue as AI Boom Raises Emissions Concerns - CarbonCredits.com",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLTJWTW1wYmRzVzF4NzYyelVibTBqdERLdWRrdmI1UmNnY0pmQ1IzMEtQTnZESGZLUnZScThpTk5tT1MtV1ppejVLWXB3UEk3X2ZWWDJqelduRFFKSTkzSzItcUhTM193NmNtTkN0VklnSmgtTzZvNldfWDZIRWllcndqUXNEZEVNR2pRS09oTXo?oc=5",
-     "source": "CarbonCredits.com",
-     "tone": 1.2000000000000002
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2026",
+    "rev_growth": 65.5,
+    "profit": 120067000000,
+    "margin": 55.6,
+    "profit_growth": 64.7,
+    "eps": 4.9,
+    "debt_to_equity": 0.05,
+    "pe": 31.7,
+    "ok": true
+   }
   },
   {
    "ticker": "AMZN",
@@ -421,7 +457,7 @@
    },
    "news": {
     "news_24h": 16,
-    "news_per_day": 10.7,
+    "news_per_day": 10.5,
     "tone": 0.11
    },
    "headlines": [
@@ -462,7 +498,19 @@
      "tone": 0
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2025",
+    "rev_growth": 12.4,
+    "profit": 77670000000,
+    "margin": 10.8,
+    "profit_growth": 31.1,
+    "eps": 7.17,
+    "debt_to_equity": 0.16,
+    "pe": 36.0,
+    "ok": true
+   }
   },
   {
    "ticker": "GOOGL",
@@ -557,7 +605,19 @@
      "tone": 0
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2025",
+    "rev_growth": 15.1,
+    "profit": 132170000000,
+    "margin": 32.8,
+    "profit_growth": 32.0,
+    "eps": 10.81,
+    "debt_to_equity": 0.11,
+    "pe": 25.9,
+    "ok": true
+   }
   },
   {
    "ticker": "META",
@@ -592,7 +652,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (36 כתבות ביממה, בדרך כלל כ-9)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (35 כתבות ביממה, בדרך כלל כ-10)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSVBRTS1vR1hXQ3IzckR3enR2WFJQRGQtTDhhdjFCR1VPYU1sN2lkaDN1S29ER0U0WWxQTnJLMGxPd1Zhbmk1MkVfNnd5dmhFN0d1cFpNUGg4YkpOTll4VEd6RWhub3FERk5QVXNyRFVtQnhhYVFwRTl1dlZudzdFdkl2V3BhOFF2c1pDRE5iQnFOaGVmaFcyam1jb2FxcDlOR2lNTGdiSFVRY3QwUUtLRjNySFJnVWxEVlBxcg?oc=5",
      "agent": "חדשות"
@@ -602,12 +662,6 @@
      "weight": 0.0,
      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1326801&type=4",
      "agent": "דוחות"
-    },
-    {
-     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
-     "weight": 0.0,
-     "source": "https://stocktwits.com/symbol/META",
-     "agent": "רשתות"
     }
    ],
    "price": {
@@ -622,8 +676,8 @@
     "chg1y": 3.1
    },
    "news": {
-    "news_24h": 36,
-    "news_per_day": 9.3,
+    "news_24h": 35,
+    "news_per_day": 9.5,
     "tone": 0.01
    },
    "headlines": [
@@ -664,16 +718,34 @@
      "tone": 0
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2025",
+    "rev_growth": 22.2,
+    "profit": 60458000000,
+    "margin": 30.1,
+    "profit_growth": -3.1,
+    "eps": 23.49,
+    "debt_to_equity": 0.27,
+    "pe": 26.3,
+    "ok": true
+   }
   },
   {
    "ticker": "TSLA",
    "name": "טסלה",
    "direction": "neutral",
-   "confidence": 56,
-   "score": -0.65,
+   "confidence": 47,
+   "score": -0.05,
    "alert": true,
    "signals": [
+    {
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (15 מול 5)",
+     "weight": 0.6,
+     "source": "https://stocktwits.com/symbol/TSLA",
+     "agent": "רשתות"
+    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -759,22 +831,28 @@
      "tone": 0
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2025",
+    "rev_growth": -2.9,
+    "profit": 3794000000,
+    "margin": 4.0,
+    "profit_growth": -46.5,
+    "eps": 1.08,
+    "debt_to_equity": 0.08,
+    "pe": 352.0,
+    "ok": true
+   }
   },
   {
    "ticker": "AMD",
    "name": "AMD",
    "direction": "neutral",
-   "confidence": 47,
-   "score": -0.05,
+   "confidence": 56,
+   "score": -0.65,
    "alert": true,
    "signals": [
-    {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (13 מול 1)",
-     "weight": 0.6,
-     "source": "https://stocktwits.com/symbol/AMD",
-     "agent": "רשתות"
-    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -826,9 +904,15 @@
    "news": {
     "news_24h": 18,
     "news_per_day": 13.3,
-    "tone": 0.25
+    "tone": 0.12
    },
    "headlines": [
+    {
+     "title": "Broadcom Already Eclipsed AMD as The 2nd Biggest Chip Maker, But The Market Won't Recognize That Truth Until 2027 - 24/7 Wall St.",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcTNvNTdNM3p4UnFJLVk3OF9FZlhfWHoyNTVxclZldmtyRHhsV05iUkQxaVA1dzIzSWFUZXlxeWtuZDNBVjZoaFFtQ3gzR2hxNmxwZGMwaUQ1eE1FbkJIUXYxSVVpWEsxZ0psSjB2WFN4SHRYTS0zTzFhVl9nZm9FNENTQkhzVTZDNms1YU9GRmtIQURQV1ZDT1dUNWdrUWNCZ3VVWjltQkdmZ3JkanpYZ1d0UXhfaE15NmFfTTVxTEtVRDk0WmVNNmZTdXZDYU12bEZCSUhGV3FqbnZGOEhDd2FBNkhXQmxWY0RV?oc=5",
+     "source": "24/7 Wall St.",
+     "tone": 0
+    },
     {
      "title": "Nvidia’s CEO Calls Customer Shifts “Just Not True.” Broadcom and AMD’s Frontier Deal Share Says Otherwise - Yahoo Finance",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOXJHdUN3ZEtKOUxsZXdLT2lkc054UzFfNHlwb1g0T1RRZUJ1MGp1am50TjcxSWJUMzJKaGlWNVliaGM5dVF1Mm4wdXNyX0hWcEFoVE5KQlk0MDRCbUNjbUZYNy1FU0xSZEJqVXN1bDJ4SXAybUx2LTdBMW9uZVVEMEhoNTYtRUNkb0tON2hRaDU3ZWRSMDZXdTc2cFJ6dw?oc=5",
@@ -854,19 +938,25 @@
      "tone": 1.5
     },
     {
-     "title": "AMD stock: Blue box trading setup delivers a rally - FXStreet",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZENGYXBiN2l2TFc5Z2VNUXduSndBaUpQbC1jTEFRXzhMOTMyVm1aSUk4YThyR2J5cnBkYk1SZXdYbURrYlUyaWR2bER1a1dHcXgyQ0hZTkJ1T084OV9mdGNtQ1lzaG5TMjJFYTQ2eE13Y052TExyVUNObHhYOUtFU0I1ejIxcXRURkFmTnlXX3pzVnVYSm1V?oc=5",
-     "source": "FXStreet",
-     "tone": 1
-    },
-    {
-     "title": "Why AMD stock is rallying in premarket trading on Wednesday? - TradingView",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTHZ3WWNDZmVRd0RGaG9jbnNvNXo5dnVab0xLN2ZzV1lQRFhxVFl5REVJbHY5MEtyZTB2ZG5oTDkySzVoOVNuQkJvWFVZMzFnX2RSMzdIVmV3X01hLURBMm5TMWlMRkx3bkpJb0JIT3VTUGRqTTQ2ZzlDV21NRDNQdkI2WS1HMy1JMTRsNVpnbG1KcHhBSWtqQnMxT2FrOUlUclRIMjQwWGtYRFZnaWJLMVZ4Y20zM2M?oc=5",
-     "source": "TradingView",
+     "title": "Advanced Micro Devices finalizes Taalas buyout: Can AMD stock build sustained upside? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMl9fYU5XYWFkbzZTbDk5Ti1lSUNfRTBfaHlOM0ZLTHpidkxfNDNETVRENGpDRmg1TFZ6d1JtRmd2RnJfR2N1RURVeWVSS194ZEVwYzB2ZW5BaDhtWjEyZC1nOE80WHhObDVMM3psR1BSWk5aM3JBTkdUODhvazFIdktYaVg?oc=5",
+     "source": "Traders Union",
      "tone": 0
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2025",
+    "rev_growth": 34.3,
+    "profit": 4335000000,
+    "margin": 12.5,
+    "profit_growth": 164.2,
+    "eps": 2.65,
+    "debt_to_equity": 0.04,
+    "pe": 190.0,
+    "ok": true
+   }
   },
   {
    "ticker": "NFLX",
@@ -967,7 +1057,19 @@
      "tone": -1.3
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2025",
+    "rev_growth": 15.9,
+    "profit": 10981201000,
+    "margin": 24.3,
+    "profit_growth": 26.1,
+    "eps": 2.53,
+    "debt_to_equity": 0.51,
+    "pe": 23.6,
+    "ok": true
+   }
   },
   {
    "ticker": "JPM",
@@ -1020,9 +1122,9 @@
     "chg1y": 12.0
    },
    "news": {
-    "news_24h": 10,
-    "news_per_day": 5.7,
-    "tone": -0.37
+    "news_24h": 9,
+    "news_per_day": 5.8,
+    "tone": -0.3
    },
    "headlines": [
     {
@@ -1062,7 +1164,18 @@
      "tone": 0
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2025",
+    "rev_growth": 2.8,
+    "profit": 57048000000,
+    "margin": 31.3,
+    "profit_growth": -2.4,
+    "eps": 20.02,
+    "pe": 16.5,
+    "ok": true
+   }
   },
   {
    "ticker": "XOM",
@@ -1151,7 +1264,11 @@
      "tone": 0
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "ok": false,
+    "error": "אין מספיק נתונים שנתיים"
+   }
   },
   {
    "ticker": "KO",
@@ -1210,7 +1327,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (14 כתבות ביממה, בדרך כלל כ-3)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (15 כתבות ביממה, בדרך כלל כ-3)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSkMwVkp3WFNEaTlnUnpCRVRnY0xMcEQtVGRWMy1oVHlPQWVUV282SWxlVUYzVnE4ekM0ZnFiNkdzbEdxamVlOUdMdm9fbWZ6NlNveWpHSjVfZ0JORmU1VGxoMlE1UUc1YXNndUlXNjRuYTdJRGRCQnVkOWQxZGhwZFkzeFV0Q3oyMnpKUXUwUVMxSXlSM2x4bVpyYmMwRTY3QlR1VXo5TzNfVzV0eUowbExuRzNkTHc4a3hZSFFBVXo1T3FW?oc=5",
      "agent": "חדשות"
@@ -1228,9 +1345,9 @@
     "chg1y": 43.5
    },
    "news": {
-    "news_24h": 14,
+    "news_24h": 15,
     "news_per_day": 3.2,
-    "tone": 0.12
+    "tone": 0.11
    },
    "headlines": [
     {
@@ -1264,13 +1381,24 @@
      "tone": 0
     },
     {
-     "title": "Beverage breakdown: Coca-Cola, Keurig Dr Pepper, and Celsius are top picks at Wolfe Research - Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQWZCZS1YVno0clZCMWZwX0hISG9tdXRKUW8xT0pMejZ5aGIycURFY0NMUUJRRUJpLVZ2cTkyNG5JbDBYODlmVzJ4VDZMblE2RWFmanRyajBHOFNfWmdsUTk1VmtPZjhUaGttNGNFendiSFJlbEJmMGczQWJ1b2NMNVRIWng5cWZwN3FtRjZzdjQ3dDdwa1N4dUVtQWhfTDBlVktDM2c2T2VLRkZxU3VxalBXZkpNN085Qy1sVW5IZFVHODlEOHc?oc=5",
-     "source": "Seeking Alpha",
+     "title": "How Analyst Backing Will Impact Coca Cola (KO) Stock - Yahoo Finance UK",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWC13NWlIV3hGVTQ3UkFaUF91bG5tNHJKN1lqNTMwT0t6RkJEaXM0TDdvWXhOVm03T2dzbjQ1WFY0ZXBzd29qMjRJM0RndVNXcnRsSkh3R1VsOVIzLXFva05RUTByY01mb0lKcDdvNlVZUF8zYmU0TWV0SFpMd2NzQVI5aG9nc3dh?oc=5",
+     "source": "Yahoo Finance UK",
      "tone": 0
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2025",
+    "rev_growth": 1.9,
+    "profit": 13107000000,
+    "margin": 27.3,
+    "profit_growth": 23.3,
+    "eps": 3.04,
+    "pe": 32.5,
+    "ok": true
+   }
   },
   {
    "ticker": "PLTR",
@@ -1371,7 +1499,18 @@
      "tone": 0
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2025",
+    "rev_growth": 56.2,
+    "profit": 1625033000,
+    "margin": 36.3,
+    "profit_growth": 251.6,
+    "eps": 0.63,
+    "pe": 248.5,
+    "ok": true
+   }
   },
   {
    "ticker": "INTC",
@@ -1472,27 +1611,37 @@
      "tone": -0.8
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2025",
+    "rev_growth": -0.5,
+    "profit": -267000000,
+    "margin": -0.5,
+    "eps": -0.06,
+    "debt_to_equity": 0.39,
+    "ok": true
+   }
   },
   {
    "ticker": "TEVA",
    "name": "טבע",
    "direction": "up",
-   "confidence": 51,
-   "score": 1.1,
+   "confidence": 57,
+   "score": 1.85,
    "alert": false,
    "signals": [
+    {
+     "text": "החדשות עליה ביממה האחרונה חיוביות",
+     "weight": 1.5,
+     "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
+     "agent": "חדשות"
+    },
     {
      "text": "כבר כמה חודשים במגמת עלייה יציבה",
      "weight": 1.0,
      "source": "https://www.tiingo.com/TEVA/overview",
      "agent": "מסחר"
-    },
-    {
-     "text": "החדשות עליה ביממה האחרונה חיוביות",
-     "weight": 0.75,
-     "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
-     "agent": "חדשות"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -1537,9 +1686,9 @@
     "chg1y": 73.3
    },
    "news": {
-    "news_24h": 2,
-    "news_per_day": 4.5,
-    "tone": 0.5
+    "news_24h": 1,
+    "news_per_day": 4.7,
+    "tone": 1.0
    },
    "headlines": [
     {
@@ -1547,15 +1696,19 @@
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
      "source": "ad-hoc-news.de",
      "tone": 1
-    },
-    {
-     "title": "Teva Pharmaceutical Industries (TEVA) Stock Forecasts - Yahoo! Finance Canada",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeFRIclRSRFF6UTloMW1FbHpFenJuWnNMa0c3SzJqT25rUDI0S0NRV1lENHNiWXlVeEtJeGpubC1vNEtXSzdnS2JwdzlPbHJNQjlWRUR5WFozSENiTXI1LWdibGtxS3dobDhITjV5TUU1eEFyQ1pScFAyZGdxdE84NTdMemlmZFhVcGFadg?oc=5",
-     "source": "Yahoo! Finance Canada",
-     "tone": 0
     }
    ],
-   "errors": {}
+   "errors": {},
+   "fund": {
+    "fetched": "2026-11-18",
+    "year": "2025",
+    "rev_growth": 4.3,
+    "profit": 1410000000,
+    "margin": 8.2,
+    "eps": 1.21,
+    "pe": 35.2,
+    "ok": true
+   }
   }
  ]
 }

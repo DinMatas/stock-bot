@@ -1,0 +1,136 @@
+{
+ "AAPL": {
+  "fetched": "2026-11-18",
+  "year": "2026",
+  "rev_growth": 15.1,
+  "profit": 132175000000,
+  "margin": 27.6,
+  "profit_growth": 18.0,
+  "eps": 8.98,
+  "debt_to_equity": 0.61
+ },
+ "MSFT": {
+  "fetched": "2026-11-18",
+  "year": "2026",
+  "rev_growth": 17.8,
+  "profit": 133749000000,
+  "margin": 40.3,
+  "profit_growth": 31.3,
+  "eps": 17.95,
+  "debt_to_equity": 0.07
+ },
+ "NVDA": {
+  "fetched": "2026-11-18",
+  "year": "2026",
+  "rev_growth": 65.5,
+  "profit": 120067000000,
+  "margin": 55.6,
+  "profit_growth": 64.7,
+  "eps": 4.9,
+  "debt_to_equity": 0.05
+ },
+ "AMZN": {
+  "fetched": "2026-11-18",
+  "year": "2025",
+  "rev_growth": 12.4,
+  "profit": 77670000000,
+  "margin": 10.8,
+  "profit_growth": 31.1,
+  "eps": 7.17,
+  "debt_to_equity": 0.16
+ },
+ "GOOGL": {
+  "fetched": "2026-11-18",
+  "year": "2025",
+  "rev_growth": 15.1,
+  "profit": 132170000000,
+  "margin": 32.8,
+  "profit_growth": 32.0,
+  "eps": 10.81,
+  "debt_to_equity": 0.11
+ },
+ "META": {
+  "fetched": "2026-11-18",
+  "year": "2025",
+  "rev_growth": 22.2,
+  "profit": 60458000000,
+  "margin": 30.1,
+  "profit_growth": -3.1,
+  "eps": 23.49,
+  "debt_to_equity": 0.27
+ },
+ "TSLA": {
+  "fetched": "2026-11-18",
+  "year": "2025",
+  "rev_growth": -2.9,
+  "profit": 3794000000,
+  "margin": 4.0,
+  "profit_growth": -46.5,
+  "eps": 1.08,
+  "debt_to_equity": 0.08
+ },
+ "AMD": {
+  "fetched": "2026-11-18",
+  "year": "2025",
+  "rev_growth": 34.3,
+  "profit": 4335000000,
+  "margin": 12.5,
+  "profit_growth": 164.2,
+  "eps": 2.65,
+  "debt_to_equity": 0.04
+ },
+ "NFLX": {
+  "fetched": "2026-11-18",
+  "year": "2025",
+  "rev_growth": 15.9,
+  "profit": 10981201000,
+  "margin": 24.3,
+  "profit_growth": 26.1,
+  "eps": 2.53,
+  "debt_to_equity": 0.51
+ },
+ "JPM": {
+  "fetched": "2026-11-18",
+  "year": "2025",
+  "rev_growth": 2.8,
+  "profit": 57048000000,
+  "margin": 31.3,
+  "profit_growth": -2.4,
+  "eps": 20.02
+ },
+ "KO": {
+  "fetched": "2026-11-18",
+  "year": "2025",
+  "rev_growth": 1.9,
+  "profit": 13107000000,
+  "margin": 27.3,
+  "profit_growth": 23.3,
+  "eps": 3.04
+ },
+ "PLTR": {
+  "fetched": "2026-11-18",
+  "year": "2025",
+  "rev_growth": 56.2,
+  "profit": 1625033000,
+  "margin": 36.3,
+  "profit_growth": 251.6,
+  "eps": 0.63
+ },
+ "INTC": {
+  "fetched": "2026-11-18",
+  "year": "2025",
+  "rev_growth": -0.5,
+  "profit": -267000000,
+  "margin": -0.5,
+  "eps": -0.06,
+  "debt_to_equity": 0.39
+ },
+ "TEVA": {
+  "fetched": "2026-11-18",
+  "year": "2025",
+  "rev_growth": 4.3,
+  "profit": 1410000000,
+  "margin": 8.2,
+  "eps": 1.21
+ }
+}
