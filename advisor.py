@@ -33,23 +33,32 @@ def short_term(r):
 
 
 def long_term(r):
-    """האם המניה מתאימה עכשיו להחזקה ארוכה."""
+    """האם כדאי להחזיק את המניה חודשים-שנים: איכות החברה (דוחות) + המגמה."""
+    from agents.fundamentals import quality
     p = r["price"]
     s50, s200, price, rsi = p.get("sma50"), p.get("sma200"), p.get("price"), p.get("rsi")
     red_flag = any(s["agent"] == "דוחות" and s["weight"] <= -1 for s in r["signals"])
-    if not (s50 and s200 and price):
-        return {"action": "unknown", "why": "אין מספיק היסטוריית מחירים"}
-    y = p.get("chg1y")
-    ytxt = f" (בשנה האחרונה {y:+.0f}%)" if y is not None else ""
+    q, qwhy = quality(r.get("fund"))
+    qtxt = ", ".join(qwhy[:3])
     if red_flag:
-        return {"action": "avoid", "why": "יש דיווח רשמי מדאיג של החברה, עדיף להתרחק עד שיתברר"}
-    if price > s200 and s50 > s200:
+        return {"action": "avoid", "q": q, "why": "יש דיווח רשמי מדאיג של החברה, עדיף להתרחק עד שיתברר"}
+    if not (s50 and s200 and price):
+        return {"action": "unknown", "q": q, "why": "אין מספיק היסטוריית מחירים"}
+    up = price > s200 and s50 > s200
+    down = price < s200 and s50 < s200
+    if q is None:  # אין דוחות: רק לפי המגמה
+        if up and not (rsi and rsi >= 70):
+            return {"action": "buy", "q": 1, "why": "במגמת עלייה יציבה כבר חודשים"}
+        return {"action": "avoid" if down else "wait", "q": q, "why": "במגמת ירידה כבר חודשים" if down else "בלי כיוון ברור כרגע"}
+    if q >= 3:
+        if down:
+            return {"action": "buy", "q": q, "why": f"חברה חזקה שהמחיר שלה ירד ({qtxt}). אפשר לקנות בהדרגה"}
         if rsi and rsi >= 70:
-            return {"action": "wait", "why": f"חברה במגמת עלייה ארוכה{ytxt}, אבל עלתה מהר לאחרונה. עדיף לחכות לירידה קטנה ואז לקנות"}
-        return {"action": "buy", "why": f"במגמת עלייה יציבה כבר חודשים{ytxt}"}
-    if price < s200 and s50 < s200:
-        return {"action": "avoid", "why": f"במגמת ירידה כבר חודשים{ytxt}. לא עכשיו"}
-    return {"action": "wait", "why": f"בלי כיוון ברור כרגע{ytxt}"}
+            return {"action": "wait", "q": q, "why": f"חברה חזקה ({qtxt}), אבל עלתה מהר לאחרונה. לחכות לירידה קטנה"}
+        return {"action": "buy", "q": q, "why": f"חברה חזקה: {qtxt}"}
+    if q <= 0:
+        return {"action": "avoid", "q": q, "why": f"החברה חלשה כרגע: {qtxt}" if qtxt else "החברה חלשה כרגע"}
+    return {"action": "wait", "q": q, "why": f"חברה בינונית: {qtxt}" if qtxt else "חברה בינונית"}
 
 
 ACT_HE = {
@@ -76,13 +85,13 @@ def message(planned, macro, stats, title="מה עושים היום"):
     L = [f"☀️ {title}", ""]
     buys = sorted([p for p in planned if p["short"]["action"] == "buy"], key=lambda p: -p["confidence"])
     sells = sorted([p for p in planned if p["short"]["action"] == "sell"], key=lambda p: -p["confidence"])
-    longs = [p for p in planned if p["long"]["action"] == "buy" and p not in buys]
+    longs = sorted([p for p in planned if p["long"]["action"] == "buy" and p not in buys], key=lambda p: -(p["long"].get("q") or 0))
     for p in buys:
         L.append(f"🟢 קנה {p['name']} · ביטחון {p['confidence']}%\nמתי: היום בפתיחת המסחר (16:30) · להחזיק: כמה ימים עד שבועיים\nלמה: {p['short']['why']}\n")
     for p in sells:
         L.append(f"🔴 מכור {p['name']} (אם יש לך) · ביטחון {p['confidence']}%\nמתי: היום בפתיחת המסחר\nלמה: {p['short']['why']}\n")
     if longs:
-        L.append("🏦 לטווח ארוך (לקנות ולשכוח לחודשים):")
+        L.append("🏦 לטווח ארוך (לקנות ולהחזיק חודשים-שנים):")
         for p in longs[:3]:
             L.append(f"• {p['name']}: {p['long']['why']}")
         L.append("")
