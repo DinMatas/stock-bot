@@ -70,31 +70,25 @@ def is_trial(stats):
     return n < TRIAL_MIN, n
 
 
-def message(planned, macro, stats, title="מה לעשות היום"):
-    """הודעת טקסט קצרה לטלגרם/מייל."""
+def message(planned, macro, stats, title="מה עושים היום"):
+    """הודעה קצרה לטלגרם: רק מה לקנות ומה למכור, ומתי. בלי סיכומים."""
     trial, n = is_trial(stats)
-    L = [f"📊 {title}", ""]
-    m = [s["text"] for s in macro.get("signals", [])[:2]]
-    if m:
-        L += ["🌡 השוק: " + ". ".join(m), ""]
+    L = [f"☀️ {title}", ""]
     buys = sorted([p for p in planned if p["short"]["action"] == "buy"], key=lambda p: -p["confidence"])
     sells = sorted([p for p in planned if p["short"]["action"] == "sell"], key=lambda p: -p["confidence"])
-    L.append("⚡ טווח קצר (ימים עד שבועות):")
+    longs = [p for p in planned if p["long"]["action"] == "buy" and p not in buys]
     for p in buys:
-        L.append(f"🟢 קנה {p['name']} ({p['ticker']}), ביטחון {conf_word(p['confidence'])} {p['confidence']}%: {p['short']['why']}")
+        L.append(f"🟢 קנה {p['name']} · ביטחון {p['confidence']}%\nמתי: היום בפתיחת המסחר (16:30) · להחזיק: כמה ימים עד שבועיים\nלמה: {p['short']['why']}\n")
     for p in sells:
-        L.append(f"🔴 מכור (או לא לקנות) {p['name']} ({p['ticker']}), ביטחון {conf_word(p['confidence'])} {p['confidence']}%: {p['short']['why']}")
-    if not buys and not sells:
-        L.append("⚪ חכה. אין היום הזדמנות ברורה.")
-    L += ["", "🏦 טווח ארוך (מניות שמתאימות עכשיו להחזקה):"]
-    lb = [p for p in planned if p["long"]["action"] == "buy"]
-    for p in lb:
-        L.append(f"🟢 {p['name']} ({p['ticker']}): {p['long']['why']}")
-    if not lb:
-        L.append("⚪ אף מניה מהרשימה לא במצב טוב לקנייה ארוכה כרגע.")
-    L.append("")
+        L.append(f"🔴 מכור {p['name']} (אם יש לך) · ביטחון {p['confidence']}%\nמתי: היום בפתיחת המסחר\nלמה: {p['short']['why']}\n")
+    if longs:
+        L.append("🏦 לטווח ארוך (לקנות ולשכוח לחודשים):")
+        for p in longs[:3]:
+            L.append(f"• {p['name']}: {p['long']['why']}")
+        L.append("")
+    if not buys and not sells and not longs:
+        L += ["⚪ היום לא עושים כלום. חכה.", ""]
     if trial:
-        L.append(f"⚠️ הבוט בתקופת ניסיון: נבדקו רק {n} תחזיות. עוד לא יודעים אם הוא צודק.")
-    L.append("זו המלצה אוטומטית לשימוש אישי, לא ייעוץ השקעות. ההחלטה שלך.")
-    L.append("הלוח המלא: https://dinmatas.github.io/stock-bot/")
+        L.append(f"⚠️ תקופת ניסיון: עוד לא הוכחנו שהבוט צודק ({n} בדיקות). לא לשים כסף גדול.")
+    L.append("לא ייעוץ השקעות, ההחלטה שלך.")
     return "\n".join(L)

@@ -47,7 +47,7 @@ def send_messages(planned, mac, stats, run_time):
         sent = {"date": today, "daily": False, "alerts": []}
     try:
         if not sent["daily"]:
-            if notify.send(advisor.message(planned, mac, stats, f"מה לעשות היום ({il_now:%d/%m})")):
+            if notify.send(advisor.message(planned, mac, stats, f"בוקר טוב דין, מה עושים היום ({il_now:%d/%m})")):
                 sent["daily"] = True
         else:
             for p in planned:
@@ -56,7 +56,7 @@ def send_messages(planned, mac, stats, run_time):
                 strong = act in ("buy", "sell") and p["confidence"] >= 60
                 if strong and key not in sent["alerts"]:
                     verb = "קנה" if act == "buy" else "מכור (או לא לקנות)"
-                    txt = (f"🚨 התראה: {verb} {p['name']} ({p['ticker']})\n"
+                    txt = (f"🚨 עכשיו: {verb} {p['name']}\n"
                            f"ביטחון {advisor.conf_word(p['confidence'])} {p['confidence']}%\n"
                            f"למה: {p['short']['why']}\n\nהמלצה אוטומטית, לא ייעוץ השקעות.")
                     if notify.send(txt):
