@@ -1,5 +1,5 @@
 {
- "run_time": "2026-11-18T19:46:15+00:00",
+ "run_time": "2026-11-18T19:56:15+00:00",
  "macro": {
   "ok": true,
   "score": -1.3,
@@ -146,7 +146,7 @@
    "alert": true,
    "signals": [
     {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (12 מול 2)",
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (11 מול 2)",
      "weight": 0.6,
      "source": "https://stocktwits.com/symbol/MSFT",
      "agent": "רשתות"
@@ -283,7 +283,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (51 כתבות ביממה, בדרך כלל כ-8)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (51 כתבות ביממה, בדרך כלל כ-7)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLU5JTklISkY4VFJ3NjdFb0NDdDlyZzY4Z2UtT1Q1OGdRMk95dWNXQ2FwRi13cVJvSTBwNXdwbjc3cDdlN0p6RC15V1BDNDVRMlA1dUFKUnRGSlZ0N3k1MjRXaDBmSUk4dW1HeUtmRTNnVGc1eHB4UU1kemM4eGRxZ0ViTXI4OENfdmo3Z1pUbXBwbE1paWI1OTA5YW8zRTcwQWc2Mzd5N09RdGd0SDVFWk9BRV81N0JzelRwQ0t0Mk94MS02c2FoTWwzYW1iZzA?oc=5",
      "agent": "חדשות"
@@ -314,7 +314,7 @@
    },
    "news": {
     "news_24h": 51,
-    "news_per_day": 7.5,
+    "news_per_day": 7.3,
     "tone": 0.25
    },
    "headlines": [
@@ -323,12 +323,6 @@
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLU5JTklISkY4VFJ3NjdFb0NDdDlyZzY4Z2UtT1Q1OGdRMk95dWNXQ2FwRi13cVJvSTBwNXdwbjc3cDdlN0p6RC15V1BDNDVRMlA1dUFKUnRGSlZ0N3k1MjRXaDBmSUk4dW1HeUtmRTNnVGc1eHB4UU1kemM4eGRxZ0ViTXI4OENfdmo3Z1pUbXBwbE1paWI1OTA5YW8zRTcwQWc2Mzd5N09RdGd0SDVFWk9BRV81N0JzelRwQ0t0Mk94MS02c2FoTWwzYW1iZzA?oc=5",
      "source": "Benzinga",
      "tone": -0.8
-    },
-    {
-     "title": "Nvidia: Debunking The Positives From The Q3 Report (NASDAQ:NVDA) - Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbmZDRXRwZ25qMHdYMUVSRXdzZk13LVFtN1ZpakM5aDRFbV9pdzJ5dWJmZmhVSHd3NHRRN0gydVVSd1c3a2FXRHQzeEVjZ3J3UW95c05ZNkg5d2QydG9vU05hdkZGU1Iyai0yNmp2Sk5jMDZDMExteUd3VG5DeVMyd0lrNzRXaEprejRYZlBpU3VvVlcz?oc=5",
-     "source": "Seeking Alpha",
-     "tone": 0
     },
     {
      "title": "Where Does Nvidia Stock Go After Earnings? What the Charts Tell Us. - Barron's",
@@ -340,6 +334,12 @@
      "title": "Nvidia stock erases earnings pop as investors face life after Jensen Huang - Yahoo Finance",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUzhvYkxzRld1VG11TlpOSE5wWjE5WE94RkMwVkJJWnRReDFRTUZ1X1FQWU55Rnh5b1hqU0VvTzBCay10WE5iVzJYWHdtVWJ0dlU5aFhhX2Yxa09Ub0otUkVUQ0hCTC1OUHBhRTU5UDBlRVZfNEx4cUtoVXRRanEwazFaQTBwYmpBREc2MVlsaVlDNWptenNNZkpDNzd2blFtS3pJX0oxWDl2RlcyMFNucDRILTRlRF9iUWFPRTA3VFo5NGRVZUJTaDkyTmpYcF9xcGJtMw?oc=5",
      "source": "Yahoo Finance",
+     "tone": 0
+    },
+    {
+     "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance Australia",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Nb3Qya2dEajFPaUk5dEVveFlBb0lMSjVhTXBHYldhYUI1TlAwUXYxZjFoZHhmRURWd3BRTjRZVDk1REF1NXNOUzRXWFhkT2d4b1E?oc=5",
+     "source": "Yahoo Finance Australia",
      "tone": 0
     },
     {
@@ -421,7 +421,7 @@
    },
    "news": {
     "news_24h": 16,
-    "news_per_day": 10.8,
+    "news_per_day": 10.7,
     "tone": 0.11
    },
    "headlines": [
@@ -623,7 +623,7 @@
    },
    "news": {
     "news_24h": 36,
-    "news_per_day": 9.2,
+    "news_per_day": 9.3,
     "tone": 0.01
    },
    "headlines": [
@@ -770,7 +770,7 @@
    "alert": true,
    "signals": [
     {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (9 מול 2)",
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (13 מול 1)",
      "weight": 0.6,
      "source": "https://stocktwits.com/symbol/AMD",
      "agent": "רשתות"
@@ -824,9 +824,9 @@
     "chg1y": 109.3
    },
    "news": {
-    "news_24h": 17,
-    "news_per_day": 13.5,
-    "tone": 0.13
+    "news_24h": 18,
+    "news_per_day": 13.3,
+    "tone": 0.25
    },
    "headlines": [
     {
@@ -854,16 +854,16 @@
      "tone": 1.5
     },
     {
-     "title": "Advanced Micro Devices finalizes Taalas buyout: Can AMD stock build sustained upside? - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMl9fYU5XYWFkbzZTbDk5Ti1lSUNfRTBfaHlOM0ZLTHpidkxfNDNETVRENGpDRmg1TFZ6d1JtRmd2RnJfR2N1RURVeWVSS194ZEVwYzB2ZW5BaDhtWjEyZC1nOE80WHhObDVMM3psR1BSWk5aM3JBTkdUODhvazFIdktYaVg?oc=5",
-     "source": "Traders Union",
-     "tone": 0
-    },
-    {
      "title": "AMD stock: Blue box trading setup delivers a rally - FXStreet",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZENGYXBiN2l2TFc5Z2VNUXduSndBaUpQbC1jTEFRXzhMOTMyVm1aSUk4YThyR2J5cnBkYk1SZXdYbURrYlUyaWR2bER1a1dHcXgyQ0hZTkJ1T084OV9mdGNtQ1lzaG5TMjJFYTQ2eE13Y052TExyVUNObHhYOUtFU0I1ejIxcXRURkFmTnlXX3pzVnVYSm1V?oc=5",
      "source": "FXStreet",
      "tone": 1
+    },
+    {
+     "title": "Why AMD stock is rallying in premarket trading on Wednesday? - TradingView",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTHZ3WWNDZmVRd0RGaG9jbnNvNXo5dnVab0xLN2ZzV1lQRFhxVFl5REVJbHY5MEtyZTB2ZG5oTDkySzVoOVNuQkJvWFVZMzFnX2RSMzdIVmV3X01hLURBMm5TMWlMRkx3bkpJb0JIT3VTUGRqTTQ2ZzlDV21NRDNQdkI2WS1HMy1JMTRsNVpnbG1KcHhBSWtqQnMxT2FrOUlUclRIMjQwWGtYRFZnaWJLMVZ4Y20zM2M?oc=5",
+     "source": "TradingView",
+     "tone": 0
     }
    ],
    "errors": {}
@@ -872,8 +872,8 @@
    "ticker": "NFLX",
    "name": "נטפליקס",
    "direction": "down",
-   "confidence": 70,
-   "score": -2.93,
+   "confidence": 72,
+   "score": -3.13,
    "alert": true,
    "signals": [
     {
@@ -884,7 +884,7 @@
     },
     {
      "text": "החדשות עליה ביממה האחרונה שליליות",
-     "weight": -0.78,
+     "weight": -0.98,
      "source": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbWhTM3J4WllPNGFERXpxT044V2JKVmRHY2syREZ2Zi1KY1B4YUs4NGdfLVptc1dLM0VYVlE1ZEdIUlVhLXNoc2J1cFNGQ25RQXhjd01KT2JPejU1VG5idUdNNDZNMEdoT3paQU1OV3pxZzZZdnV3LThGeld6dGtrTmhuNlRMMWRtNkUzYjRuMmZZOExpYlJwempkNkh0R0JackpoUzF2QnJkUDZsMGp4TFdPRTZDdW8?oc=5",
      "agent": "חדשות"
     },
@@ -937,9 +937,9 @@
     "chg1y": -45.9
    },
    "news": {
-    "news_24h": 5,
-    "news_per_day": 4.2,
-    "tone": -0.52
+    "news_24h": 4,
+    "news_per_day": 4.3,
+    "tone": -0.65
    },
    "headlines": [
     {
@@ -965,12 +965,6 @@
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZXJhdWxCWlhDSnZkaWR4YTlNZHdVbkdOV0xmdGFaWVNxRTFSQU8xX3p5R1phbUJGU2FCN0ZYVFpNaUVHTEMteGdOSTRIYmhrcElXWUJRN2RZNUExUU5RSHo2Xy1UMG5wUFJ3ZERkNjJ6UzVuSzBrbWFUTnVwUVhmYXVpWFpSYXZBWWtqREtEZ2M4d2R4ZjdBS1BVU2libUtfTDVFYkVwV194OVpXX0JKZXFKZHFxNzNDZ2Q4?oc=5",
      "source": "TradingView",
      "tone": -1.3
-    },
-    {
-     "title": "Netflix stock analysis: what next for this fallen angel? - Invezz",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUEhsY1BkSjBrVDZzaVkxbS1jdmU1TjBScGhFQ3dWRUpxYmNITnJRVF9ublI4X1dZcnRtOFdocVN3U1ktS1ZVakpUZ0pjMFhNWjJiRGp0aFg2c1pHc3FHMGVsU0psb1JXNFFtWEZkalFqMk42eDdBbHFXN24xQzJlRkFoZHFvOWFUNGNfeWIyTnpLNGhZ?oc=5",
-     "source": "Invezz",
-     "tone": 0
     }
    ],
    "errors": {}
@@ -978,17 +972,11 @@
   {
    "ticker": "JPM",
    "name": "ג'יי.פי מורגן",
-   "direction": "down",
-   "confidence": 58,
-   "score": -1.45,
+   "direction": "neutral",
+   "confidence": 57,
+   "score": -0.85,
    "alert": true,
    "signals": [
-    {
-     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (5 מול 3)",
-     "weight": -0.6,
-     "source": "https://stocktwits.com/symbol/JPM",
-     "agent": "רשתות"
-    },
     {
      "text": "התחלף מנהל בכיר (17/11, דיווח רשמי)",
      "weight": -0.2,
@@ -1122,7 +1110,7 @@
    },
    "news": {
     "news_24h": 6,
-    "news_per_day": 3.8,
+    "news_per_day": 3.7,
     "tone": 0.25
    },
    "headlines": [
@@ -1276,9 +1264,9 @@
      "tone": 0
     },
     {
-     "title": "How Analyst Backing Will Impact Coca Cola (KO) Stock - Yahoo Finance UK",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWC13NWlIV3hGVTQ3UkFaUF91bG5tNHJKN1lqNTMwT0t6RkJEaXM0TDdvWXhOVm03T2dzbjQ1WFY0ZXBzd29qMjRJM0RndVNXcnRsSkh3R1VsOVIzLXFva05RUTByY01mb0lKcDdvNlVZUF8zYmU0TWV0SFpMd2NzQVI5aG9nc3dh?oc=5",
-     "source": "Yahoo Finance UK",
+     "title": "Beverage breakdown: Coca-Cola, Keurig Dr Pepper, and Celsius are top picks at Wolfe Research - Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQWZCZS1YVno0clZCMWZwX0hISG9tdXRKUW8xT0pMejZ5aGIycURFY0NMUUJRRUJpLVZ2cTkyNG5JbDBYODlmVzJ4VDZMblE2RWFmanRyajBHOFNfWmdsUTk1VmtPZjhUaGttNGNFendiSFJlbEJmMGczQWJ1b2NMNVRIWng5cWZwN3FtRjZzdjQ3dDdwa1N4dUVtQWhfTDBlVktDM2c2T2VLRkZxU3VxalBXZkpNN085Qy1sVW5IZFVHODlEOHc?oc=5",
+     "source": "Seeking Alpha",
      "tone": 0
     }
    ],
@@ -1288,21 +1276,21 @@
    "ticker": "PLTR",
    "name": "פלנטיר",
    "direction": "neutral",
-   "confidence": 50,
-   "score": 0.89,
+   "confidence": 48,
+   "score": 0.73,
    "alert": false,
    "signals": [
-    {
-     "text": "החדשות עליה ביממה האחרונה חיוביות",
-     "weight": 0.84,
-     "source": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjhyT3ZlX05yT0tsandwaUU5Um53aW1LWTNUWk9mQ3B4N1BYSXF1YjRQeFJvSUhTUkZZbE95czRiekI0TDdpa3Z6bGJieDVieDdmUGNITWRVb1AxZVJlRm9Sc0xwa3NUaDhhTGlzQk9PSVItV254eWE3QWVfc2Q3dmNfbEptNW9PTVdBdUJwbk5HekpNZ1otVEVvMVZxSUE?oc=5",
-     "agent": "חדשות"
-    },
     {
      "text": "ירדה מהר מדי לאחרונה, לפעמים אחרי זה מגיעה קפיצה חזרה",
      "weight": 0.7,
      "source": "https://www.tiingo.com/PLTR/overview",
      "agent": "מסחר"
+    },
+    {
+     "text": "החדשות עליה ביממה האחרונה חיוביות",
+     "weight": 0.68,
+     "source": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjhyT3ZlX05yT0tsandwaUU5Um53aW1LWTNUWk9mQ3B4N1BYSXF1YjRQeFJvSUhTUkZZbE95czRiekI0TDdpa3Z6bGJieDVieDdmUGNITWRVb1AxZVJlRm9Sc0xwa3NUaDhhTGlzQk9PSVItV254eWE3QWVfc2Q3dmNfbEptNW9PTVdBdUJwbk5HekpNZ1otVEVvMVZxSUE?oc=5",
+     "agent": "חדשות"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -1341,9 +1329,9 @@
     "chg1y": -8.6
    },
    "news": {
-    "news_24h": 7,
-    "news_per_day": 4.5,
-    "tone": 0.56
+    "news_24h": 6,
+    "news_per_day": 4.7,
+    "tone": 0.45
    },
    "headlines": [
     {
@@ -1371,9 +1359,9 @@
      "tone": 1.5
     },
     {
-     "title": "Palantir director Alexander Moore sells $2.69M in PLTR stock By Investing.com - Investing.com India",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUHhvUjZPUHZqUE1WSEtlLVhocTJndzFETTgzbzA4TFBwdzJ0THczc3pKLXZKcE5nZVZqaTZKZFlPekZraFRBQVFtSWsxUnBBcURwdmpqSXZoZFl2MGR5ay1uTlRBV1oyYVY5YUo1ZnlqNkI4Tk5HNllfTk5OZVNpcTNlcmJmVXZMY3QxV3pXSHpzdUFMUGJSZzc5dDcxeEhyZTJDTmVWMzdEbklyQklacmVyTGtPZ2E1bk9J?oc=5",
-     "source": "Investing.com India",
+     "title": "Palantir director Alexander Moore sells $2.69M in PLTR stock By Investing.com - Investing.com UK",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdFlsbnpJUi1GQW1LZFJlbnVzTkxOREVMSGhiajlUczU2SHhERjlhQjNTWkh0RkR2M3l2dHR0WDFKTkdhV3JESEFwTU1Pb0hheGlHcjNsSjBrSkhKSW1aODVzUC1ZNUJETW1VbmU0YThYbVVNSTVfQTJMYzBUVHhlX3hnQUxZWFdmOTkza2RNVzhLX0hlSlJSeW5SQVB3aVdYV2dCNlh1T1pTTTNKaXJYVUlDaFpVS2ZocTZr?oc=5",
+     "source": "Investing.com UK",
      "tone": 0
     },
     {
