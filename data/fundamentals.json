@@ -132,5 +132,14 @@
   "profit": 1410000000,
   "margin": 8.2,
   "eps": 1.21
+ },
+ "XOM": {
+  "fetched": "2026-11-18",
+  "year": "2025",
+  "rev_growth": -5.0,
+  "profit": 28844000000,
+  "margin": 8.7,
+  "profit_growth": -14.4,
+  "eps": 6.7
  }
 }

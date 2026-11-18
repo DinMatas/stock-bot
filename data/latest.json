@@ -1,5 +1,5 @@
 {
- "run_time": "2026-11-18T20:16:04+00:00",
+ "run_time": "2026-11-18T20:31:43+00:00",
  "macro": {
   "ok": true,
   "score": -1.3,
@@ -40,8 +40,8 @@
    "ticker": "AAPL",
    "name": "אפל",
    "direction": "neutral",
-   "confidence": 49,
-   "score": 0.35,
+   "confidence": 42,
+   "score": 0.43,
    "alert": true,
    "signals": [
     {
@@ -49,6 +49,18 @@
      "weight": 1.0,
      "source": "https://www.tiingo.com/AAPL/overview",
      "agent": "מסחר"
+    },
+    {
+     "text": "החדשות עליה ביממה האחרונה חיוביות",
+     "weight": 0.68,
+     "source": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUG1OQlUtTVFmOHM1eXZOOHVhWDlSaGJzcGhkQ2JWUExCbGNmalR6Z1ZoR1lQQjZ3cnY5elc2dU9RbmF2YjF1UkhPc3o0d0FmQ3NvRGp3RE5pMWVsOW1uZzNjakFaR3J3ZnNsVkdMb29BMUs4R3M0YlpxT3VwSGExWk9JOVZFbFM1NVFOQm5qTkZqX0VMQUc5SFZkWE85VV9GVENSWXJ3Nm5YTXREY2RYRVJuRk90eDRVLTNlYmt3?oc=5",
+     "agent": "חדשות"
+    },
+    {
+     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (5 מול 3)",
+     "weight": -0.6,
+     "source": "https://stocktwits.com/symbol/AAPL",
+     "agent": "רשתות"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -93,9 +105,9 @@
     "chg1y": 32.0
    },
    "news": {
-    "news_24h": 7,
-    "news_per_day": 6.5,
-    "tone": 0.39
+    "news_24h": 6,
+    "news_per_day": 6.7,
+    "tone": 0.45
    },
    "headlines": [
     {
@@ -158,7 +170,7 @@
    "alert": true,
    "signals": [
     {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (11 מול 1)",
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (11 מול 0)",
      "weight": 0.6,
      "source": "https://stocktwits.com/symbol/MSFT",
      "agent": "רשתות"
@@ -188,7 +200,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (16 כתבות ביממה, בדרך כלל כ-6)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (15 כתבות ביממה, בדרך כלל כ-6)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMGN1TjRPLXdTdUNaZWZjTWNaTHRYbnBPaklTeTl6c3RFb3REUDlMV2ZiV19SN3I0M3dKYUdSWWtZTzRjcnU5aG5jYU53bGE0ekZLc0tCVmo3cVRlNUdKYmcxQlVjSGs5eHY2cVMtSGhEN0NJYXU1TXBDUHlMX3U1TGwzY2lDa2RNYnVYOUdaQ2ZPWnduMEFRUUZqM2VlZ09PQUNFbzBlaWFTMmhzb3dpeGlNb1RCZkZTSF9Xc2lSeE5nTjZSUUxHRnQzSktiUQ?oc=5",
      "agent": "חדשות"
@@ -206,9 +218,9 @@
     "chg1y": 0.6
    },
    "news": {
-    "news_24h": 16,
-    "news_per_day": 5.5,
-    "tone": 0.19
+    "news_24h": 15,
+    "news_per_day": 5.7,
+    "tone": 0.21
    },
    "headlines": [
     {
@@ -265,9 +277,9 @@
   {
    "ticker": "NVDA",
    "name": "אנבידיה",
-   "direction": "neutral",
-   "confidence": 54,
-   "score": -0.45,
+   "direction": "down",
+   "confidence": 51,
+   "score": -1.05,
    "alert": true,
    "signals": [
     {
@@ -275,6 +287,12 @@
      "weight": 0.7,
      "source": "https://www.tiingo.com/NVDA/overview",
      "agent": "מסחר"
+    },
+    {
+     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (6 מול 4)",
+     "weight": -0.6,
+     "source": "https://stocktwits.com/symbol/NVDA",
+     "agent": "רשתות"
     },
     {
      "text": "במחיר הכי נמוך שלה בשנה האחרונה",
@@ -307,9 +325,9 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (52 כתבות ביממה, בדרך כלל כ-7)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (53 כתבות ביממה, בדרך כלל כ-7)",
      "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeGZ2Rks3ZVhmaFBDODNaaG1vb05VRE15X3hUZldoMW5MT1VsWXU4bmlvekxSc3JES29aaExEVVRieTU0ZThrUndXaXBzRFBtQmY5NFB2bUxlLXlFN2NCeU9qVXVoNlh2UWpBU3FWaDdzSmZLWG5TZzJnVmpYaEFUS2lUODVTOGF6dUxqUEt3bjBuQQ?oc=5",
+     "source": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOWpZbGY2c0Njdl8tSTdERnFuakp1bGl3b2FlWXlHcGdncnpUYkpfWFZfeUtDV2JEUGlBS1doXzRneGpnOWVEUmQzS1JqN1BtalJMRHJZbWJHa2FhU0lrcEFvbW9pem10U0VNdzdjY1JfMXJUbnlaWmg1c3lqaUlvQ3Rjem1TWlRoZW81QnVvOWM3VUN4UTZuWDkwNzJvYlpQcVJaTEVKaUpkSlI5UEpiVg?oc=5",
      "agent": "חדשות"
     },
     {
@@ -337,15 +355,15 @@
     "chg1y": -16.5
    },
    "news": {
-    "news_24h": 52,
-    "news_per_day": 7.3,
-    "tone": 0.22
+    "news_24h": 53,
+    "news_per_day": 7.2,
+    "tone": 0.25
    },
    "headlines": [
     {
-     "title": "NVIDIA Is Near Its 52-Week Low. Will NVDA Stock Hit $100 or $200 First? - Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeGZ2Rks3ZVhmaFBDODNaaG1vb05VRE15X3hUZldoMW5MT1VsWXU4bmlvekxSc3JES29aaExEVVRieTU0ZThrUndXaXBzRFBtQmY5NFB2bUxlLXlFN2NCeU9qVXVoNlh2UWpBU3FWaDdzSmZLWG5TZzJnVmpYaEFUS2lUODVTOGF6dUxqUEt3bjBuQQ?oc=5",
-     "source": "Yahoo Finance",
+     "title": "NVIDIA Is Near Its 52-Week Low. Will NVDA Stock Hit $100 or $200 First? - 24/7 Wall St.",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOWpZbGY2c0Njdl8tSTdERnFuakp1bGl3b2FlWXlHcGdncnpUYkpfWFZfeUtDV2JEUGlBS1doXzRneGpnOWVEUmQzS1JqN1BtalJMRHJZbWJHa2FhU0lrcEFvbW9pem10U0VNdzdjY1JfMXJUbnlaWmg1c3lqaUlvQ3Rjem1TWlRoZW81QnVvOWM3VUN4UTZuWDkwNzJvYlpQcVJaTEVKaUpkSlI5UEpiVg?oc=5",
+     "source": "24/7 Wall St.",
      "tone": 0
     },
     {
@@ -652,7 +670,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (35 כתבות ביממה, בדרך כלל כ-10)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (34 כתבות ביממה, בדרך כלל כ-10)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSVBRTS1vR1hXQ3IzckR3enR2WFJQRGQtTDhhdjFCR1VPYU1sN2lkaDN1S29ER0U0WWxQTnJLMGxPd1Zhbmk1MkVfNnd5dmhFN0d1cFpNUGg4YkpOTll4VEd6RWhub3FERk5QVXNyRFVtQnhhYVFwRTl1dlZudzdFdkl2V3BhOFF2c1pDRE5iQnFOaGVmaFcyam1jb2FxcDlOR2lNTGdiSFVRY3QwUUtLRjNySFJnVWxEVlBxcg?oc=5",
      "agent": "חדשות"
@@ -676,9 +694,9 @@
     "chg1y": 3.1
    },
    "news": {
-    "news_24h": 35,
-    "news_per_day": 9.5,
-    "tone": 0.01
+    "news_24h": 34,
+    "news_per_day": 9.7,
+    "tone": -0.03
    },
    "headlines": [
     {
@@ -741,7 +759,7 @@
    "alert": true,
    "signals": [
     {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (15 מול 5)",
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (13 מול 3)",
      "weight": 0.6,
      "source": "https://stocktwits.com/symbol/TSLA",
      "agent": "רשתות"
@@ -849,10 +867,16 @@
    "ticker": "AMD",
    "name": "AMD",
    "direction": "neutral",
-   "confidence": 56,
-   "score": -0.65,
+   "confidence": 47,
+   "score": -0.05,
    "alert": true,
    "signals": [
+    {
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (13 מול 4)",
+     "weight": 0.6,
+     "source": "https://stocktwits.com/symbol/AMD",
+     "agent": "רשתות"
+    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -1266,8 +1290,15 @@
    ],
    "errors": {},
    "fund": {
-    "ok": false,
-    "error": "אין מספיק נתונים שנתיים"
+    "fetched": "2026-11-18",
+    "year": "2025",
+    "rev_growth": -5.0,
+    "profit": 28844000000,
+    "margin": 8.7,
+    "profit_growth": -14.4,
+    "eps": 6.7,
+    "pe": 25.0,
+    "ok": true
    }
   },
   {
@@ -1487,9 +1518,9 @@
      "tone": 1.5
     },
     {
-     "title": "Palantir director Alexander Moore sells $2.69M in PLTR stock By Investing.com - Investing.com UK",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdFlsbnpJUi1GQW1LZFJlbnVzTkxOREVMSGhiajlUczU2SHhERjlhQjNTWkh0RkR2M3l2dHR0WDFKTkdhV3JESEFwTU1Pb0hheGlHcjNsSjBrSkhKSW1aODVzUC1ZNUJETW1VbmU0YThYbVVNSTVfQTJMYzBUVHhlX3hnQUxZWFdmOTkza2RNVzhLX0hlSlJSeW5SQVB3aVdYV2dCNlh1T1pTTTNKaXJYVUlDaFpVS2ZocTZr?oc=5",
-     "source": "Investing.com UK",
+     "title": "Palantir director Alexander Moore sells $2.69M in PLTR stock By Investing.com - Investing.com India",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUHhvUjZPUHZqUE1WSEtlLVhocTJndzFETTgzbzA4TFBwdzJ0THczc3pKLXZKcE5nZVZqaTZKZFlPekZraFRBQVFtSWsxUnBBcURwdmpqSXZoZFl2MGR5ay1uTlRBV1oyYVY5YUo1ZnlqNkI4Tk5HNllfTk5OZVNpcTNlcmJmVXZMY3QxV3pXSHpzdUFMUGJSZzc5dDcxeEhyZTJDTmVWMzdEbklyQklacmVyTGtPZ2E1bk9J?oc=5",
+     "source": "Investing.com India",
      "tone": 0
     },
     {
@@ -1518,7 +1549,7 @@
    "direction": "neutral",
    "confidence": 47,
    "score": 0.05,
-   "alert": true,
+   "alert": false,
    "signals": [
     {
      "text": "ירדה מהר מדי לאחרונה, לפעמים אחרי זה מגיעה קפיצה חזרה",
@@ -1549,12 +1580,6 @@
      "weight": -0.1,
      "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
-    },
-    {
-     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
-     "weight": 0.0,
-     "source": "https://stocktwits.com/symbol/INTC",
-     "agent": "רשתות"
     }
    ],
    "price": {
@@ -1570,7 +1595,7 @@
    },
    "news": {
     "news_24h": 20,
-    "news_per_day": 9.7,
+    "news_per_day": 9.3,
     "tone": -0.06
    },
    "headlines": [
@@ -1627,21 +1652,21 @@
    "ticker": "TEVA",
    "name": "טבע",
    "direction": "up",
-   "confidence": 57,
-   "score": 1.85,
+   "confidence": 51,
+   "score": 1.1,
    "alert": false,
    "signals": [
-    {
-     "text": "החדשות עליה ביממה האחרונה חיוביות",
-     "weight": 1.5,
-     "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
-     "agent": "חדשות"
-    },
     {
      "text": "כבר כמה חודשים במגמת עלייה יציבה",
      "weight": 1.0,
      "source": "https://www.tiingo.com/TEVA/overview",
      "agent": "מסחר"
+    },
+    {
+     "text": "החדשות עליה ביממה האחרונה חיוביות",
+     "weight": 0.75,
+     "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
+     "agent": "חדשות"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -1686,9 +1711,9 @@
     "chg1y": 73.3
    },
    "news": {
-    "news_24h": 1,
-    "news_per_day": 4.7,
-    "tone": 1.0
+    "news_24h": 2,
+    "news_per_day": 4.5,
+    "tone": 0.5
    },
    "headlines": [
     {
@@ -1696,6 +1721,12 @@
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
      "source": "ad-hoc-news.de",
      "tone": 1
+    },
+    {
+     "title": "Teva Pharmaceutical Industries (TEVA) Stock Forecasts - Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeFRIclRSRFF6UTloMW1FbHpFenJuWnNMa0c3SzJqT25rUDI0S0NRV1lENHNiWXlVeEtJeGpubC1vNEtXSzdnS2JwdzlPbHJNQjlWRUR5WFozSENiTXI1LWdibGtxS3dobDhITjV5TUU1eEFyQ1pScFAyZGdxdE84NTdMemlmZFhVcGFadg?oc=5",
+     "source": "Yahoo! Finance Canada",
+     "tone": 0
     }
    ],
    "errors": {},
