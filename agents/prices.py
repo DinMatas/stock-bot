@@ -27,7 +27,7 @@ def _tiingo(ticker):
 
 def history(ticker):
     errors = []
-    for fn in ([_yahoo] + ([_tiingo] if config.TIINGO_KEY else [])):
+    for fn in ([_tiingo, _yahoo] if config.TIINGO_KEY else [_yahoo]):
         try:
             rows, link = fn(ticker)
             if len(rows) >= 30:
