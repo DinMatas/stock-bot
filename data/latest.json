@@ -1,5 +1,5 @@
 {
- "run_time": "2026-11-18T18:06:31+00:00",
+ "run_time": "2026-11-18T18:14:10+00:00",
  "macro": {
   "ok": true,
   "score": -1.3,
@@ -40,10 +40,16 @@
    "ticker": "AAPL",
    "name": "אפל",
    "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
+   "confidence": 45,
+   "score": 0.35,
    "alert": false,
    "signals": [
+    {
+     "text": "מגמה עולה: המחיר מעל הממוצע של 50 ו-200 יום",
+     "weight": 1.0,
+     "source": "https://www.tiingo.com/AAPL/overview",
+     "agent": "מסחר"
+    },
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
@@ -69,10 +75,17 @@
      "agent": "מאקרו"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 351.91,
+    "date": "2026-11-17",
+    "chg": -0.25,
+    "chg5": 1.05,
+    "vol_ratio": 0.78,
+    "rsi": 55.9
+   },
    "news": {
     "news_24h": 7,
-    "news_per_day": 6.8,
+    "news_per_day": 7.2,
     "tone": 0.39
    },
    "headlines": [
@@ -113,15 +126,13 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "MSFT",
    "name": "מיקרוסופט",
    "direction": "neutral",
-   "confidence": 38,
+   "confidence": 52,
    "score": -0.65,
    "alert": true,
    "signals": [
@@ -152,17 +163,30 @@
     {
      "text": "גל חריג של כתבות: 16 ב-24 שעות (רגיל: כ-5 ביום)",
      "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU3lFMWFTTnBhU21mU3BPU1R6cDJUVTVpS1JLMTRrOUZReVBtb05ad2tHQVNJdDMwRFoyR0hLLThhNDkybUFaQlFVSTNoOHJqbFdKWmNZbEVfeXRpQnZ6WmZiMWFEdVd1ejlqMDJOeWg0MTZadC16YWtQT0JSOHlYWlNTemxLM1gyR1ZNOTV5MXVSQnp4WmZ1YTAwZ2pHckpYV2c?oc=5",
+     "source": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYVdhOFhuckUwSm5CZHlQeEcyMFZyeUZnaEM5NnN1Y3k1VlRmUU1FVi1WUW5PTDFzZlNjTTVya0ZlYXFmdW1DeXNBR1FUVVZpTERaSXlJR0s5VGV5NE1JeVIwNWpEUk5lSVllWURfRjF3UzFaWXhxaUlzbzVzaHE3SWVqb1p6SEZhUnd3WjNlRVBZcWxNVGJzejJYWDNvakloQ0N3ZDJBU0tZa2o1X2hr?oc=5",
      "agent": "חדשות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 506.24,
+    "date": "2026-11-17",
+    "chg": -2.27,
+    "chg5": -5.05,
+    "vol_ratio": 1.04,
+    "rsi": 42.1
+   },
    "news": {
     "news_24h": 16,
-    "news_per_day": 5.2,
-    "tone": 0.13
+    "news_per_day": 5.3,
+    "tone": 0.18
    },
    "headlines": [
+    {
+     "title": "“The New OS For Work”: Microsoft Stock (NASDAQ:MSFT) Slips as Microsoft Pushes Copilot - TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYVdhOFhuckUwSm5CZHlQeEcyMFZyeUZnaEM5NnN1Y3k1VlRmUU1FVi1WUW5PTDFzZlNjTTVya0ZlYXFmdW1DeXNBR1FUVVZpTERaSXlJR0s5VGV5NE1JeVIwNWpEUk5lSVllWURfRjF3UzFaWXhxaUlzbzVzaHE3SWVqb1p6SEZhUnd3WjNlRVBZcWxNVGJzejJYWDNvakloQ0N3ZDJBU0tZa2o1X2hr?oc=5",
+     "source": "TipRanks",
+     "tone": 0
+    },
     {
      "title": "Microsoft (MSFT) Stock: New AI Model Takes Aim at Anthropic and OpenAI on Price - Blockonomi",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU3lFMWFTTnBhU21mU3BPU1R6cDJUVTVpS1JLMTRrOUZReVBtb05ad2tHQVNJdDMwRFoyR0hLLThhNDkybUFaQlFVSTNoOHJqbFdKWmNZbEVfeXRpQnZ6WmZiMWFEdVd1ejlqMDJOeWg0MTZadC16YWtQT0JSOHlYWlNTemxLM1gyR1ZNOTV5MXVSQnp4WmZ1YTAwZ2pHckpYV2c?oc=5",
@@ -192,26 +216,30 @@
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWEZTcU9TMGpmaUtoekh1dm5MMEFJZ1kwanpXMURVUGNpbzBaYXNiNF9rTkZyWURNUkN3UTByeEJlczdFc09Sck1HamMtdVVPT3l1d0IwWTlxZDFZWHlwbktrVzhBVGFlU0FCd3I4OTdVemJTeUowTnRuSEx1NXNzczBnSk95elNTTnc?oc=5",
      "source": "Seeking Alpha",
      "tone": 0
-    },
-    {
-     "title": "Microsoft Stock (MSFT) Forecast – Mizuho Stays Bullish on Strong Revenue Growth Prospects - TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeDdfSDlXLWdfRXBMam9ibGRHY3F4dFpuZkNaTWt3Y3M2dUNDTElGOXNsaWM3UjZZNTlEcUxURVYzLVNneWJmSkdnM1VrcVB6ZlVjS0w4RGpKMWRwaWhNOWRha0VzM2I4YXJKanFPQVdGMmdMVDNqanBJX1lVeWZXblpySmpyZUt0bzMtWHoyODMxbjNqWjVUM2Y4YWVWNnNUZE5ZMF9qejZ4WTlsREVJN2FIWWdUQQ?oc=5",
-     "source": "TipRanks",
-     "tone": 2.2
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "NVDA",
    "name": "אנבידיה",
    "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
+   "confidence": 50,
+   "score": -0.45,
    "alert": true,
    "signals": [
+    {
+     "text": "מכורה מאוד (מדד RSI 16), לפעמים מגיע ריבאונד למעלה",
+     "weight": 0.7,
+     "source": "https://www.tiingo.com/NVDA/overview",
+     "agent": "מסחר"
+    },
+    {
+     "text": "נוגעת בשפל של השנה האחרונה",
+     "weight": -0.5,
+     "source": "https://www.tiingo.com/NVDA/overview",
+     "agent": "מסחר"
+    },
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
@@ -237,7 +265,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "גל חריג של כתבות: 54 ב-24 שעות (רגיל: כ-7 ביום)",
+     "text": "גל חריג של כתבות: 53 ב-24 שעות (רגיל: כ-7 ביום)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5UHBVNVQ0dFREUnNUaEVXMXNKZnA4ODd6eWtaWExjclEzeXV4R0s2alpVNFQxR2pCbU9tZlZpb2JEVkdOQWYyeGU2OHJaR3FUZ3RaM3lRS3A0WkFUaklla0lmM3ptdUpXWGU1N3JKdWc3Y3R4cmNOXzVLa1dpUQ?oc=5",
      "agent": "חדשות"
@@ -249,11 +277,18 @@
      "agent": "דוחות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 155.46,
+    "date": "2026-11-17",
+    "chg": -0.44,
+    "chg5": -7.95,
+    "vol_ratio": 1.84,
+    "rsi": 16.3
+   },
    "news": {
-    "news_24h": 54,
-    "news_per_day": 7.0,
-    "tone": 0.28
+    "news_24h": 53,
+    "news_per_day": 7.2,
+    "tone": 0.29
    },
    "headlines": [
     {
@@ -293,18 +328,22 @@
      "tone": 1
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "AMZN",
    "name": "אמזון",
    "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
+   "confidence": 45,
+   "score": 0.35,
    "alert": false,
    "signals": [
+    {
+     "text": "מגמה עולה: המחיר מעל הממוצע של 50 ו-200 יום",
+     "weight": 1.0,
+     "source": "https://www.tiingo.com/AMZN/overview",
+     "agent": "מסחר"
+    },
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
@@ -336,10 +375,17 @@
      "agent": "דוחות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 257.89,
+    "date": "2026-11-17",
+    "chg": 0.05,
+    "chg5": -4.79,
+    "vol_ratio": 0.78,
+    "rsi": 52.2
+   },
    "news": {
     "news_24h": 20,
-    "news_per_day": 11.3,
+    "news_per_day": 11.2,
     "tone": 0.08
    },
    "headlines": [
@@ -380,18 +426,22 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "GOOGL",
    "name": "גוגל (אלפאבית)",
-   "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
+   "direction": "down",
+   "confidence": 56,
+   "score": -1.65,
    "alert": false,
    "signals": [
+    {
+     "text": "מגמה יורדת: המחיר מתחת לממוצע של 50 ו-200 יום",
+     "weight": -1.0,
+     "source": "https://www.tiingo.com/GOOGL/overview",
+     "agent": "מסחר"
+    },
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
@@ -417,7 +467,14 @@
      "agent": "מאקרו"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 280.2,
+    "date": "2026-11-17",
+    "chg": -1.24,
+    "chg5": -2.5,
+    "vol_ratio": 0.77,
+    "rsi": 27.3
+   },
    "news": {
     "news_24h": 5,
     "news_per_day": 3.7,
@@ -455,15 +512,13 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "META",
    "name": "מטא (פייסבוק)",
    "direction": "neutral",
-   "confidence": 38,
+   "confidence": 52,
    "score": -0.65,
    "alert": true,
    "signals": [
@@ -504,7 +559,14 @@
      "agent": "דוחות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 618.87,
+    "date": "2026-11-17",
+    "chg": -1.2,
+    "chg5": -3.51,
+    "vol_ratio": 0.55,
+    "rsi": 51.8
+   },
    "news": {
     "news_24h": 35,
     "news_per_day": 9.2,
@@ -548,15 +610,13 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "TSLA",
    "name": "טסלה",
    "direction": "neutral",
-   "confidence": 38,
+   "confidence": 52,
    "score": -0.65,
    "alert": false,
    "signals": [
@@ -585,7 +645,14 @@
      "agent": "מאקרו"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 380.11,
+    "date": "2026-11-17",
+    "chg": 0.1,
+    "chg5": 0.09,
+    "vol_ratio": 0.57,
+    "rsi": 41.4
+   },
    "news": {
     "news_24h": 6,
     "news_per_day": 7.5,
@@ -629,15 +696,13 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "AMD",
    "name": "AMD",
    "direction": "neutral",
-   "confidence": 38,
+   "confidence": 52,
    "score": -0.65,
    "alert": false,
    "signals": [
@@ -672,11 +737,18 @@
      "agent": "דוחות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 503.41,
+    "date": "2026-11-17",
+    "chg": -0.17,
+    "chg5": -2.29,
+    "vol_ratio": 1.02,
+    "rsi": 42.2
+   },
    "news": {
-    "news_24h": 20,
-    "news_per_day": 13.0,
-    "tone": 0.16
+    "news_24h": 21,
+    "news_per_day": 12.8,
+    "tone": 0.2
    },
    "headlines": [
     {
@@ -716,23 +788,33 @@
      "tone": 1.5
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "NFLX",
    "name": "נטפליקס",
    "direction": "down",
-   "confidence": 44,
-   "score": -1.43,
-   "alert": false,
+   "confidence": 70,
+   "score": -2.93,
+   "alert": true,
    "signals": [
+    {
+     "text": "מגמה יורדת: המחיר מתחת לממוצע של 50 ו-200 יום",
+     "weight": -1.0,
+     "source": "https://www.tiingo.com/NFLX/overview",
+     "agent": "מסחר"
+    },
     {
      "text": "הטון בכותרות של היממה האחרונה שלילי",
      "weight": -0.78,
      "source": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbWhTM3J4WllPNGFERXpxT044V2JKVmRHY2syREZ2Zi1KY1B4YUs4NGdfLVptc1dLM0VYVlE1ZEdIUlVhLXNoc2J1cFNGQ25RQXhjd01KT2JPejU1VG5idUdNNDZNMEdoT3paQU1OV3pxZzZZdnV3LThGeld6dGtrTmhuNlRMMWRtNkUzYjRuMmZZOExpYlJwempkNkh0R0JackpoUzF2QnJkUDZsMGp4TFdPRTZDdW8?oc=5",
      "agent": "חדשות"
+    },
+    {
+     "text": "נוגעת בשפל של השנה האחרונה",
+     "weight": -0.5,
+     "source": "https://www.tiingo.com/NFLX/overview",
+     "agent": "מסחר"
     },
     {
      "text": "הפחד בשוק עולה (VIX 25)",
@@ -759,7 +841,14 @@
      "agent": "מאקרו"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 59.68,
+    "date": "2026-11-17",
+    "chg": -1.76,
+    "chg5": -5.66,
+    "vol_ratio": 0.76,
+    "rsi": 42.2
+   },
    "news": {
     "news_24h": 5,
     "news_per_day": 4.2,
@@ -797,15 +886,13 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "JPM",
    "name": "ג'יי.פי מורגן",
    "direction": "neutral",
-   "confidence": 39,
+   "confidence": 53,
    "score": -0.85,
    "alert": true,
    "signals": [
@@ -840,59 +927,64 @@
      "agent": "מאקרו"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 329.96,
+    "date": "2026-11-17",
+    "chg": -2.44,
+    "chg5": -3.54,
+    "vol_ratio": 1.28,
+    "rsi": 44.0
+   },
    "news": {
-    "news_24h": 10,
-    "news_per_day": 14.7,
-    "tone": 0.0
+    "news_24h": 11,
+    "news_per_day": 5.7,
+    "tone": -0.34
    },
    "headlines": [
     {
-     "title": "JPMorgan Chase & Co. (JPM) Stock Price, News, Quote & History - Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMimwNBVV95cUxQbmMyR1dfRXZLVF8wX2x0eGg1N2U0SnVzV3FUQl80dnM3M2JHeEQwNXJiaFlIUkFqeVJidlZhaC1ZY2N5ekV0X0VmTWEtOVVlWDRucTZCQ2lCQjh2Ni1JWENEeXNueG9hd3daSml6TjFOZmJXUG0xdGpqclFNY1M0cHZhQ09qQS1GUnY5a25sam81OUozZGZOdlc2a3hONXF1WElMRmxtYTZ6Z3lrOFNROUV3RWQtTlVTT1F1dDdycFZoT1B6SktFdDhEbVRTMGhiNzdqSklEMmpmaTZnZzZ2OHhRSFhERHhJSVQ2WTgyZEd0NlBDWmpLQzg1QW95dWY0c3gtWHYxZ1BqVDdOQUlfMHFicnV0X0U4NEphUmU0SjgwMmJpWTNCcWU2SmkzZDBxekxsci1veEplOU5YamJTblVtRDRvV0xoQ0xUUGZnQVZLaVpHYS0zYzN5TEtMLVpQUTJtX2ZaMy1CS3YxUHYxQ2l6MURIQVlUcUtJMFFPYUZCaUlmazJKQWJ1bTU3dERtc1o0NWI2TEkyX3c?oc=5",
-     "source": "Yahoo Finance",
+     "title": "Visa (V) Stock Price Prediction: Visa holds a constructive pullback as analysts stay broadly positive - Blockchain News",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOczhnSEFuZExsb0JGb0tyakZPT2RGTmh4eUs3VnlVam1fRnFUeHF2LWQzRlJBNTFSMUhha1dDbzRDUFk1OEdETUZzVGtQRU9IcTB4TGthZHVIb0h0SDN4TmppdGtibkhKVnRWWEZNWHZfYnJvZXYzV0pDQTMzWURZcXZEc1Z1T29VYXh5VGpwVGhxaklnbFA2TzFR?oc=5",
+     "source": "Blockchain News",
      "tone": 0
     },
     {
-     "title": "JPM Nov 2026 415.000 call (JPM261120C00415000) Interactive Stock Chart - Yahoo Finance - Yahoo! Finance Canada",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40TTV4dVVTMGdSTUR0QzF2eV85cWc0U0hHalB0V3lYYUZGYTNJeUpxcndsSGstaFBuM2pXTjRPcU9hZW5QaDU3bGloZFBqUnAwNlF4d1JubnU3c21abGw5NVNJYUMwbnBnQ3RJeA?oc=5",
-     "source": "Yahoo! Finance Canada",
+     "title": "JPMorgan Chase (JPM) Stock Price Prediction: JPM slips below short-term averages as buyers test support - Blockchain News",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWkRKU0VmTHNZVTEyVTBlSzFJTDhLOTJZbGpSc0V6bTZOOTFlOHl0QlgyQlI3aFUtQTNWdG9pN0dRTFQ3OC1CaV9nTXB0c2NCSWVVTG1QVkwwelZiX1M2SkpuNDRjR3FBaDBqMW55RzlUYnRFaWd6ZENsb1pzLVBCQ1JleVdyUXdUMlZNSVZDZGxVTUJLZ3JLS1hB?oc=5",
+     "source": "Blockchain News",
      "tone": 0
     },
     {
-     "title": "JPM Euroland Dynamic A perf dist EUR (0P000162JM.F) Seasonal returns chart - Yahoo Finance UK",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OeFV1MS1UenRDWE0tODM0c1BhQmhPY2FDZEZmN3RkbFBxQ0VTamUyVGktbGVYT2tCYWhYSm5MZlFGbnd4djZCalNoS0lBM3RjR0t1YkY1bDVyeGRILWZ0UXktdUJqU2kxdmdKYQ?oc=5",
-     "source": "Yahoo Finance UK",
+     "title": "JPMorgan Names New CFO: Is Jamie Dimon's Succession Plan Taking Shape? - TradingView",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSUxFQXU2NjU3YUcxYmxSVVpuYWxtcDZ1OXF0RmlLMjdZVlRlUGdBZGc4dENaZWUyT1lqSER6U3AzWFVBSnNsQWVlOEtpc0doZkMxaDQwc0FMcXdYa3R2cGljVE5pVktqeHBuc29ZYmJ0V083WGg0YWR5X3MtajE1V0l2VGZCRnNQazhTVFVVdkhaYUh0Tmxqb3pRMHR0QWxPdGxKSkYwcTFLSWthUDl0d1poajRONUszbHpTdmUwb1RSUQ?oc=5",
+     "source": "TradingView",
      "tone": 0
     },
     {
-     "title": "JPM Nov 2026 332.500 call (JPM261120C00332500) Interactive Stock Chart - Yahoo! Finance Canada",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HLWM5OTk3WWg1c1kwTTFhMkJZaVRhV0xTRHRlZmJMLUpMSkd1ZjNVV3BYYXJoTWRHRmFvM1prb3gyTnFUd1h3dTQwYUhrX3gyR0JqREppY2VSejktSkRIMllZcTFVRkZFUGMxWQ?oc=5",
-     "source": "Yahoo! Finance Canada",
+     "title": "JPMorgan Chase & Co. $JPM Stock Holdings Decreased by Mawer Investment Management Ltd. - MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNODdCdGc3cmxFOFpOUDJMdEpFMFpoNWYtUjR4QjRkQWdSQ3B3SkMyMVpvRkd3NXVGanNQa3JvVlBJUEJ1QlVYaEUxa3NQT3FHdkN4R2ZTTmJhVjZwU0I0aTdhWEVRTm5ydjFWeDZBTUxTZkc3cTI2UFNKdi13cm1rYUJicUwtN3Z5MDVYS2o2RjAwUFRqRFZBRFhHaWJjR2FBQm9hNmFKNWZPNEpOS00tZUNyN2NJekZkNXVoRGxtSTVRVVdMemFBRkJMVTBLT0dubjFNVmtOV19GQQ?oc=5",
+     "source": "MarketBeat",
      "tone": 0
     },
     {
-     "title": "JPMorgan ETFs Ireland ICAV - JPM EUR IG Corporate Bond Active UCITS ETF - EUR (acc) (JRBE.L) - Yahoo! Finance Canada",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QMFBFVFJCazI1SUpiQlpJZ1BTYW9FSC1TMjVJMC1mQ1lOV1I2V1BDU0FlRzBMb2x0M1JWaU9ObXlJYlFNc1dGSzVlbFNaS3hRZ1E3VnhvSkhuMWF0UnZEeWhqMmg?oc=5",
-     "source": "Yahoo! Finance Canada",
+     "title": "US Faces Debt Challenges Amid Recovery, Says JPM (JPM) - GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTUpzSnc0Um5MZFBYNHg0OW1lMTVQeDVxZnR1Z2VrVjFPN0VGUHJOQUNNY2cwUFNBdHM1a0dtOThKZWd5dTVrcUEzWjFDUnlLR0VDMnVsVjFvX3BlamYtWTFvSmRkY01uU3lIQWVLSTAwRU96QnF2dURzLVd4TDVIaUMwQnZ0S1FpMExJYmptVmVsT29E?oc=5",
+     "source": "GuruFocus",
      "tone": 0
     },
     {
-     "title": "JPM Nov 2026 385.000 put (JPM261120P00385000) interactive stock chart - Yahoo Finance UK",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtVTIwZW9QTFhvbUJYM1plVmpjNW1YQ1pzWHEwc3hBMkdadVJxcVJuVlVnTnZCQmNwTlFMUnpRZVhKRERwa2RBS1ZZUzFJVURTYnVGU2djaFd6ZEcyWXE3UDJnS0MzRnJ0SjdfOQ?oc=5",
-     "source": "Yahoo Finance UK",
+     "title": "JPMorgan Chase & Co. $JPM Stock: Aberdeen Group plc Grows Holdings - MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNU9sa1NCSFNrQjRQbVdnYllTYlNORWIzRlFkczR6SEN3Z2dTWF80UnI4YUkzTVI5S0g1WHY3a2NhLWJfRGtzTjQzQ0Q1alhfamlJRl9KS0pqVExEbzJFYmhkeE9uNGRnQ05Kb0VUbWV3aDQ2bnlnVjE5ejMwcjdYZmg1djFhRzEwMUhpc2kycFNodlEtSUpkZjVlYkJyb2x6c2ZrWVNlcFI1dzl4LV91aGJja2hmbWdKSW5ORFRsUQ?oc=5",
+     "source": "MarketBeat",
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "XOM",
    "name": "אקסון מוביל",
    "direction": "neutral",
-   "confidence": 38,
+   "confidence": 52,
    "score": -0.65,
    "alert": false,
    "signals": [
@@ -921,10 +1013,17 @@
      "agent": "מאקרו"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 167.21,
+    "date": "2026-11-17",
+    "chg": 0.2,
+    "chg5": 2.32,
+    "vol_ratio": 0.83,
+    "rsi": 32.0
+   },
    "news": {
     "news_24h": 6,
-    "news_per_day": 4.2,
+    "news_per_day": 4.0,
     "tone": 0.25
    },
    "headlines": [
@@ -965,18 +1064,34 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "KO",
    "name": "קוקה קולה",
    "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
+   "confidence": 44,
+   "score": 0.15,
    "alert": true,
    "signals": [
+    {
+     "text": "מגמה עולה: המחיר מעל הממוצע של 50 ו-200 יום",
+     "weight": 1.0,
+     "source": "https://www.tiingo.com/KO/overview",
+     "agent": "מסחר"
+    },
+    {
+     "text": "קנויה מאוד (מדד RSI 82), לפעמים מגיע תיקון למטה",
+     "weight": -0.7,
+     "source": "https://www.tiingo.com/KO/overview",
+     "agent": "מסחר"
+    },
+    {
+     "text": "נוגעת בשיא של השנה האחרונה",
+     "weight": 0.5,
+     "source": "https://www.tiingo.com/KO/overview",
+     "agent": "מסחר"
+    },
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
@@ -1002,19 +1117,38 @@
      "agent": "מאקרו"
     },
     {
-     "text": "גל חריג של כתבות: 10 ב-24 שעות (רגיל: כ-3 ביום)",
+     "text": "גל חריג של כתבות: 11 ב-24 שעות (רגיל: כ-3 ביום)",
      "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMVd5Mjc4M3o5bkJFZGNrZ1hEQnFfTWpqMDV5V1hLeThxcmZxMW1MaXNDTVFWM0l5bmlyZWtNbmNyNFR1MUhPX2gxVkRBcEdBWHVHT0ZmOHoyMDdhVEZxNWhHTEVKWDFjS2FpbmZVNTNGVF9VSFpPQ3hVOTAwalFPaGhzTVdGNVRiN2NieHZ5MjR1bnRZd3IzYnRVcG92NElQZUFJQm9yQQ?oc=5",
+     "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSkMwVkp3WFNEaTlnUnpCRVRnY0xMcEQtVGRWMy1oVHlPQWVUV282SWxlVUYzVnE4ekM0ZnFiNkdzbEdxamVlOUdMdm9fbWZ6NlNveWpHSjVfZ0JORmU1VGxoMlE1UUc1YXNndUlXNjRuYTdJRGRCQnVkOWQxZGhwZFkzeFV0Q3oyMnpKUXUwUVMxSXlSM2x4bVpyYmMwRTY3QlR1VXo5TzNfVzV0eUowbExuRzNkTHc4a3hZSFFBVXo1T3FW?oc=5",
      "agent": "חדשות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 98.79,
+    "date": "2026-11-17",
+    "chg": -0.69,
+    "chg5": 1.94,
+    "vol_ratio": 1.04,
+    "rsi": 82.0
+   },
    "news": {
-    "news_24h": 10,
-    "news_per_day": 2.8,
-    "tone": 0.17
+    "news_24h": 11,
+    "news_per_day": 3.0,
+    "tone": 0.15
    },
    "headlines": [
+    {
+     "title": "Coca-Cola (NYSE:KO) Stock: Insider Manuel Arroyo Sells 57,581 Shares - MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSkMwVkp3WFNEaTlnUnpCRVRnY0xMcEQtVGRWMy1oVHlPQWVUV282SWxlVUYzVnE4ekM0ZnFiNkdzbEdxamVlOUdMdm9fbWZ6NlNveWpHSjVfZ0JORmU1VGxoMlE1UUc1YXNndUlXNjRuYTdJRGRCQnVkOWQxZGhwZFkzeFV0Q3oyMnpKUXUwUVMxSXlSM2x4bVpyYmMwRTY3QlR1VXo5TzNfVzV0eUowbExuRzNkTHc4a3hZSFFBVXo1T3FW?oc=5",
+     "source": "MarketBeat",
+     "tone": 0
+    },
+    {
+     "title": "Coca-Cola (NYSE:KO) EVP Sells 9,064 Shares of Company Stock - MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOEI0Y3lUR2RxSWVhdTB0VjhJY1JFbG9BcUVDOGgxV2FWTUJVYVNfcnNpLUZEOEZGcjhBd1p3NlluS3I4TV9mWjhkX2dnUlg5cEh6aGRheEpuQ0JIcGxZdHJDZEx5ZzF5RUFKVjFubVRjekJsNVB2VXVVNFNHVDZJWG03S0xWeFlaSWlSQ1V5R2I2SzZSSVdvYmN6OG5jTmppZkVkel85YVMxR3Y1R19VQXM3Qk4zTk9vTkE?oc=5",
+     "source": "MarketBeat",
+     "tone": 0
+    },
     {
      "title": "After exercising Coca-Cola (KO) options at $44.475 a share, Manuel Arroyo sold the shares. - Stock Titan",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMVd5Mjc4M3o5bkJFZGNrZ1hEQnFfTWpqMDV5V1hLeThxcmZxMW1MaXNDTVFWM0l5bmlyZWtNbmNyNFR1MUhPX2gxVkRBcEdBWHVHT0ZmOHoyMDdhVEZxNWhHTEVKWDFjS2FpbmZVNTNGVF9VSFpPQ3hVOTAwalFPaGhzTVdGNVRiN2NieHZ5MjR1bnRZd3IzYnRVcG92NElQZUFJQm9yQQ?oc=5",
@@ -1038,30 +1172,16 @@
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUzdIbGJHNHlCY19VUVhaYWdFQUxHbEdVekVpbmtCRjBiOWFDLXUtR1pScmd3TkhBbVBsUnhSQ2RtTTl5dVRCX0llMFRad2RFR0hKSHAtTDY2eXJZd2xaMEZNU0J2X2ZWcE9Fb29QNkJ4Mnc5Y0haQTF6OW5hZVRjQ2Qxc1R6c2tiTS12QkdQZkxlWUctWm9FdURXcjBsR1JGS3g5bHYyLUI3SEJDN3kzbDRNMlVua1czMlhLOE51MlR4UzhaQjd2MnhPY0xhaVJxRWc?oc=5",
      "source": "MarketBeat",
      "tone": 1
-    },
-    {
-     "title": "Coca-Cola Company (The) $KO Shares Sold by Voya Investment Management LLC - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUDduOXRmejZicE9yS3p2aExrZzZseEFVZnpzSnY3Y2JNMDhXMkVGMURPdEp6MDA1SjdBNXFDY1B4enVmc0dWTnd0eFR6WlRaYzVIbm42aG5hMUxfYXhlS09OOGxnZlEyeUptTk1rdmFkZ1Jfbk9Ob003dFVxUzB4ZXlocnBOb2dURnJfRGtpcnhNR3dDcEd0MFRJUmp2RlF4WUMzcVp2c3ktd3lydXF6VXB5bE82al9UYktna1dhQXFuVWxzdWtMUk1EYw?oc=5",
-     "source": "MarketBeat",
-     "tone": 0
-    },
-    {
-     "title": "ETFs Are Net Sellers of Coca-Cola (KO) on Nov. 16 - GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNcVdYOENtYVNmTjNyOTBFUEVTWVRwcmlBNElYbDZTX3JpZURCUUpvUXI2SnBpYmR3ZnBhVkNsVl9jc3ZtOFlUNXdTaVNtaVpwQWdQX2JJOUszVXRicTVFdDEwRmpibFhsQVJQai0zV2VkaDRDNHNfWlgyY2xXdUlwNFhrUU9qN0lDdTlta0NaeXBXcnZ1LU1IVE1OQUpsb1ZNWnNoQi0tOUFjY083U2tFVDgyY3R3QWJQd1hsa0tZaU5GcmhSTUR0cXpMZmdpa3IxX0p5TUdQRFBLRHRDX19aUm9fRmV4UkpjencxWWo1ZE1ESkpObExxb0t4TGhScjZnaHRyYVF3LTRsVmpSZFNpWExxX01FQmFhNmc?oc=5",
-     "source": "GuruFocus",
-     "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "PLTR",
    "name": "פלנטיר",
    "direction": "neutral",
-   "confidence": 29,
-   "score": 0.08,
+   "confidence": 45,
+   "score": 0.78,
    "alert": false,
    "signals": [
     {
@@ -1069,6 +1189,12 @@
      "weight": 0.73,
      "source": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjhyT3ZlX05yT0tsandwaUU5Um53aW1LWTNUWk9mQ3B4N1BYSXF1YjRQeFJvSUhTUkZZbE95czRiekI0TDdpa3Z6bGJieDVieDdmUGNITWRVb1AxZVJlRm9Sc0xwa3NUaDhhTGlzQk9PSVItV254eWE3QWVfc2Q3dmNfbEptNW9PTVdBdUJwbk5HekpNZ1otVEVvMVZxSUE?oc=5",
      "agent": "חדשות"
+    },
+    {
+     "text": "מכורה מאוד (מדד RSI 23), לפעמים מגיע ריבאונד למעלה",
+     "weight": 0.7,
+     "source": "https://www.tiingo.com/PLTR/overview",
+     "agent": "מסחר"
     },
     {
      "text": "הפחד בשוק עולה (VIX 25)",
@@ -1095,7 +1221,14 @@
      "agent": "מאקרו"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 156.56,
+    "date": "2026-11-17",
+    "chg": -2.39,
+    "chg5": -7.26,
+    "vol_ratio": 0.72,
+    "rsi": 23.5
+   },
    "news": {
     "news_24h": 8,
     "news_per_day": 4.5,
@@ -1127,9 +1260,9 @@
      "tone": 1.5
     },
     {
-     "title": "Palantir director Alexander Moore sells $2.69M in PLTR stock By Investing.com - Investing.com Canada",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTWFncTNGV1Vmb0RsR0plTkd2YXBoUFZiMFR6bm5NVllrQzdCcUhaNE1XWFF1Ul9HRGhuZHNWOUI1OElfbGZwZkZhVlFFd1gyYl91X01Sa21TclFSaE5WeTBoeE9fTGh1S3lGSTIwZHJvOFE2blB2SElhcERzbklCSG1xaFktOURya0ZIM0UwMVR6MGpjdnNGVDdoSTdad0ljQVkwcnl5ODh1RkZxOVBNSDFjTjF5UUpoZmUw?oc=5",
-     "source": "Investing.com Canada",
+     "title": "Palantir director Alexander Moore sells $2.69M in PLTR stock By Investing.com - Investing.com UK",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdFlsbnpJUi1GQW1LZFJlbnVzTkxOREVMSGhiajlUczU2SHhERjlhQjNTWkh0RkR2M3l2dHR0WDFKTkdhV3JESEFwTU1Pb0hheGlHcjNsSjBrSkhKSW1aODVzUC1ZNUJETW1VbmU0YThYbVVNSTVfQTJMYzBUVHhlX3hnQUxZWFdmOTkza2RNVzhLX0hlSlJSeW5SQVB3aVdYV2dCNlh1T1pTTTNKaXJYVUlDaFpVS2ZocTZr?oc=5",
+     "source": "Investing.com UK",
      "tone": 0
     },
     {
@@ -1139,18 +1272,22 @@
      "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "INTC",
    "name": "אינטל",
    "direction": "neutral",
-   "confidence": 38,
-   "score": -0.65,
-   "alert": false,
+   "confidence": 43,
+   "score": 0.05,
+   "alert": true,
    "signals": [
+    {
+     "text": "מכורה מאוד (מדד RSI 19), לפעמים מגיע ריבאונד למעלה",
+     "weight": 0.7,
+     "source": "https://www.tiingo.com/INTC/overview",
+     "agent": "מסחר"
+    },
     {
      "text": "הפחד בשוק עולה (VIX 25)",
      "weight": -0.2,
@@ -1174,12 +1311,25 @@
      "weight": -0.1,
      "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
+    },
+    {
+     "text": "גל חריג של כתבות: 23 ב-24 שעות (רגיל: כ-9 ביום)",
+     "weight": 0.0,
+     "source": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVTAtbUV5N2RPUV96S0NqOTROdE5XbVBwbTc4UjhOY2htWlVJWmY1NFhXU1RvYk1KRmZfc2h6YWNldWFuWkpJazVsOXdpT0RWVmNlZW9vSmlGdV9oYzAxTEt5UnczclIwVGwtZVRaRl9FRkNEejJIZHF0VDdJMUdXOE1vQUNBdl9uSzV6WWo4WkxZYndhazM2aE8wMWt6RVU1Y01yaWo0SXltS2FVQ2xCbVp3Y2RrN1ZSbHJLUlFB?oc=5",
+     "agent": "חדשות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 55.17,
+    "date": "2026-11-17",
+    "chg": -0.54,
+    "chg5": -5.09,
+    "vol_ratio": 0.72,
+    "rsi": 18.7
+   },
    "news": {
     "news_24h": 23,
-    "news_per_day": 9.3,
+    "news_per_day": 9.2,
     "tone": -0.11
    },
    "headlines": [
@@ -1220,21 +1370,25 @@
      "tone": -0.7
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   },
   {
    "ticker": "TEVA",
    "name": "טבע",
-   "direction": "neutral",
-   "confidence": 35,
-   "score": 0.85,
+   "direction": "up",
+   "confidence": 51,
+   "score": 1.1,
    "alert": false,
    "signals": [
     {
+     "text": "מגמה עולה: המחיר מעל הממוצע של 50 ו-200 יום",
+     "weight": 1.0,
+     "source": "https://www.tiingo.com/TEVA/overview",
+     "agent": "מסחר"
+    },
+    {
      "text": "הטון בכותרות של היממה האחרונה חיובי",
-     "weight": 1.5,
+     "weight": 0.75,
      "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
      "agent": "חדשות"
     },
@@ -1269,11 +1423,18 @@
      "agent": "דוחות"
     }
    ],
-   "price": {},
+   "price": {
+    "price": 42.62,
+    "date": "2026-11-17",
+    "chg": 0.12,
+    "chg5": 0.52,
+    "vol_ratio": 0.97,
+    "rsi": 62.4
+   },
    "news": {
-    "news_24h": 1,
-    "news_per_day": 4.7,
-    "tone": 1.0
+    "news_24h": 2,
+    "news_per_day": 4.5,
+    "tone": 0.5
    },
    "headlines": [
     {
@@ -1281,11 +1442,15 @@
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1VuQ2N4WEc2S2dwWC1GSUU5MURWR3d1UEc2RXZxdG5NMTl3dHR6SHIxU1V4aG9lU0d4VWhkaFY1REdhM3ZEVVN4NzBwQVZ6amZ6aWNLRjB3UUhEWGtaeVN6dGF3OVcyekF4Ykl5T2hwTjc1a3R1TWJ0U1Z1RUJfejRVYnJaemxFM0p5LWlTQ0ZGbmRlVUJ6anlGdGwxV1ZTbmU1cGk0cTdNUEF0ZmRxUGZMSHhBcDFBdEw5VU5NR1haSDNPMGZR?oc=5",
      "source": "ad-hoc-news.de",
      "tone": 1
+    },
+    {
+     "title": "Teva Pharmaceutical Industries (TEVA) Stock Forecasts - Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeFRIclRSRFF6UTloMW1FbHpFenJuWnNMa0c3SzJqT25rUDI0S0NRV1lENHNiWXlVeEtJeGpubC1vNEtXSzdnS2JwdzlPbHJNQjlWRUR5WFozSENiTXI1LWdibGtxS3dobDhITjV5TUU1eEFyQ1pScFAyZGdxdE84NTdMemlmZFhVcGFadg?oc=5",
+     "source": "Yahoo! Finance Canada",
+     "tone": 0
     }
    ],
-   "errors": {
-    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
-   }
+   "errors": {}
   }
  ]
 }
