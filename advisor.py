@@ -85,7 +85,7 @@ def message(planned, macro, stats, title="מה עושים היום"):
     L = [f"☀️ {title}", ""]
     buys = sorted([p for p in planned if p["short"]["action"] == "buy"], key=lambda p: -p["confidence"])
     sells = sorted([p for p in planned if p["short"]["action"] == "sell"], key=lambda p: -p["confidence"])
-    longs = sorted([p for p in planned if p["long"]["action"] == "buy" and p not in buys], key=lambda p: -(p["long"].get("q") or 0))
+    longs = sorted([p for p in planned if p["long"]["action"] == "buy" and p not in buys and p not in sells], key=lambda p: -(p["long"].get("q") or 0))
     for p in buys:
         L.append(f"🟢 קנה {p['name']} · ביטחון {p['confidence']}%\nמתי: היום בפתיחת המסחר (16:30) · להחזיק: כמה ימים עד שבועיים\nלמה: {p['short']['why']}\n")
     for p in sells:
