@@ -20,10 +20,14 @@ ITEMS = {
 }
 
 _cik_map = None
+# מספרי זיהוי קבועים ב-SEC, כדי לא להוריד את כל הרשימה בכל הרצה
+KNOWN_CIK = {"AAPL": 320193, "MSFT": 789019, "NVDA": 1045810, "AMZN": 1018724, "GOOGL": 1652044, "META": 1326801, "TSLA": 1318605, "AMD": 2488, "NFLX": 1065280, "JPM": 19617, "XOM": 2115436, "KO": 21344, "PLTR": 1321655, "INTC": 50863, "TEVA": 818686}
 
 
 def cik_for(ticker):
     global _cik_map
+    if ticker in KNOWN_CIK:
+        return KNOWN_CIK[ticker]
     if _cik_map is None:
         path = os.path.join(config.DATA_DIR, "sec_tickers.json")
         fresh = os.path.exists(path) and (dt.datetime.now().timestamp() - os.path.getmtime(path)) < 7 * 86400
