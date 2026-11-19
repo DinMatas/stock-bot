@@ -1,5 +1,5 @@
 {
- "run_time": "2026-11-19T16:39:49+00:00",
+ "run_time": "2026-11-19T17:37:22+00:00",
  "macro": {
   "ok": true,
   "score": -1.3,
@@ -40,8 +40,8 @@
    "ticker": "AAPL",
    "name": "אפל",
    "direction": "neutral",
-   "confidence": 49,
-   "score": 0.35,
+   "confidence": 45,
+   "score": -0.25,
    "alert": true,
    "signals": [
     {
@@ -49,6 +49,12 @@
      "weight": 1.0,
      "source": "https://www.tiingo.com/AAPL/overview",
      "agent": "מסחר"
+    },
+    {
+     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (7 מול 3)",
+     "weight": -0.6,
+     "source": "https://stocktwits.com/symbol/AAPL",
+     "agent": "רשתות"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -93,9 +99,9 @@
     "chg1y": 32.2
    },
    "news": {
-    "news_24h": 11,
+    "news_24h": 9,
     "news_per_day": 5.8,
-    "tone": 0.06
+    "tone": 0.08
    },
    "headlines": [
     {
@@ -129,9 +135,9 @@
      "tone": 0
     },
     {
-     "title": "Apple stock hit by major insider trading activity - Finbold",
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBOWm9DbmhOYzlpUDhHczI4S040WHc2Mjl5SzJOb2kwVnZpS1JSSWN1TlZpV0R2NG5weFE2cHhDaVdFTm1BMGhmSzdRR3RiS0gyRWFOcGlaRHZrRHAycWR5U2hxcEk1UHZmWjJKMDc0c2xGQl9LaDRud0Rn?oc=5",
-     "source": "Finbold",
+     "title": "Apple (AAPL) Stock Price Prediction: Apple Holds Above Key Support as Analysts Stay Mixed - Blockchain News",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRVlfbWZZcDEwUGVTaEJQcjlkSXlfWGd5Y0xwSkhnX2tNT3VQeG00VjZNQmVyVWY5NklHWFVwQ2phWXNZNU1LbXhqMjY0MTl1QVk4YTcyNGxpMzhVNVVITVFXUUxGM256VXdOV0RHRnh0dTJVQkp1NURnNVY4N1p1N21FUkpaOUVLekhVSG04aGpDNDEyV2Jj?oc=5",
+     "source": "Blockchain News",
      "tone": 0
     }
    ],
@@ -153,16 +159,10 @@
    "ticker": "MSFT",
    "name": "מיקרוסופט",
    "direction": "neutral",
-   "confidence": 47,
-   "score": -0.05,
+   "confidence": 56,
+   "score": -0.65,
    "alert": true,
    "signals": [
-    {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (6 מול 2)",
-     "weight": 0.6,
-     "source": "https://stocktwits.com/symbol/MSFT",
-     "agent": "רשתות"
-    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -188,12 +188,6 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (15 כתבות ביממה, בדרך כלל כ-6)",
-     "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWEV5Q1VycUo4YVpubzhMMkJ6cFBoblcxbTBaNEY2d21hT2EwYUVtUy1FQTI5ZDdHV1dOTUtDQVpkYTdpUTVYeHVKSDg5UWxQMWFwOFFRZUFjaU1jaUQza2VXbzVrZVNHeXVyVW4tMUV3RE91Yk5ic2dTZmltWl9uNzBhX044bVVzbmNCclZfdUNZLWUxY0E?oc=5",
-     "agent": "חדשות"
-    },
-    {
      "text": "פתאום מדברים עליה המון ברשתות החברתיות",
      "weight": 0.0,
      "source": "https://stocktwits.com/symbol/MSFT",
@@ -212,11 +206,17 @@
     "chg1y": 3.8
    },
    "news": {
-    "news_24h": 15,
-    "news_per_day": 6.0,
-    "tone": 0.29
+    "news_24h": 14,
+    "news_per_day": 6.5,
+    "tone": 0.28
    },
    "headlines": [
+    {
+     "title": "Bill Ackman Says His Microsoft “Sale” Was Really a Swap Into Options - 24/7 Wall St.",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOX1BvZHFVcWc0VGhsYUlJYmUzenZreG12bzJrcW82bjVENjBTTDhaX0t6OU5rdW8xMVNDWTNQUTdBSG81OFo1RWYyaUJaQV9QTTNnNkRmbHN2SmpWWUhiVjAtWFdpQzdIVnFVRHJ2aXpoT2pXNjg1WEdmeEw1NlRXYmlFejZfSkFMcmk1NUlOM040Um4xTkwxcVN2SmVzUnJ6Z0M4X0tyYW1GSzRMYkg0?oc=5",
+     "source": "24/7 Wall St.",
+     "tone": 0
+    },
     {
      "title": "MSFT Stock Surges 3.12%, but Technical Signals Tell a Different Story - Blockonomi",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWEV5Q1VycUo4YVpubzhMMkJ6cFBoblcxbTBaNEY2d21hT2EwYUVtUy1FQTI5ZDdHV1dOTUtDQVpkYTdpUTVYeHVKSDg5UWxQMWFwOFFRZUFjaU1jaUQza2VXbzVrZVNHeXVyVW4tMUV3RE91Yk5ic2dTZmltWl9uNzBhX044bVVzbmNCclZfdUNZLWUxY0E?oc=5",
@@ -246,12 +246,6 @@
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYTVxdml1ZHdDTkNrYzFYdkdMRkNFOW93WWppN2F3RTJWeGNXbk1uaGRUYlBxUXBvbUxPNjVUSUZuOHZSZnZGakVfR0JZRUFzclAwZmZydUcwNjVvUW5qQUR5QUo1eVh2bkU1N2JCZS1sVnROX1RVbGlaOURLTkN3Qk5PMEx5S1Fwb1JpNkRVMzh3ZnJyWFQyd1RCNzI0NS1jSkdIdEVETFpsNF9Sdk10VG45a2tFUWFJ?oc=5",
      "source": "TipRanks",
      "tone": 0.5
-    },
-    {
-     "title": "Microsoft: Remains My Pick Amongst Hyperscalers - Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeGlPQ2Y0R2NqTU9qOS1oUEo3dnBISkxVeGtVR1ZLbjlpV21sbW5HNk5zZ0hXamZFZE1XVTNva0xCaDZXTG93YjB5dTZqUF9UMjVRZEpfUTNHeDlGMUQ2U2xhc21IdWNxODdzdEg0WnpidnhwcXlNaVNtT3ZJNl95TVhXTUNlLU9XVVExcS1wems?oc=5",
-     "source": "Seeking Alpha",
-     "tone": 0
     }
    ],
    "errors": {},
@@ -271,9 +265,9 @@
   {
    "ticker": "NVDA",
    "name": "אנבידיה",
-   "direction": "neutral",
-   "confidence": 54,
-   "score": -0.45,
+   "direction": "down",
+   "confidence": 51,
+   "score": -1.05,
    "alert": true,
    "signals": [
     {
@@ -281,6 +275,12 @@
      "weight": 0.7,
      "source": "https://www.tiingo.com/NVDA/overview",
      "agent": "מסחר"
+    },
+    {
+     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (6 מול 4)",
+     "weight": -0.6,
+     "source": "https://stocktwits.com/symbol/NVDA",
+     "agent": "רשתות"
     },
     {
      "text": "במחיר הכי נמוך שלה בשנה האחרונה",
@@ -313,9 +313,9 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (34 כתבות ביממה, בדרך כלל כ-10)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (28 כתבות ביממה, בדרך כלל כ-11)",
      "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOFB6b2tBSzlfNExHVHFiRG1LV0hYeWUyMjlMRnBXSGRaakxzZ0VGbHJLbXI4TEV2eHAxUE84aEYxVWM0dUZ6dEhsTE1fcl9Ob2tEc0laT0syNmQtTXUyVndtbHF4RWpjMTdPYUw3eEE4UWhhQ2NDQ1V2QnlzRUVvNWtzUDhfZnZidG8wT084Y0wzUUtkOGVWQUQxaWxmbHIx?oc=5",
+     "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcnVac1N3Tnd4ZVVMaUFyTG5CVHkzS0N0dFBqcDNLR1pSN29FanpDYlFHemExQk1QQ004S1FEYkptR29hVW5wcUhPRWRmUXdRcXRnSWY1YUhCOUxBclFOaVVpVTJYZW9MbnVwV29YMkVNT0FUTzZOS01SeC1ES1Q5UHpaZzZ1WlR2WldsaFY0X28yd0pJNDBaMFY5SkM3eE1XS2taTA?oc=5",
      "agent": "חדשות"
     },
     {
@@ -343,11 +343,17 @@
     "chg1y": -16.6
    },
    "news": {
-    "news_24h": 34,
-    "news_per_day": 10.0,
-    "tone": 0.16
+    "news_24h": 28,
+    "news_per_day": 11.0,
+    "tone": 0.17
    },
    "headlines": [
+    {
+     "title": "Nvidia Is Best Avoided For Now, In Our View (NASDAQ:NVDA) - Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcnVac1N3Tnd4ZVVMaUFyTG5CVHkzS0N0dFBqcDNLR1pSN29FanpDYlFHemExQk1QQ004S1FEYkptR29hVW5wcUhPRWRmUXdRcXRnSWY1YUhCOUxBclFOaVVpVTJYZW9MbnVwV29YMkVNT0FUTzZOS01SeC1ES1Q5UHpaZzZ1WlR2WldsaFY0X28yd0pJNDBaMFY5SkM3eE1XS2taTA?oc=5",
+     "source": "Seeking Alpha",
+     "tone": 0
+    },
     {
      "title": "RiverPark Advisors: NVIDIA Corp. (NVDA) Remains Central to AI Infrastructure Build-Out - Yahoo Finance",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOFB6b2tBSzlfNExHVHFiRG1LV0hYeWUyMjlMRnBXSGRaakxzZ0VGbHJLbXI4TEV2eHAxUE84aEYxVWM0dUZ6dEhsTE1fcl9Ob2tEc0laT0syNmQtTXUyVndtbHF4RWpjMTdPYUw3eEE4UWhhQ2NDQ1V2QnlzRUVvNWtzUDhfZnZidG8wT084Y0wzUUtkOGVWQUQxaWxmbHIx?oc=5",
@@ -373,16 +379,10 @@
      "tone": 1.0
     },
     {
-     "title": "Nvidia’s $500 Billion Financing Plan Has Yet to Put a Dollar to Work, WSJ Reports - Benzinga",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOTA3VlF0Z3otZjZPYWxCU2RlNkh4TG1vYlFHOW9lV1hhanVKelRtNHVubUx4R3hiLVhBb0xlajAtdlVHWE9URU9YQjZWb0hRbmJIU3ZHeW91WjF2V0daS0VLTEtZWUhpQkRWNUhCM3ByTkdkT1c2S2VuOHFPWWtmWW8yOEZWdmtKLXE2SlZELXhOQQ?oc=5",
-     "source": "Benzinga",
+     "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance Singapore",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwR3dOYjE3WFNiWHJyVlFBM0NSRklETno5Mjh3YjFQbEhXVDNuU2FQWURiX2pPWjhXUjhkLURpSWE2X0hNZFVSb1RyNUxoX09HZ3c?oc=5",
+     "source": "Yahoo Finance Singapore",
      "tone": 0
-    },
-    {
-     "title": "Nvidia Slides After Blowout Earnings As Investigations Line Up; Is Nvidia Stock A Sell Now? - Investor's Business Daily",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVDN0OTZ2VUpyYWZPcDFwa2dsSWJtakNDQ0dqM2lrdEgwd0dKOXdzM3MwNTlVUDNZMmg0V0hOcVY5WDRaWEVteDNUdTdzSGEySmZmYWd5MWliZnVKOU8ySnh2TVp4MTJvWkpERTJNclF0OW1Ic0F6M2FVMjN5ajluV1BqVWg4OGtHWndWYQ?oc=5",
-     "source": "Investor's Business Daily",
-     "tone": -0.5
     }
    ],
    "errors": {},
@@ -403,8 +403,8 @@
    "ticker": "AMZN",
    "name": "אמזון",
    "direction": "neutral",
-   "confidence": 50,
-   "score": 0.95,
+   "confidence": 49,
+   "score": 0.35,
    "alert": true,
    "signals": [
     {
@@ -412,12 +412,6 @@
      "weight": 1.0,
      "source": "https://www.tiingo.com/AMZN/overview",
      "agent": "מסחר"
-    },
-    {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (7 מול 1)",
-     "weight": 0.6,
-     "source": "https://stocktwits.com/symbol/AMZN",
-     "agent": "רשתות"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -468,11 +462,17 @@
     "chg1y": 20.3
    },
    "news": {
-    "news_24h": 21,
-    "news_per_day": 9.7,
-    "tone": 0.06
+    "news_24h": 23,
+    "news_per_day": 10.0,
+    "tone": 0.07
    },
    "headlines": [
+    {
+     "title": "Amazon Stock (AMZN) Flattens as It Threatens to Leave New York Over Mamdani’s New Delivery Bill - TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYW8zc0tSMmtRXzRTRFB6VmJPMmtpdnB2ZjloWFhBSnZ4eFEwREJIOFRFQThINUR0bUw3S0duYXROa0lqN3ZpZXJ0QndBektOQm5VWUtiX0o2UlRQaTc5Y3RYUDFxTG5VMDFMVjVYalIzWUdSSjBEcmk3WXlYTnRpaW5zVmk4bHZJQS1xam5pZTgxc0lxTkNuYi1MbXJwd1BWQTdIbmxrd1RRWkgwTENTQU5ZNHNESGVBMDdyZWlaOA?oc=5",
+     "source": "TipRanks",
+     "tone": 0
+    },
     {
      "title": "Amazon Stock Moves Higher: What's Going On? - Benzinga",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd3EzOU9yRkc4NDAwWmxwN0dpeF9DdHJpNFpmN1hfV2poTUZkY21xcW1jNXAyR1BIU3NDZnpPQ0M3Z2NYMG1xeTAzRXpwTUplOTB5SHZ0R2xtNjNmajRrVWxCTVl0ZGpiUEtnS1FRRFpIMUE2dFlYZUo2WXFEVXNkM1JEYU1DdW5vS05YbXdwcW10dWJwS0ltdDVQd0xBLXVfOENXRUdn?oc=5",
@@ -492,20 +492,14 @@
      "tone": 0
     },
     {
+     "title": "Can Amazon's Ad Revenue Growth Continue to Underpin the Stock's Value? - TradingView",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR0p2VEx1dDFzODcwNzd3LVZncWpCRFdNUXlRX09NeUhrZEFUU3NzVlFSUGltTzh3ZWhCdzNjNTFpLUhOREt2eWNscks5Zm55SDR6UmpTbjBnWmJhZkp0Rmw3eUxyZkY2bnlVSlMtNG9qa29KcGQwUTlqLThHbWp0Yk9pZm4yeDJXWGc0TGs5dm5mSllWVGRmdU5YQTB2b294T3EyZC1tZWxIdmN2djZfQnY5U19Kai00Q1RNRkQwakVzbkU?oc=5",
+     "source": "TradingView",
+     "tone": 0.5
+    },
+    {
      "title": "45,850 Amazon.com, Inc. $AMZN Shares Sold by Nippon Life Global Investors Americas Inc. - MarketBeat",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdHlyRFA2QTRWMlYxQlFwTGIwNDhIY2I2dGVIdndoWnR6Uld5S3RRckIwXzVlWktDUWZjQ0J3UzFCak9yZnN0LUJSUUhrRE4yN2pYWFF2bTZ5b0thLVVuNV9FeFNnS2VheUk5dFZJUEtUQm9mck81ejlUSzd1eE40OUFwd2FtNWhhekZIdXJHWGdUZWlsQm5XRnNmbk9pMVBPUDJVTS14WF92bVUzTFFTSEdPRTl0bWFzLVlidEV0eVMwT1JmMGNQZl9JMVhuM0tjc1lVZ3paUmFGZw?oc=5",
-     "source": "MarketBeat",
-     "tone": 0
-    },
-    {
-     "title": "2,254 Amazon.com, Inc. $AMZN Shares Purchased by Leonard Rickey Investment Advisors P.L.L.C. - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYWNXR19sYUpYZm5nNDJSdGtndTktcFE2N2RhLXhGY293LU5GOTNRNGVxaTc5RjRsaWRxa2txTV9QaDB5WXFBWEh2UWhnbEc1SUtfZzhYWDU1RGVnRzVPVGszMlVhZ2xYblJwX2FOOXFZMnhpT3lvVXVyQWxuMWwtTnE4ZkQzZkxvNjM4NWF5Q25FM3haUWQ1Qkl5TUhfc3p1Z3FnczQ1QzliUEg5cUdINnNUOE43RkFodXBvTlQwV1FGYktUZFVTMmsxXzUyd25aMjlRX0V0Vnc4cy12?oc=5",
-     "source": "MarketBeat",
-     "tone": 0
-    },
-    {
-     "title": "Amazon.com, Inc. $AMZN Stock Holdings Lowered by Sumitomo Mitsui Trust Group Inc. - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNHBUR2ZkNllRY0U0cnM3NDZxQmtnRTFUZWhzbVVOMVZnb21lOFBuYzBrXzY4SFFGQko1NWRYa3pYYTBaMXkyWVJCZ1dtekZVVlFBeHBYTTlfMkNzd0V1QnpVSWJ4UXZ6R3llOGI4UXZzR1RyVU5WTWV5NjdhdW8xUVJGRWQwTG1RQVFMX3Rvc2U3Z1FzeG9BZDhpMkloc1BTRmJwR0VfcEVNT0t6ZzlnRFBPNVhhd2hsQml5RGxjdTZha3I4bGc4d1dvTXhPVm1TTXkw?oc=5",
      "source": "MarketBeat",
      "tone": 0
     }
@@ -528,8 +522,8 @@
    "ticker": "GOOGL",
    "name": "גוגל (אלפאבית)",
    "direction": "down",
-   "confidence": 56,
-   "score": -1.65,
+   "confidence": 65,
+   "score": -2.25,
    "alert": true,
    "signals": [
     {
@@ -537,6 +531,12 @@
      "weight": -1.0,
      "source": "https://www.tiingo.com/GOOGL/overview",
      "agent": "מסחר"
+    },
+    {
+     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (9 מול 2)",
+     "weight": -0.6,
+     "source": "https://stocktwits.com/symbol/GOOGL",
+     "agent": "רשתות"
     },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -676,9 +676,9 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (23 כתבות ביממה, בדרך כלל כ-7)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (22 כתבות ביממה, בדרך כלל כ-8)",
      "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMUg4akhja3VMVVA3Ymx1S2RvLUh5ZkMyOWtWLW5uYmhRY084YVhaZVJvaC04NTdPX2Q5c1JlaEJHVFpXeFVoNzI1akJ4Yy03WkdlZjd1WE1qOVlVUGZyMGVLZkFXUHhIaW4xckc0YVEyNVVtcGNhVmJzeVAzMExjVEkyRk5tUnZtV1A1c3NWdUp5NUptd0xBSk96Zm10X1pR?oc=5",
+     "source": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcjhnUWJnSERzUTlaejJaRXcwZElmc0dfczV0VXBqdThGLUFaN1hWczFJSXRtbW51YjFSQXFMT2FKd1hMbG9KUmh0czVfWElvbUpObUcwMDFnVHZ1bDltNzJlUXN0QzBndUNOSEdWVFBsV2VwZVhqYXlOUW5oRHBYVWFGSWVFS2NFU0wwcEJRX0lpWGs1MlRCR2l0bTJrS05LRmpLT0tCSWhLRzQ5azkwLVI3eUR3S0lHTU9YQkVPOFk5S1ktWmZqZTgzR1pZV0h4NGRXdGNkRkhST00tM01sTjB0dw?oc=5",
      "agent": "חדשות"
     },
     {
@@ -706,11 +706,17 @@
     "chg1y": 3.5
    },
    "news": {
-    "news_24h": 23,
-    "news_per_day": 7.2,
-    "tone": -0.04
+    "news_24h": 22,
+    "news_per_day": 8.0,
+    "tone": -0.05
    },
    "headlines": [
+    {
+     "title": "Meta’s Advertising Business Could Drive Another Major Earnings Surprise - 24/7 Wall St.",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcjhnUWJnSERzUTlaejJaRXcwZElmc0dfczV0VXBqdThGLUFaN1hWczFJSXRtbW51YjFSQXFMT2FKd1hMbG9KUmh0czVfWElvbUpObUcwMDFnVHZ1bDltNzJlUXN0QzBndUNOSEdWVFBsV2VwZVhqYXlOUW5oRHBYVWFGSWVFS2NFU0wwcEJRX0lpWGs1MlRCR2l0bTJrS05LRmpLT0tCSWhLRzQ5azkwLVI3eUR3S0lHTU9YQkVPOFk5S1ktWmZqZTgzR1pZV0h4NGRXdGNkRkhST00tM01sTjB0dw?oc=5",
+     "source": "24/7 Wall St.",
+     "tone": 0
+    },
     {
      "title": "Meta Stock Rises Even as Report Flags a Troubling Flaw in Muse AI Agent - TipRanks",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMUg4akhja3VMVVA3Ymx1S2RvLUh5ZkMyOWtWLW5uYmhRY084YVhaZVJvaC04NTdPX2Q5c1JlaEJHVFpXeFVoNzI1akJ4Yy03WkdlZjd1WE1qOVlVUGZyMGVLZkFXUHhIaW4xckc0YVEyNVVtcGNhVmJzeVAzMExjVEkyRk5tUnZtV1A1c3NWdUp5NUptd0xBSk96Zm10X1pR?oc=5",
@@ -740,12 +746,6 @@
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3V0a1JQSHotVWRkNFpvbWZmeHJKd29JZE5ibWtwZlNxRk5mY3AxYlV3OFZFeUZJb3J4aVpkQ1JYbl9WZV9lOWdpREhHcFVrQnplSl9YdC14SmhtT2FyOXpUbEIxV2VuWkNWMUJCZ3J3UGRrMThDMVNHMmRGR3FsOHRPN1RjSDFsdkYzMlUyTWZadzVyTDh3OUdBbEd1UGtTalNCeHNmLS00RE85NloyMEtNZU1wX2RQZkE?oc=5",
      "source": "marketscreener.com",
      "tone": 0
-    },
-    {
-     "title": "Mapping the Market: Meta shares may be about to deepen their slide - Reuters",
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PbGRpVWZIQ1NsV0s0SXhzRzdBZ0hqSVEySzJ3VmxrZFNqaU1QWnUtYVpJOWtrZzNZMUxKUlJnUk1YbTJHMF9pRnQ3TnZ4d1E3NTJQZUg0Y2VBRnBLRFcyR085enFGVExvSHRQaE5mNGp4c0ZMOGw4Vg?oc=5",
-     "source": "Reuters",
-     "tone": 0
     }
    ],
    "errors": {},
@@ -765,11 +765,17 @@
   {
    "ticker": "TSLA",
    "name": "טסלה",
-   "direction": "neutral",
-   "confidence": 56,
-   "score": -0.65,
+   "direction": "down",
+   "confidence": 53,
+   "score": -1.25,
    "alert": true,
    "signals": [
+    {
+     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (7 מול 4)",
+     "weight": -0.6,
+     "source": "https://stocktwits.com/symbol/TSLA",
+     "agent": "רשתות"
+    },
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
      "weight": -0.2,
@@ -813,11 +819,17 @@
     "chg1y": -4.4
    },
    "news": {
-    "news_24h": 13,
-    "news_per_day": 5.8,
-    "tone": 0.12
+    "news_24h": 12,
+    "news_per_day": 6.2,
+    "tone": 0.07
    },
    "headlines": [
+    {
+     "title": "TSLL 2X Tesla ETF Is Down 50% in 2026: Can It Double to $20 from Here? - 24/7 Wall St.",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQnZDWUYyaUdDclJJTWprT3E3S05XWk9sZUdZNngzbjZKc0lYWG1oN2szTXlqUThhWS1XWHpkSFZhVFlPX0tYZWs1SFNneUtCYjU0Rl96cVJJM3N4VDhkM1I5S3p6LUdvcDlYVkxKYm1MenZpZUdseFZrWkxBa2VWRXRDang1bW4tN3N3bHNHcy1OUFhOUmkwd0syRHd2QWJTTzVHTzZtb1ZJdmh3VmFURzFsZVZENFRpOFFCVg?oc=5",
+     "source": "24/7 Wall St.",
+     "tone": 0
+    },
     {
      "title": "Tesla Stock Could Be Worth Much More in 2027. Here’s the Number I’m Watching - 24/7 Wall St.",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWkZRVy0xWDlYSFRlUGp6N2xBWUZIWkZodXVIQ2xOc0tfRG9kWFpiTDlUQ2xZcDlCaFBsX2M2QUd1ckFmRjNwbFhoNDI3Z01scnR6X2NMODR5YS1jZWNFUE8wMXR4ZHh6Q2V1LW9JLUpRUU95bThUS1UtRWY5dzVDWnktMUV3a1FfWEZyeWc4WFJtdkpfblBSTEV3WTBsLUR5dEIyTERtTXpzTlhlS2Z3dmRpU2RMZ0dS?oc=5",
@@ -847,12 +859,6 @@
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMU1WNXp0Q29WU1kyM1N0d2FzM05hYW8zajZIU3p4YWpsZjQyVUZaNnhoLVo2SzlRWmhiLW1QdlhTRjMwbktxU0lvR0s0clVVQWhVNWFPd3cxb0lIc2F6YVd5dDFfYXZQR1RFdHdWYUJZdEtKMEhtZ3RNMDgxYUpRbFZyVmRRTC1PbmdUdUNGNnRSb2laMERKRk91Tkc?oc=5",
      "source": "Yahoo Finance",
      "tone": 0
-    },
-    {
-     "title": "Tesla, Inc. $TSLA Stock: Focus Advisor Solutions LLC Boosts Position - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMWRUQUljdFQwU0x1NVRkQXZaY3c5NGFKajZXUC1IakpkcWo3V3owU0tpLVNPVGVLOTNmLUo2QWZjWTRTN1ZTZDF4cUJyS2J1R0p6UWpQZmx3S3FmUUtDU2NDNHdNMy1tNHFFeTNLM285TDdJMVVMV0lfZVR3YlNtMWNNaV9RclhsdWVuNk1Id1JqVEQ2MmRmV3ppcUQ4a1BQVV80cmE1Ukh0Qmp1MXNmeEs3VkNfN2JqSEpWN1NKc0gxZDQ?oc=5",
-     "source": "MarketBeat",
-     "tone": 0.8
     }
    ],
    "errors": {},
@@ -878,7 +884,7 @@
    "alert": true,
    "signals": [
     {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (10 מול 1)",
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (7 מול 1)",
      "weight": 0.6,
      "source": "https://stocktwits.com/symbol/AMD",
      "agent": "רשתות"
@@ -914,9 +920,9 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (34 כתבות ביממה, בדרך כלל כ-10)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (42 כתבות ביממה, בדרך כלל כ-9)",
      "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTXlrbmlZWHE2bjU3ZzFGelA2YkVlUUUxckM1cWUtWmxXZDk5c2ZWbXJ6REFpeHRQNDFkX2E2Smo3YXZCcXpja204M09aLXJWQ2tqV2NRblFsNjVabUdSM2REX2pPemJLVFJzUnpLX3VOSU9UdElZQTBzYS04bEE1NDBrWXg2N0g0UEFBUXNxajB5Q1BCaVkwTldkeVBxY3JLWmN6NXotTzNBVkxhNzU5aVAxOE5PRVFQcnpDNjRGZjc?oc=5",
+     "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JVzJDLTFPc2lrY2ZPcXR4NElkVklfRGRyUGpQaTM3ZVZMcDY1UExMSjJ6QW5SQmstMFhES0gzMUQwQTZvY0ZJYUR1X2hLMllkSHVjajk0MmtnSko1LVAtcERldVA?oc=5",
      "agent": "חדשות"
     },
     {
@@ -944,46 +950,46 @@
     "chg1y": 130.2
    },
    "news": {
-    "news_24h": 34,
-    "news_per_day": 10.5,
-    "tone": 0.01
+    "news_24h": 42,
+    "news_per_day": 9.2,
+    "tone": -0.06
    },
    "headlines": [
+    {
+     "title": "Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today’s Market - Barron's",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JVzJDLTFPc2lrY2ZPcXR4NElkVklfRGRyUGpQaTM3ZVZMcDY1UExMSjJ6QW5SQmstMFhES0gzMUQwQTZvY0ZJYUR1X2hLMllkSHVjajk0MmtnSko1LVAtcERldVA?oc=5",
+     "source": "Barron's",
+     "tone": 0
+    },
+    {
+     "title": "Why AMD Stock Was Plunging on Thursday - The Motley Fool",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX3BLVnZVVDhkQ1I2LTdZRjZJdHBWU2dKVTlOS2U5bmNaTms4SUY1WndRRmF0TDcyN0VuanVjcFhyQnRyWVlOMGQzS21rSnJCUnRoalZqc3M5N3lwSGQ5S2hjN1BMV3BYTlhNcDBvZlZ1X1dfT2JqMmpXN05fYzJJWm5wTERHME1s?oc=5",
+     "source": "The Motley Fool",
+     "tone": 0
+    },
+    {
+     "title": "AMD stock drops after Hunterbrook Media raises export control concerns - Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWUg5LTNtMXZ0UXA0a1J0Ukx1U1lEaUhIV3pzS3ZxUVZGNmdack9VOTJiUHhrRnJZd2lDRkFsVS1hbE14eFlxZGtON3ZDMnZ4VVl0REI1MmllX016cFhCSzhxa0NYZHhELTV4Um93OHhTanJXbHRqZ2VDWmRHdUZfZzJTQmtSa0l1ODFIODItcVQxenFDSlozMVcxeGUxQzhReEJERTl6am1EbDdvYkRmV3pkUzdMWWhyM0taWS1DV0lLZGFyZHdPUElB?oc=5",
+     "source": "Yahoo Finance",
+     "tone": -0.3999999999999999
+    },
+    {
+     "title": "AMD shares slide as report says China links could invite US scrutiny - Reuters",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdGVGbWc5MzZvYkJfQTdMMHBzZllhb3dnNzYydUFXOEpWOHNuRVppNnkyVEdldnp0Z1pMX3B1NlNOVGpPOTJFTE1qcTNFUFJOZjRoQTNfbk5DcUZmZ3dlN1MtUXRMblp4MFNPdnR6d1BjRUxXbkI4RHdLSm82MDJiRFVOQVJ6MGhRSEhYdEQtYVB6RVdoZjBvbWg5Z1BZY0Jrbno4THFVdUg5MEhIQml0TEJLWQ?oc=5",
+     "source": "Reuters",
+     "tone": 0
+    },
+    {
+     "title": "AMD Plunges on Short Seller China Claims - Briefs Finance",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORnh3TXVBNTlmUjdTWkJzUnYwZ3FHNm1NZDF1NW1FblR2bXNxOGxYS1o3RmtHWklmYTZlRHdEUE5tMC1vUEgxVENRYjVmbHYyMDFvSVBSczV5akRITmhqMkY4OGZHd2Q1aDlRejNkZl9Ia1QydkZWTGZKb2hheWs4QTBPOWhOMmhjN0NSQUF0dDZiUQ?oc=5",
+     "source": "Briefs Finance",
+     "tone": -1.3
+    },
     {
      "title": "AMD Stock Falls After Hunterbrook Raises China Export Concerns - Benzinga",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTXlrbmlZWHE2bjU3ZzFGelA2YkVlUUUxckM1cWUtWmxXZDk5c2ZWbXJ6REFpeHRQNDFkX2E2Smo3YXZCcXpja204M09aLXJWQ2tqV2NRblFsNjVabUdSM2REX2pPemJLVFJzUnpLX3VOSU9UdElZQTBzYS04bEE1NDBrWXg2N0g0UEFBUXNxajB5Q1BCaVkwTldkeVBxY3JLWmN6NXotTzNBVkxhNzU5aVAxOE5PRVFQcnpDNjRGZjc?oc=5",
      "source": "Benzinga",
      "tone": -0.2999999999999998
-    },
-    {
-     "title": "AMD falls on short-seller report of alleged China exposure - CNBC",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNamxpaV9pd09BZHBwY2dkTF9NMUttWDFlQS16Q2MwOFl3d3VxX1BrR0J4aEtlQXM2TG5XUlN0eXBfMExna25BSzNOdTUxNG1DdG5ZQ2NNaWtqTjJpTnQ3S25xeXpBSzk5cWp4MUExWmk3RE1GWExWalJINFNOX3FjYWphSHFsOVR1SHppYkxvU0Uyek5zU2hCcUMzZ9IBoAFBVV95cUxNelFseGlBTTJCNTlhVlhxSzVvTjd4Y29iNzkxUE9USXk5YnQ3bEVNWl9yRmpnOHVhYzhyLUp3WXQtQjRoSmVDMUVqcDR5bFBMQmxuUzJ1VnRVaTloYTlMQnhnZTZ6QU9ybDdGSzJpWjhOTjRYT3ZyVk5LSmd6a3dKbTMyU3hNckEyeU5YVHhiNmV1N0VTaDh0emN1bDJPYjZW?oc=5",
-     "source": "CNBC",
-     "tone": -0.7
-    },
-    {
-     "title": "AMD Shares Fall Amid Hunterbrook Media Report on China Ties - marketscreener.com",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMDZVOEZSODZqU0VZbGJxeHp4UGNzRmV1N09DTzFxUjJ4TUpPb2xmakRzN3VtRzRNSUROUjB0UENnS3MxVnVKeFVYLUk1WWh4VkhQcXZZUWdCenpuQlhBQjlMbHhtNDNzcmt0anpQd2swa3ZKSmEyQnVnVUlyQzVKLWZWbjhEZE8yeElSYnJpeHNwaFVIcENSU0hoRC1CbTVreVh3S08tYUFtbUZZUG1rTEFR?oc=5",
-     "source": "marketscreener.com",
-     "tone": -0.7
-    },
-    {
-     "title": "AMD Slides After Hunterbrook Shorts Stock, Cites Circular Deals - Bloomberg.com",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbkp6di1ZYkMzQlhjTmkxbHFwNzIzLWMyc3NKXzBqSV9hZ05wODRRYUhjYl9pSmIyNENPaHpXWmlScUpaYXhfT3AyQ1hKYVhWZnhHRVp1a0g2dkVGWmpYa2lXdmdjaE1TUTQwbFlyNjJVNjVkRmlIbWt3WHhWYjNJWXNGSG9RcFkwYUFRZzdYMVNpQXVnZllfU0ZlZEc0QnFsQ1RnWk9tUmc5d2luUVVSaWRKMA?oc=5",
-     "source": "Bloomberg.com",
-     "tone": 0
-    },
-    {
-     "title": "Lisa Su Cashed Out $35 Million as AMD Trades 19% Below Its High - Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYjA1MFNtdW5VM0JvaFJtQlF1ZWNJZXJFVkJENERIQzAyQV9IV0IzaVpOWDV5Vm1nRV9TT0VqZkYzTlg5U2s5c2xFcHFHcnRoOUlKMUUtakxVc3BVTnNYeV9jY05DNTZZTjNqa0JzYzhaeF9USXl0NEtoNzFaZ2hpWUtEZUVrbWczMThUQXJKbWFzM053?oc=5",
-     "source": "Yahoo Finance",
-     "tone": 0
-    },
-    {
-     "title": "AMD Is Down 8% After Short Seller Hunterbrook Ties AMD's Firmware to Blacklisted Chinese Server Maker; Resilient Intel Remains Up 5% - 24/7 Wall St.",
-     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNdzd0czNoRHhWV3NBazdxMDZFQ0tLcWtObmF2UXRSLTBReGpORWJ4UkxpWDBZSUxqQ2YwNEFaNEEzSF9VRVZjQjU2UUE3dTlPUWhCRnBObm9IOXJrYjNhOHhXUnJSNTJzOE9ZZTNsNDBsdXc2ZkpmZ0J1NHF2MmdGaWlDdjBIZkMtRTRNQzZuWnY5YXNQZlI2MGJWOWNSemRHdzJEYXZyYkhaNWhBWEh5cHJTRkJCRzBXY191NVRFRGhlbTJaWS0yVldjaEd0LXNudnhPa2FGaExCdU5LUEl3ek5WdTBsMXRtMXluV1pYLUpIWmpuWHNOTGx2ZG81T3hT?oc=5",
-     "source": "24/7 Wall St.",
-     "tone": 0
     }
    ],
    "errors": {},
@@ -1152,11 +1158,23 @@
     "chg1y": 10.3
    },
    "news": {
-    "news_24h": 8,
-    "news_per_day": 4.7,
-    "tone": -0.23
+    "news_24h": 10,
+    "news_per_day": 4.3,
+    "tone": -0.18
    },
    "headlines": [
+    {
+     "title": "Visa, Mastercard, JPMorgan Hit By Reported Data Leak, Payment Information Not Affected - TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZUdFZkNjaWpaaXAxay00NFRTb1pBRk1fTVdzeVpieTh5VHNZNU40aFM4VW9SNFpFWTNfWTBYLXNZLTQ1U0ZESUNSeGZsU1pCVE5QRU5VSWRZbzJnbFlnU3FTQ3lfblA4N2NhcTExcC1ocFdodWRaWm1paWY2UWtUMENackp1QmxOM2d2cmJIYTJUejF4N2YwNkNpRm1uUXpwN3ppeV9NeVV5ZlJQMk8ycDVta2tCMUNxWXdmNURsQm0talFWdTJaVkQ2c21GMHR0SXpzVEtaU2kzRm5E?oc=5",
+     "source": "TradingView",
+     "tone": 0
+    },
+    {
+     "title": "JPMorgan Chase (JPM) Stock Price Prediction: JPMorgan Chase slips below near-term trend as analysts stay constructive - Blockchain News",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWTNzZ3lKRnN2X0JxRWRNVXJwSmRPcGxEbWtkQkNEUGdhbjdaTWdLRU5OVkd1ZGZ5c3NzNHR1ZE5xQjk5RHpZTVIzZTVYM0dPSkE4cTJqU21nVVZWTTdHOFhCek13QnRDa1BKV25jemlaSFRxWEh6S3NwRkI2cG1keXdYOTV0aWQ5cGJ5djZKWE1uWW91MHFHaC1zNA?oc=5",
+     "source": "Blockchain News",
+     "tone": 0
+    },
     {
      "title": "JPMorgan Chase (JPM) Says Vendors Hit by Cyberattack - TipRanks",
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbGhnR09Gb1c0S1Q2c1FRT1NzcmlaR1pDTmhEYl9LTFFjMjdocnJ4VEJsYTFWOXJxN2ozaExGQ20xUlQydTVuRUFiMk4wdzM3dFlTYVYxbS1fR1VqbWpTa2JHaGlkazA5RERMSDhrZmRCNk5hRnNoRkdNelJzLXNIOWNFQngydGs?oc=5",
@@ -1180,18 +1198,6 @@
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSlNkM3FYeXlxdDY1TXZKcDJlR1pJX2ZadGoyODNRQTNqMzkxUFNoLVBILVEzR3RhbURJVUd4eWo4NF9RNmlkeS12eVMyS0RZTnAtNFhBYlFiOGhsMlcyblc5WWRIRjZhMlpuYTZOcS1uRm5BcWdxY1VyQ1Iyc19Cek1EUWNtVm5ENUNpa3IxNjVSMnIxMmZhVkIwVl9tbU8yVGdrOHJuMmVKeHBEZTZheTl0V0ZRMEVHbDNyQw?oc=5",
      "source": "MarketBeat",
      "tone": 0
-    },
-    {
-     "title": "JPMorgan Chase & Co. (NYSE:JPM) Stock Price Breaks Below Two Hundred Day Moving Average - Should You Sell? - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMVlnOTBybnpvZDFpOUdlNnV3eG1vWm5yNjk3QThKandiQ2xSUDRKR3VsQWxGRUZIOWJqajRtMGhlY3Vmd0ZlTEtGRE5oM1VZQnBHeUhNaFVPVHZ5UmxaX2VUR3o5SUpNb2dBdHAyeW9pVE5tWGRZSklfQnRQZFlMMjIwQk5nRUd6Q3RNaEZwekdPQi1wVGJRU0JJZVVPUUl1dk85ZnF4YTNNTm43QW1pMEZMcXNhS1Rfbzh6VkR1VlVTRE1LQzZHREktU2xNWmRFamJYbXhHd25Wdkl0QUlIdjJiMXE4M25oME9YbGVxVQ?oc=5",
-     "source": "MarketBeat",
-     "tone": -0.5
-    },
-    {
-     "title": "Why Is JPMorgan Chase (JPM) Naming Bregje De Best As Its Next CFO? - Simply Wall St",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQU1ctTHZIMkJYenpSU2NxUHkxbGVHbzFaUEM1czlaVG5sN1F6VWpwbEpPd0NxTjFUUGlLc1ZVZDBLVGdEa21zTDRET195R29IM3U4TkdlWDFNWjlFeTBYZVM5aFVkM0prdGI4RWJUUUtrYm43a1BjdlFGSkpRRXJlbDlUbnpkSXl0NUJlcGp2aWZCR1k5eHFmOVB6VFgyTG10MWRqMXc1ajRMZ294ZUN4MUpJWnR1MXVmMUJHOG5GM09DbmZi0gHKAUFVX3lxTFB2Y1poVVNOaVk3cHE1eExtbW91cFQtQ3JmRXRoMVIxb3kxRVo5QXctNUJSNDl4dVFRejIzTndFMUVKd0hJMDZ4d2d1NG9sRktXUTdRc1A0d1psSkRaNWJuRUVEQm1VX1ZaRF8yMEN1MWVDTVQ0U1RtVWFEMDlCLWd5N3FvQWJreXFXaENUWENkYlM4ZWpkNlFFRnJrYzFJalhsdndERE1LUkNxeVQ0SWN0bGdCOWdpRWs5MjZiOUo3MzVLbDFPVktMN1E?oc=5",
-     "source": "Simply Wall St",
-     "tone": 0
     }
    ],
    "errors": {},
@@ -1213,7 +1219,7 @@
    "direction": "neutral",
    "confidence": 56,
    "score": -0.65,
-   "alert": true,
+   "alert": false,
    "signals": [
     {
      "text": "הלחץ בשוק עולה (מדד הפחד 25)",
@@ -1238,12 +1244,6 @@
      "weight": -0.1,
      "source": "https://fred.stlouisfed.org/series/SP500",
      "agent": "מאקרו"
-    },
-    {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (10 כתבות ביממה, בדרך כלל כ-4)",
-     "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWjE5RGZoV1VvUHhsMWdHZkx1T2ZjV3FFdXNjRXNKRU1EcWZYXzNjMGlaUWlNYnNHZktMUmg1X1MzMXlsb2FhUDJTTVNiY3R1N3Y2ZVVWRnYzQ0JTTnFZaUJ5WHJQMmRETVhlSThSTG5mNXNUNXl1ZUhCSWZvZ1JvQVFUMDFNaXlhUXFBR3RJYno1UFhONkpsQm5PX09uaFA2Y3VxcmJydnUxVEpwMVpnRHczczFJUk5mS1NzRXdsNXNKSjBTVWpjOURVVXQ3TjdFLVlr?oc=5",
-     "agent": "חדשות"
     }
    ],
    "price": {
@@ -1258,8 +1258,8 @@
     "chg1y": 38.5
    },
    "news": {
-    "news_24h": 10,
-    "news_per_day": 4.0,
+    "news_24h": 9,
+    "news_per_day": 4.2,
     "tone": 0.0
    },
    "headlines": [
@@ -1364,8 +1364,8 @@
     "chg1y": 41.4
    },
    "news": {
-    "news_24h": 7,
-    "news_per_day": 3.7,
+    "news_24h": 5,
+    "news_per_day": 4.2,
     "tone": 0.0
    },
    "headlines": [
@@ -1398,12 +1398,6 @@
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNVROVDZBV3d4N01OMUxSdHhUa0RiUG96M0E3cm9Wa0x5TXJ3MmNuNDgyTnBCU3FrVTFoa05IamliMWppeml3cGxROUswTUtFdWRrVzhWajVZUlpuWW02QW5vRUdLdzJUQU03Z0VzWlRwY3Uwejh3ZWpxeGlhaW1hc29RRDczZnZyTC1vSHN4LTl1YmtMM3dWejlTX18xMld5UUFxT1ZZXzNTWjBKZkdmNENaRlJMTE1Kc2FpQWQ4dw?oc=5",
      "source": "Stock Traders Daily",
      "tone": 0
-    },
-    {
-     "title": "Coca-Cola (KO) executive Monica Howard Douglas sold shares after exercising options granted in 2018 and 2019. - Stock Titan",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVDEwRzBSQlFnb2JpeUFJbTd0TS1PYWtjSWlOaUVQLUg3RVdFdFJXRUZpVUg0VjRlakVDdlkwQjZ2YU1nc0VPSVNHVVZPTDlBMUx1bXNYLVhmQWQ4ZGpUV3NKekdicWZkOWVGVEw1U0tsQ2pCclpLUXFyY1ZBQTc1b1RJbDIwTDBaZ2J4RWhWZ1k1eUNCWUFSMjBLRlkxczBsWlVUUDVHRQ?oc=5",
-     "source": "Stock Titan",
-     "tone": 0
     }
    ],
    "errors": {},
@@ -1434,7 +1428,7 @@
      "agent": "מסחר"
     },
     {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (8 מול 2)",
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (11 מול 1)",
      "weight": 0.6,
      "source": "https://stocktwits.com/symbol/PLTR",
      "agent": "רשתות"
@@ -1483,7 +1477,7 @@
    },
    "news": {
     "news_24h": 7,
-    "news_per_day": 5.2,
+    "news_per_day": 5.0,
     "tone": 0.29
    },
    "headlines": [
@@ -1552,7 +1546,7 @@
      "agent": "מסחר"
     },
     {
-     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (9 מול 0)",
+     "text": "ברשתות החברתיות רוב גדול חושב שהיא תעלה (7 מול 1)",
      "weight": 0.6,
      "source": "https://stocktwits.com/symbol/INTC",
      "agent": "רשתות"
@@ -1601,10 +1595,16 @@
    },
    "news": {
     "news_24h": 20,
-    "news_per_day": 10.3,
+    "news_per_day": 10.7,
     "tone": -0.12
    },
    "headlines": [
+    {
+     "title": "Why Intel Stock Is Gaining Today - Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMzkyZmJVQUtiUWJvZ1BVSllLQ3lkNXd2LUJDV3dhRlpTVFhIRWlfSklURjFmdThGTWI5ak1Xb0ZDMURLVHhYRTVaSmdpMURjcVBTLW96dzlXbWk5ZjAxVWNuUkJhZkgtQ0R3SnJYeURtUXBaR08wa25SOXVUYzlkQ1dsZFpQcDBHeVpSYjhjQU55eWxKd3JYNkVR?oc=5",
+     "source": "Yahoo Finance",
+     "tone": 0
+    },
     {
      "title": "Intel (INTC) Stock Looks Undervalued With Cash Flow Recovery In View - Simply Wall St",
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUkdXcnM0OFFZQS1tSzdJZDlFeU1EU09KN2F2enhtTGpYclhwVUJvUmlXdTU1eU5uMnNMTW16S3U5VlUxbnlkelBQZXJxYVVDb2JDOGxCdzJIVHhZZjJidUJyWGQ4Umh3UjY5VkdUMHV5SEZCX2hGWWRlVXhMZlZjX1d5dnBCUWVLNUl0RDhDMGJ6OS1VTG9nRkdhcXVxWkc3OHZqZzdmbUR4UVFHdV9JMHVsUFpWanI0cDR2cUJMX19ZLU1WYm9VaU9R0gHPAUFVX3lxTE5jVlNmclhVUjFhOWpFRUYteDQ4ZlBDTkM2X2JQSmdEbWJtVnF5anFFVFZNMTdjRTVLNzVEc0R0R3pGWC12V2wtYWV3T2dvYnpTMUxLVzJZcC1wVnNKc0VkVExsX0hZOUhfRHluRDJ6clQwTmc0ZHowYzYySktTTzVlaFNCcTFHY0VuTDRjUE9EUVNlQnNWMk9ydkRWcXZlTFNCclZfVGJwYUVkUWdHNThLenloczBwNXdqQnFoZEhSRFJTLVljNGhHN3RXa2xXNA?oc=5",
@@ -1634,12 +1634,6 @@
      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQVFiYUxfVllmRzlsLTd2Q1hOLW5reDRnc09JbGpIUTFWLWJGcjhCZXFMcXlSNDZTSU5rY0FoUG1LUWZENWYxbnFZTEotdzNEamJ1aldVbVJfSkZES2h0WllFWWYyMjY4WVExRUQ5b3FVX0VqN0xadkFscDRZaGZpTW1zQnZkVS02cHNQR1ZMX1dvS0xXdFR5UEdBUTExeEF6NzhWTzhfeTVSdDlhVXZmT0QyU2p0Z0Rmb0VLOUdtQ2VlNV9jaVA5Uw?oc=5",
      "source": "Barchart.com",
      "tone": -1.3
-    },
-    {
-     "title": "Intel Corporation $INTC Stock: Ieq Capital LLC Grows Stake - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbVEyNzA0Q3BDX1BSWmZBejltTXFwVjdzX3dCbEhDdVZEYmpwamNLUy1yUDdwMmFqczdrNHUxeENwWG9wbUgzelFUWDBaMUVBdmVjeWtfNzhnSUlSeGE1bFREaDlfRDcxbDVpYkZNeEhRME42cHBJb3FoWHBtRGpzNG9fSlJPRm5Nc2RYdTJzQUtPSTY5SDBPQ0MybWVjRGxRVmRaWUpVQ2I0N2V3dzhwWWxXYWJqcjZO?oc=5",
-     "source": "MarketBeat",
-     "tone": 0
     }
    ],
    "errors": {},
@@ -1699,6 +1693,12 @@
      "agent": "מאקרו"
     },
     {
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (9 כתבות ביממה, בדרך כלל כ-4)",
+     "weight": 0.0,
+     "source": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORngyQ0NEY3MyaFpQWFlkNDBNLURpYjdkT3FCSXZUcy13S2tYNFlDdUY1VUs5YngyVGExdnYyUm9WMm9QX0p6Skc2OWlnLXZMUE1XUmFyRGd1TlNTWWJSMmMwTkRNaHhDTThkRllqUllfc21QajAweWpqQVVBS1BGSVpVcXRuODFHUkVfSHZ3c0szbTRTY0QweTVUZUYwdHpYVS1YaW15bmFXei1lUXJ3dzhpSVI5Zk92bW9mZEt6Y1FuVGljX2hjWUVyZlpiUmFQTVdUTTk1NmxveVpOeTREd3QtVzlCQnlPSWpoNDB3?oc=5",
+     "agent": "חדשות"
+    },
+    {
      "text": "הודעה למשקיעים (18/11, דיווח רשמי)",
      "weight": 0.0,
      "source": "https://www.sec.gov/Archives/edgar/data/818686/000119312526467276/teva-20261117.htm",
@@ -1724,7 +1724,7 @@
    },
    "news": {
     "news_24h": 9,
-    "news_per_day": 3.8,
+    "news_per_day": 3.5,
     "tone": 0.08
    },
    "headlines": [
