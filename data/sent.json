@@ -3,6 +3,8 @@
  "daily": true,
  "alerts": [
   "NFLX:sell",
-  "GOOGL:sell"
+  "GOOGL:sell",
+  "TSLA:sell",
+  "TEVA:sell"
  ]
 }
