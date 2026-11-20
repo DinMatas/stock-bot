@@ -4,7 +4,7 @@
 import datetime as dt, json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import config, central, tracker, dashboard, advisor, notify, watch
-from agents import prices, news, filings, macro, social, xfeed, fundamentals, ipo
+from agents import prices, news, filings, macro, social, xfeed, fundamentals, ipo, scanner
 
 
 def main():
@@ -12,7 +12,17 @@ def main():
     print("מאקרו...")
     mac = macro.analyze()
     results, hist = [], {}
-    for t, name in config.WATCHLIST.items():
+    tickers = dict(config.WATCHLIST)
+    scanned = {}
+    try:
+        picks, total = scanner.movers(skip=tickers)
+        print(f"סורק: עבר על {total} מניות, נבחרו {len(picks)}")
+        for x in picks:
+            tickers[x["ticker"]] = x["name"]
+            scanned[x["ticker"]] = x
+    except Exception as e:
+        print("הסורק נכשל:", e)
+    for t, name in tickers.items():
         print(f"{t}...", flush=True)
         p = prices.analyze(t)
         if p.get("rows"):
@@ -22,6 +32,9 @@ def main():
         s = social.analyze(t)
         r = central.combine(t, name, p, n, f, mac, s, xfeed.analyze(t))
         r["fund"] = fundamentals.analyze(t, r["price"].get("price"))
+        if t in scanned:
+            r["scan"] = scanned[t]
+            r["signals"].insert(0, {"text": f"מניה פחות מוכרת שזזה חזק ({scanned[t]['pct']:+.0f}% ביום האחרון)", "weight": 0.0, "agent": "סורק", "source": ""})
         results.append(r)
     preds = tracker.log(results, run_time)
     preds = tracker.score_all(preds, hist)
