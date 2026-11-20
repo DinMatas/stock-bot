@@ -4,7 +4,7 @@
 import datetime as dt, json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import config, central, tracker, dashboard, advisor, notify, watch
-from agents import prices, news, filings, macro, social, xfeed, fundamentals
+from agents import prices, news, filings, macro, social, xfeed, fundamentals, ipo
 
 
 def main():
@@ -34,6 +34,11 @@ def main():
     send_messages(planned, mac, stats, run_time)
     send_weekly(preds, run_time)
     watch.check(results, hist)
+    try:
+        for txt in ipo.new_alerts():
+            notify.send(txt + "\n\nלא ייעוץ השקעות.")
+    except Exception as e:
+        print("רדאר הנפקות נכשל:", e)
     alerts = [r["ticker"] for r in results if r["alert"]]
     print(f"מוכן: {path}\nשווה לבדוק: {', '.join(alerts) or 'אין'}")
     broken = {k for r in results for k in r["errors"]}
