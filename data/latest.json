@@ -1,5 +1,5 @@
 {
- "run_time": "2026-11-20T05:46:57+00:00",
+ "run_time": "2026-11-20T06:01:56+00:00",
  "macro": {
   "ok": true,
   "score": -1.0,
@@ -35,7 +35,7 @@
    "ticker": "AAPL",
    "name": "אפל",
    "direction": "neutral",
-   "confidence": 47,
+   "confidence": 43,
    "score": -0.1,
    "alert": true,
    "signals": [
@@ -46,7 +46,7 @@
      "agent": "מסחר"
     },
     {
-     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (9 מול 3)",
+     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (9 מול 4)",
      "weight": -0.6,
      "source": "https://stocktwits.com/symbol/AAPL",
      "agent": "רשתות"
@@ -87,50 +87,11 @@
     "sma200": 302.44,
     "chg1y": 30.5
    },
-   "news": {
-    "news_24h": 21,
-    "news_per_day": 8.8,
-    "tone": 0.05
+   "news": {},
+   "headlines": [],
+   "errors": {
+    "חדשות": "HTTP Error 429: Too Many Requests"
    },
-   "headlines": [
-    {
-     "title": "(AAPL) Equity Market Report (AAPL:CA) - Stock Traders Daily",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbXFwYm5xRm9DM2RfM0hRZTlTRm9EWnd1bHdPSEphcF9UMkZtWWxGQ3dFU3U3bHB0QVU4dDhCU1hQT1VOZWQ0alZ3Q3ZyMm5sQnNpVUt2ZUVrQ0JtQjRtVXh6TjhMWV9ka2xQOTdQRkRZSi15LTZ4X1dZRlI4a3pJWmxJY0VGQnF2bnFJ?oc=5",
-     "source": "Stock Traders Daily",
-     "tone": 0
-    },
-    {
-     "title": "Apple (AAPL) Stock Could Be 33% Overvalued On Fresh Service Outage Concerns - Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcW1UV2NiYVZ2ZmxTbDc1dVoxblRuVWpUSlFHdWlaRXhzMmFUWFoxRHY2c2hMTEFyNmdrbUwwTHU0YUswM1VDMF9XZGVpbUhEaHRhSEwzdXZxaFFVVlNUWEJhNU5MTXRvY2tVd1FVbldtX0JfYUlyRG94MTh6WnEyWHF6Nl9mRkszMGJ4SW5mOWZDOTBK?oc=5",
-     "source": "Yahoo Finance",
-     "tone": -0.6
-    },
-    {
-     "title": "1 Unstoppable Stock to Buy Before It Joins NVDA and AAPL in the $1 Trillion Club - Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYmxZUTZVZndtUFl3QkI1ZFdXV2tvWDBhNnlFR0hTZnVvMmFESl93X25RN3VUWGNiWkg0Zmc2TzEtSkVNM3N0bk14MmxBRkJ2MHBMNUQ5VjVkcmhtZmczekM3dko0ckhnb2xtNU5wc09MLUctekdxaElWU0VJZmw3Y1RYVnpBU0I5aU04WlN4Y0ZnLTBpZUFINFNB?oc=5",
-     "source": "Yahoo Finance",
-     "tone": 0.5
-    },
-    {
-     "title": "ANT, META Stock Slip After-Hours Amid Reports That Apple Is Working On Its Own AI Agent - TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQeTJ6NFlTUEVrSzlSZ2Q1UVNDakdTR2NkM3JuSHVVbkFfX3BWNnUyTE9pY1MwbTRDdmpndEoxOHRTeVR1TWdZb05PelJPd1FVVzZzMTdLbVNBeldwb2o0UGZTS0t2dUF0UUswZ3ozTWptalJwM3pRQXlDSXJQNjFnRG1IV1BJSWVHZjRBX2x2MUdHVzN1anNaXzhuWVVGbkVUQ3BpN2lya2x5V2diTHNHekNrTV9Ic0xMVUozS1ZhblgxWjkxdHBqYkFON3I5YWdKZXNjS2JHRk1aMW1ta2xuRA?oc=5",
-     "source": "TradingView",
-     "tone": 0
-    },
-    {
-     "title": "Under a preset trading plan, Apple (AAPL) executive Jennifer Newstead sold 2,398 shares. - Stock Titan",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOEpTUWU1NllkbjhjLUdseE9JT0d2RVhqN3RlQUloR2thQ0gwOXRiS1FtVk4yVUVZQ0h5NmRteDN1bXJNdjlaWi1YejRhZm92TFMzMF9SRjA2U0t1UTI1ZkRIMkpObldOS0lWT3RhOHhOMXJWYk9UeTBEX2t5Q0poVHRIektvMjdMc2dFa0wxdjFzTzdrUVN4OWNPWVluMkNCNDFtV0Rn?oc=5",
-     "source": "Stock Titan",
-     "tone": 0
-    },
-    {
-     "title": "Apple Nears a Rare Long-Term DRAM Supply Deal With Samsung Electronics. What This Means for AAPL Stock. - Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZTAzU2dvbVdZTzN2Smttc1pjc3lsSW5qWTdldDFETUFxNmx4Y2Z1RkZSNG5EcXR0bFlueDdLY2Y4cWxfdGxiYktmeWVDODhnclQ5eEpWZVZRVHlJZjhkalNMVlk1UUpKaW9IS3NRN3RVcnF1MHhEbnVaZWdQaThJRjdud3VSSGkxREdfWHVTelZxSGdXTXc?oc=5",
-     "source": "Yahoo Finance",
-     "tone": 0.5
-    }
-   ],
-   "errors": {},
    "fund": {
     "fetched": "2026-11-18",
     "year": "2026",
@@ -183,11 +144,17 @@
     "chg1y": 3.3
    },
    "news": {
-    "news_24h": 12,
+    "news_24h": 13,
     "news_per_day": 6.5,
-    "tone": 0.14
+    "tone": 0.13
    },
    "headlines": [
+    {
+     "title": "White House names Kirsten Davies as cyber chief after outages hit MSFT, banks (MSFT:NASDAQ) - Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMWJGVUtxZEFsNkgxSW1WVTgzWmxFUEprTDJrMVdGaDY3UDNfQV9CLTFSekpIWG5TdmZpVnRqWlh4SHNVQlJqdTR1RE41YWRNV2FUY3FwVUpwMzFtdmRGV1BUMWJzbzNHZmgtMjBNNzNxazd1TDBUdHlxNlR1bDNVb1hiVEkxTWFOMWY1UEY0NjI1OUJPZGdXRWlFaEZmUjUySFZzaFlkNzBkOU83R2FWWnhaV0E?oc=5",
+     "source": "Seeking Alpha",
+     "tone": 0
+    },
     {
      "title": "Satya Nadella Explains the Buyout Offers, Microsoft Stock (NASDAQ:MSFT) Notches Up - TipRanks",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZEZMRmcxTlg4anp1M1VfLUR3d1JJRjV2QU9FMHpueks3ekhZdjJBRlh0QTlKVXRxNGxxOTdWQkJNVmg5aWd4NGlldHlXejdwRk9oaEtTNnZTY2g2dVlMdXRNbkQ1ejRqcWExZC1SNlZ0NlZET0VnNmFKTjIxNmRtclVsR1VfQmlkSFItNDdTVDJ5QndwcVRETnAzNlppVkZleWw0SnE0SVFteGNQ?oc=5",
@@ -216,12 +183,6 @@
      "title": "Microsoft Corp Stock (MSFT) Opened Up by 3.12% on Nov 19: What Investors Need To Know - TradingKey",
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUC03ZWJyTWg4V2xDWXhLV2ttaE92TTAtOVA4NjV2alVVSEFDZEJ0LXpnaDRpeXgtOFRCbW1DRldCM2NxS1loZVZoaUJEZEQzZXZYYnJTYWE4OXFEbldSdlVkcmVzZWYyR3BienRBVTM3RWV6VXhsUEp0MDdfazBBb3lZeW15c1h3YTFn?oc=5",
      "source": "TradingKey",
-     "tone": 0
-    },
-    {
-     "title": "Microsoft’s CEO Says He’s “Extremely Sorry” for the Outlook Outage - 24/7 Wall St.",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQU5mb3lfUm10QlcyU0hXTjA0dXVDdXlIVHRET0ZMd1ZyTWhSSENKa01wM0ctR194NE4zdmdfLVhSTkRZRXpseDlUVVhRZ01mZWY2LVZIbTBXMDJOdHhIUG9KNUMwN3VvTTRNNzBzVVFVZlRCclFlbENPNHJJWVh5Z3Rmd0NKYVJhXzg4eGtEZnRZRjc1N2dnel9Va2JtcTZFbkdCQzMtbHNvQQ?oc=5",
-     "source": "24/7 Wall St.",
      "tone": 0
     }
    ],
@@ -284,7 +245,7 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (36 כתבות ביממה, בדרך כלל כ-9)",
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (36 כתבות ביממה, בדרך כלל כ-10)",
      "weight": 0.0,
      "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeUxZcGZDY1RSQVVuNUY3LUI3WDJGbWM2aVRmNXVOVTNLNU5nU1JaOUdVaVh2UHphSm1aaTJvd2FtZUlidHYyLWt0VjFuQ0hDX05iM1JzZTljWmJsMmlyekV4MHRPZ05Da2dZLVllZzZfUk5nWmVmSUZtRkhJLW9qag?oc=5",
      "agent": "חדשות"
@@ -321,7 +282,7 @@
    },
    "news": {
     "news_24h": 36,
-    "news_per_day": 9.3,
+    "news_per_day": 9.5,
     "tone": 0.09
    },
    "headlines": [
@@ -427,8 +388,8 @@
     "chg1y": 15.6
    },
    "news": {
-    "news_24h": 20,
-    "news_per_day": 13.0,
+    "news_24h": 23,
+    "news_per_day": 10.2,
     "tone": -0.03
    },
    "headlines": [
@@ -620,7 +581,7 @@
    "direction": "down",
    "confidence": 51,
    "score": -1.1,
-   "alert": true,
+   "alert": false,
    "signals": [
     {
      "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (8 מול 4)",
@@ -647,12 +608,6 @@
      "agent": "מאקרו"
     },
     {
-     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (36 כתבות ביממה, בדרך כלל כ-7)",
-     "weight": 0.0,
-     "source": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUjBCWmsxOUFxNUZEU3JhaW1WZzVYdE5rUEw1WVVNY2ZwMU5rLTI4SkUwNXMzUnJ5ZGVBY00tUFEzSlk2WG5WUXJoZ0RVdG5zRldQNEo3dm9zMlRocXMwVWZrOFd2cW5FaHRZUFlvS1FOWU9Sc3dmekhEd280dmg4R0wxM1JvZzVSN0hyTTN3?oc=5",
-     "agent": "חדשות"
-    },
-    {
      "text": "15 דיווחים השבוע על מנהלים שקנו או מכרו מניות של החברה",
      "weight": 0.0,
      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1326801&type=4",
@@ -671,9 +626,9 @@
     "chg1y": 1.3
    },
    "news": {
-    "news_24h": 36,
-    "news_per_day": 7.0,
-    "tone": -0.04
+    "news_24h": 28,
+    "news_per_day": 11.5,
+    "tone": -0.1
    },
    "headlines": [
     {
@@ -683,33 +638,33 @@
      "tone": 0
     },
     {
-     "title": "Meta Platforms (NASDAQ:META) Insider Sells $974,375.00 in Stock - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQlFIbTd0ZkRIYXhrNzloS2NsQXl5XzZfRHY4Q3JDX2VhUVV4eFVZMXM2TmQ2aTA1enVRUzVsU2FnbUw0TWVKVkQwSFFyNkdNX2o3WkNVSVc2MkxkOGl5YnlwSWtmMnlLR3BGLWpNUDh3cXFIUUZmLW1WNGh6X2tBUC1jdFlMcDF0blJ0Rm41QU1PZVdoazk0d1M3MEROUF9tXzhaN1ZSZGVXOUowWEVuVk80bU1RUVEtX05MWA?oc=5",
-     "source": "MarketBeat",
-     "tone": 0
-    },
-    {
-     "title": "Insider Selling: Meta Platforms (NASDAQ:META) CFO Sells $5,720,371.80 in Stock - MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYWNUOWdaLVZhSnFib0luOHNtTHBJV0ZxeUxxRXBxWVhQaDZUVVZ4NFFyckh6cG1lNnBXM1JWbWk4S1kzY2k3Z1dmVndlSkJYVFlRR3VCc05pX3FmYzZUbUx2R2JnNUV4Uzhkd0FNMVkwX3dBMDRJNU8tMHIwbjd3cHpGY3Q0T2RXcTNKUVdwSkd2TXBRSW51QkFFSW1ycGlsQ0FtVUFUVHlqVDN2N1BTMlhuQ0doYmFCQ1lvSVdvMlJNVllPaXFRa3hSZEg4Zw?oc=5",
-     "source": "MarketBeat",
-     "tone": 0
-    },
-    {
      "title": "A $13 Billion Hedge Fund Just Bought These 3 Stocks - TIKR.com",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT2M2RWF2S01XcGI3QU5CeWRCYUpCaHpuZTAwc2trU2QxeGVqS010U3RFZnNSVlNCaUU0akNhaEJISXdtQ3R6UlFqN2FXTGgzeEh3YkM3TkRpVmp0WGhSZUdNTDNNMTFqSk8wOHpEQjIxMW5UcmkxWDVJdDhRY1d0aXp3?oc=5",
      "source": "TIKR.com",
      "tone": 0
     },
     {
-     "title": "Inside Dan Loeb’s Portfolio: Every Move He Made in the Third Quarter - TIKR.com",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc2dLUFVVSU1XaDZOaUxfMjIxMVdRQ3Fla0lWbVl5VWQxY3ZHUGx1blFQYTJqZXJTakl4RkNwZ3ctME16WXFTMUl3VzVWNmk2SkkwQzJSTTU4V193bThJVHdKTk0tcmJKbDUzSXFhcUpfWUs1UXk1N2xtZ2lVbXFrSXE4YTc2TXN4UlNnUXA2UjNHTGRFN3N3?oc=5",
-     "source": "TIKR.com",
+     "title": "Meta Platforms CTO Andrew Bosworth sells $4.9M in stock By Investing.com - Investing.com South Africa",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQTE5c1pMNm1JazZLNE5PUzdCc3pnX0RPZ19FbmdaU0dPYkFxcG5TTnU1MUFUX1dEMFBxT2JBcDJhSjRSTnM3VUtHVDFuRFc0ODMzOWp0anNVTTRJeU00ajRCNXFRVnhrM0VsRnFDS3didGxhdEhtSTE0RjBpYmpfUnJnMDJ1ZDNDQjRXNUM2QVRUcS00c0xQd25EN01VSndtWjZJTW5rb1dzclFUU0x6cVVNTVA?oc=5",
+     "source": "Investing.com South Africa",
      "tone": 0
     },
     {
      "title": "Meta CFO Susan Li sells $5.72 million in company stock - Investing.com",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQckFBTXpMT2ZQRWh6MDZyU2tZMWtWZnQ5TUVaXzVodzlFZEFtU1NzYi00TGYzR0NhTEl3U0tNX2wwT2RFOGJmc0trdndCTFFUc051RnhfYmRYWVFUNGFBSldaTjM2MkJiUjZkZWpkS0ZfcFgySmZMZVllUEpVd2xfcGtoVjEydHNPSUpRSHRFZTd5bWdINjAzWUZoRHJvRlN1aTJoWlZFNnZEYy1iaWd6SndWT3Mtdjdm?oc=5",
      "source": "Investing.com",
+     "tone": 0
+    },
+    {
+     "title": "Meta Platforms chief legal officer sells $974,375 in stock - Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOFF3czVtZmdIQ211YjRaTFBDcFc0T0ZGejEzNVBMb1JSdVBneEtLRXhSSTc4dlNjdWs0c3JDY21hWjBYZy1PSjE4XzR1NGxfU0hCbjJQQnA1VVZ0NG9pRlNsSXlDamRhWXp1cG9QNzZqUElTT1BpNm0yN29qMG5iZTE3MTZOUUNaOFlOajRqZkhnby1jYWk0V0tUYlVJbHFxNzFoS0Q3TGpRWjQxQlM4R0tfWlZoaEszS1NZODFR?oc=5",
+     "source": "Investing.com",
+     "tone": 0
+    },
+    {
+     "title": "A trust with Meta Platforms (META) CFO Susan J. Li as co-trustee sold 9,196 shares in seven trades. - Stock Titan",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd2FfVUx6a2c5aE1MWnRrWTJCdWJ2dEFhdzhPQk1NT2NoeXNwN0J5UzNyeHpwd1NPRzZGWTNlVmt1NDJZem8tZTNTTUp6Q3Z1ZGtwWGt4enRMNGVzdUZrbGRFc0JNdjJUMlZkRkFlc2U0WjNWaXpta1J5U0R2SGJ5aWJUNGN5Y0F0bUdUdlFTNkY2WjhnanF6c0lEZVQwM0tsZHdDMlc1eDhBZmh0Xy1ER0ZR?oc=5",
+     "source": "Stock Titan",
      "tone": 0
     }
    ],
@@ -1094,7 +1049,7 @@
    },
    "news": {
     "news_24h": 12,
-    "news_per_day": 11.3,
+    "news_per_day": 5.7,
     "tone": -0.17
    },
    "headlines": [
@@ -1112,7 +1067,7 @@
     },
     {
      "title": "JPM: SEC Form FWP filed by JP Morgan Chase & Co. - Quantisnow",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNb0ZNZG83Zk1mOTZ6ZHVlLVRFTHd3cDZtWXUxQVNCc1lSLS1iUF83TjZkaFlSS21LeXpfa3lTWktjVE1EeEppbWpwekcxa1ozeXFqXzhtdVNJZzh1WFJkaHlBLU55V1VvZmVLeWdka1hGdXV3QmoyZWhQM0UwbllFX2FTb1JiQQ?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd2d6Z0RtUVVleUlOb3BuRHN1WmN2VWl5bUN2OERybjBiU0hxbDRBNS0xQ2lHMm5YRDI0b0NLU3J0WXRlbVBZbUtNbDh1NkxiSHprRWNxOW5WN0I0SmRtelVCYm9NaktDSExCdExBaDhFNWE1bHBoUktRX0NNOGJoUThjUktvOEtCSTJv?oc=5",
      "source": "Quantisnow",
      "tone": 0
     },
@@ -1381,9 +1336,9 @@
     "chg1y": -7.1
    },
    "news": {
-    "news_24h": 8,
-    "news_per_day": 8.8,
-    "tone": 0.25
+    "news_24h": 7,
+    "news_per_day": 4.7,
+    "tone": 0.29
    },
    "headlines": [
     {
@@ -1441,9 +1396,15 @@
    "name": "אינטל",
    "direction": "neutral",
    "confidence": 51,
-   "score": -0.0,
+   "score": -0.6,
    "alert": false,
    "signals": [
+    {
+     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (8 מול 5)",
+     "weight": -0.6,
+     "source": "https://stocktwits.com/symbol/INTC",
+     "agent": "רשתות"
+    },
     {
      "text": "נפתחה בקפיצה של +5.2% לעומת היום הקודם",
      "weight": 0.5,
@@ -1650,6 +1611,103 @@
     "eps": 1.21,
     "pe": 31.9,
     "ok": true
+   }
+  },
+  {
+   "ticker": "ANT",
+   "name": "אנתרופיק",
+   "direction": "down",
+   "confidence": 51,
+   "score": -1.1,
+   "alert": true,
+   "signals": [
+    {
+     "text": "ברשתות החברתיות הרבה חושבים שהיא תרד (9 מול 2)",
+     "weight": -0.6,
+     "source": "https://stocktwits.com/symbol/ANT",
+     "agent": "רשתות"
+    },
+    {
+     "text": "הלחץ בשוק עולה (מדד הפחד 25)",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/VIXCLS",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק האמריקאי כולו ירד 3.9% השבוע",
+     "weight": -0.2,
+     "source": "https://fred.stlouisfed.org/series/SP500",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "השוק כולו במגמה שלילית החודש",
+     "weight": -0.1,
+     "source": "https://fred.stlouisfed.org/series/SP500",
+     "agent": "מאקרו"
+    },
+    {
+     "text": "מדברים עליה בחדשות הרבה יותר מהרגיל (81 כתבות ביממה, בדרך כלל כ-3)",
+     "weight": 0.0,
+     "source": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVXNNQUM4R0ZQOTh6VWtkaEhjdk8xVXRwOUlob1BTVjNjSVpoV3FGSGRtOTlVV0pLd2lsRVpYc2wyRXZHd0s4QklBZVdpdVlRbC1hOWQ4YUJsZkdwYzJ0TWFjbGszN2F6OVBjNl9RTUNXelZhX1JiTzJKNTJaTjN4MXROTUZjN1puN2NWZ292R2dBVzZ5T3VEVzZlblBOQQ?oc=5",
+     "agent": "חדשות"
+    },
+    {
+     "text": "פתאום מדברים עליה המון ברשתות החברתיות",
+     "weight": 0.0,
+     "source": "https://stocktwits.com/symbol/ANT",
+     "agent": "רשתות"
+    }
+   ],
+   "price": {},
+   "news": {
+    "news_24h": 81,
+    "news_per_day": 2.8,
+    "tone": 0.26
+   },
+   "headlines": [
+    {
+     "title": "Anthropic (ANT) is Rocketing to the Moon — Is it Too Late to Ride the Boom? - Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVXNNQUM4R0ZQOTh6VWtkaEhjdk8xVXRwOUlob1BTVjNjSVpoV3FGSGRtOTlVV0pLd2lsRVpYc2wyRXZHd0s4QklBZVdpdVlRbC1hOWQ4YUJsZkdwYzJ0TWFjbGszN2F6OVBjNl9RTUNXelZhX1JiTzJKNTJaTjN4MXROTUZjN1puN2NWZ292R2dBVzZ5T3VEVzZlblBOQQ?oc=5",
+     "source": "Yahoo Finance",
+     "tone": 0
+    },
+    {
+     "title": "Anthropic - ANT - Stock Price & News - The Motley Fool",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKcFNrZTBCdGtndnhZMTVwMDdNTEYzSExwcHBLRF9xb0VubDBwQzd4SnlsQ0xRekJTb2pTc19NSmtvRkdndVVqRW9ZYXFVYjg?oc=5",
+     "source": "The Motley Fool",
+     "tone": 0
+    },
+    {
+     "title": "Bumpy Markets Didn’t Derail Anthropic’s Mega IPO - Bloomberg.com",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMV9oVllkeENaZS1DTFg3eThtZzNRQVoxZ2NYV2tOTkFpeTR1S0dGSzJGdktNbkwxcG5aWkhLSXdzd3lWMGVFX0tHdkxROHdfeVVBM3EtODhBc0NRMjF6ZVVRN01mcTFGaXROQUZBZU1URm9aOHJTWHF6TzdOV1NiUzJFUHl3MGJ3cGFyMFBvNUpTeUZ5OTRCSmRpODVzZHpKRFhXRU1SY3lRSzQ0TVRldWFWTExYYVJXNEl1dm1PYw?oc=5",
+     "source": "Bloomberg.com",
+     "tone": 0
+    },
+    {
+     "title": "ANT's IPO Is Hot, But Stock Market Gets Cold Feet And Gold Panic Worsens - Yardeni QuickTakes",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNC1La0g2YWt5dXdhUzNIaTNBTWxBUVUwdC1IZWlOSEl6OW1iR2FDNGtKSURvY2JLNmxXQ01UOXJqRDM1Z1VDLU54TUkyRkliaFpiakFOVjdWalZ1ZDZ6UTF1TkdIbUN2QnlEd3dHQVA2ZEYyLXRpekhsQi1mVGZCU2FkVER0ZV9VbEdYOXlwSHNqblN6WG0xQVBXNzVobFQzRlFSQW1GODY?oc=5",
+     "source": "Yardeni QuickTakes",
+     "tone": 0
+    },
+    {
+     "title": "I'm Buying The Anthropic IPO, Here's Why - Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdVltYXZhNDBoS0dTbU9IQ3BNMG5OTl9Ob3Q1b05sOUdCRlJTYjhJcTFuR05fZFVMSXJDYThETzM1M29mTjZGcjhXcm9oR3VCNDNCZElYY25SWVloei10Y29JZXNqaVVTM0pnenRjM0NuUlBwczhNeXNxUkg0ekRtbWtOTmg?oc=5",
+     "source": "Seeking Alpha",
+     "tone": 0
+    },
+    {
+     "title": "Bybit Adds Anthropic (ANT) to Its Stock Trading Offering Following Public Listing - PR Newswire",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNFRSRllPcTRsRUpzZzdmdmNTNElEVE5mSWhPeUN5LUFpZVN3RjlubzBvUW5hdG1TZllpMzdzcVM1OGI5d0pZb29RUURwbTlOTkotekFpeDVRNWljLTBzRHUza2hORGxCYmtOa08zSGc2Nmg0c1ZOdHBGQmtnNU03S2d5RnY5T1FYd2NpN2k0eG5YUFEtN3dCRUpNanp6RkNUQXBMWWFROWN4UmhaMndrcGFXaVBTWV84U2g5T2VwOUlPaGZuZDExSUlfUlhWM3pJ?oc=5",
+     "source": "PR Newswire",
+     "tone": 0
+    }
+   ],
+   "errors": {
+    "מסחר": "_yahoo: HTTP Error 429: Too Many Requests"
+   },
+   "fund": {
+    "ok": false,
+    "error": "אין מספיק נתונים שנתיים"
    }
   }
  ]
