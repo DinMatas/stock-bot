@@ -632,7 +632,7 @@
  {
   "ticker": "AAPL",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "neutral",
   "confidence": 47,
   "score": -0.1,
@@ -647,7 +647,7 @@
  {
   "ticker": "MSFT",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "neutral",
   "confidence": 59,
   "score": -0.5,
@@ -662,7 +662,7 @@
  {
   "ticker": "NVDA",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "neutral",
   "confidence": 57,
   "score": -0.3,
@@ -677,7 +677,7 @@
  {
   "ticker": "AMZN",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "neutral",
   "confidence": 55,
   "score": 0.5,
@@ -692,37 +692,37 @@
  {
   "ticker": "GOOGL",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "down",
-  "confidence": 55,
-  "score": -1.5,
+  "confidence": 63,
+  "score": -2.1,
   "price": 272.66,
   "reasons": [
    "כבר כמה חודשים במגמת ירידה",
-   "נפתחה בקפיצה של +4.2% לעומת היום הקודם",
-   "במחיר הכי נמוך שלה בשנה האחרונה"
+   "ברשתות החברתיות הרבה חושבים שהיא תרד (5 מול 3)",
+   "נפתחה בקפיצה של +4.2% לעומת היום הקודם"
   ],
   "results": {}
  },
  {
   "ticker": "META",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
-  "direction": "down",
-  "confidence": 51,
-  "score": -1.1,
+  "made_at": "2026-11-20T21:25:57+00:00",
+  "direction": "neutral",
+  "confidence": 59,
+  "score": -0.5,
   "price": 596.22,
   "reasons": [
-   "ברשתות החברתיות הרבה חושבים שהיא תרד (5 מול 3)",
    "הלחץ בשוק עולה (מדד הפחד 28)",
-   "השוק האמריקאי כולו ירד 5.5% השבוע"
+   "השוק האמריקאי כולו ירד 5.5% השבוע",
+   "השוק כולו במגמה שלילית החודש"
   ],
   "results": {}
  },
  {
   "ticker": "TSLA",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "down",
   "confidence": 55,
   "score": -1.5,
@@ -737,7 +737,7 @@
  {
   "ticker": "AMD",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "down",
   "confidence": 51,
   "score": -1.0,
@@ -752,10 +752,10 @@
  {
   "ticker": "NFLX",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "down",
-  "confidence": 71,
-  "score": -3.0,
+  "confidence": 70,
+  "score": -2.94,
   "price": 58.46,
   "reasons": [
    "כבר כמה חודשים במגמת ירידה",
@@ -767,7 +767,7 @@
  {
   "ticker": "JPM",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "neutral",
   "confidence": 60,
   "score": -0.7,
@@ -782,7 +782,7 @@
  {
   "ticker": "XOM",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "neutral",
   "confidence": 52,
   "score": 0.2,
@@ -797,7 +797,7 @@
  {
   "ticker": "KO",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "neutral",
   "confidence": 55,
   "score": 0.5,
@@ -812,7 +812,7 @@
  {
   "ticker": "PLTR",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "neutral",
   "confidence": 59,
   "score": -0.5,
@@ -827,7 +827,7 @@
  {
   "ticker": "INTC",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "neutral",
   "confidence": 51,
   "score": -0.0,
@@ -842,10 +842,10 @@
  {
   "ticker": "TEVA",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "down",
   "confidence": 65,
-  "score": -1.8,
+  "score": -1.82,
   "price": 38.54,
   "reasons": [
    "החדשות עליה ביממה האחרונה שליליות",
@@ -857,7 +857,7 @@
  {
   "ticker": "SA",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "down",
   "confidence": 75,
   "score": -4.0,
@@ -872,10 +872,10 @@
  {
   "ticker": "SNEX",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "down",
   "confidence": 79,
-  "score": -5.0,
+  "score": -4.81,
   "price": 39.45,
   "reasons": [
    "מניה פחות מוכרת שזזה חזק (-27% ביום האחרון)",
@@ -887,10 +887,10 @@
  {
   "ticker": "LQDT",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "down",
-  "confidence": 69,
-  "score": -2.8,
+  "confidence": 68,
+  "score": -2.63,
   "price": 33.03,
   "reasons": [
    "מניה פחות מוכרת שזזה חזק (-25% ביום האחרון)",
@@ -902,7 +902,7 @@
  {
   "ticker": "INSM",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "neutral",
   "confidence": 54,
   "score": 0.9,
@@ -917,7 +917,7 @@
  {
   "ticker": "SLS",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "neutral",
   "confidence": 51,
   "score": -0.6,
@@ -932,7 +932,7 @@
  {
   "ticker": "RMIX",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "down",
   "confidence": 59,
   "score": -2.0,
@@ -947,7 +947,7 @@
  {
   "ticker": "KRNT",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "up",
   "confidence": 57,
   "score": 1.75,
@@ -962,7 +962,7 @@
  {
   "ticker": "WSM",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "down",
   "confidence": 63,
   "score": -2.5,
@@ -977,7 +977,7 @@
  {
   "ticker": "WRBY",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "down",
   "confidence": 51,
   "score": -1.0,
@@ -992,7 +992,7 @@
  {
   "ticker": "ARKO",
   "price_date": "2026-11-19",
-  "made_at": "2026-11-20T20:30:12+00:00",
+  "made_at": "2026-11-20T21:25:57+00:00",
   "direction": "down",
   "confidence": 63,
   "score": -2.5,
