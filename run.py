@@ -3,7 +3,7 @@
 """
 import datetime as dt, json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import config, central, tracker, dashboard, advisor, notify
+import config, central, tracker, dashboard, advisor, notify, watch
 from agents import prices, news, filings, macro, social, xfeed, fundamentals
 
 
@@ -33,6 +33,7 @@ def main():
     path = dashboard.write(planned, mac, stats, run_time)
     send_messages(planned, mac, stats, run_time)
     send_weekly(preds, run_time)
+    watch.check(results, hist)
     alerts = [r["ticker"] for r in results if r["alert"]]
     print(f"מוכן: {path}\nשווה לבדוק: {', '.join(alerts) or 'אין'}")
     broken = {k for r in results for k in r["errors"]}

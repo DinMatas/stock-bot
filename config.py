@@ -38,3 +38,6 @@ NEUTRAL_BAND_PCT = 1.0    # תזוזה קטנה מ-1% נחשבת "ניטרלי" 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(HERE, "data")
 OUT_DIR = os.path.join(HERE, "docs")  # docs/ = התיקייה שגיטהאב מציג כאתר
+
+# מעקב "תחתית": מניה -> מאיזה תאריך מסתכלים. מתריעים כשיש סימן שהירידה נעצרה או שמונה מנכ"ל.
+WATCH_BOTTOM = {"NVDA": "2026-11-12"}
