@@ -75,7 +75,7 @@ def send_messages(planned, mac, stats, run_time):
                 act = p["short"]["action"]
                 key = f'{p["ticker"]}:{act}'
                 strong = act in ("buy", "sell") and p["confidence"] >= 60
-                if strong and key not in sent["alerts"]:
+                if strong and key not in sent["alerts"] and len(sent["alerts"]) < 6:  # עד 6 התראות ביום, שלא יהיה ספאם
                     verb = "קנה" if act == "buy" else "מכור (או לא לקנות)"
                     txt = (f"🚨 עכשיו: {verb} {p['name']}\n"
                            f"ביטחון {advisor.conf_word(p['confidence'])} {p['confidence']}%\n"
