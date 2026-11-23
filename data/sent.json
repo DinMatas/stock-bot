@@ -1,5 +1,12 @@
 {
  "date": "2026-11-23",
  "daily": true,
- "alerts": []
+ "alerts": [
+  "NFLX:sell",
+  "CORZW:sell",
+  "CSIQ:sell",
+  "SIND:sell",
+  "SVRA:sell",
+  "APLD:sell"
+ ]
 }

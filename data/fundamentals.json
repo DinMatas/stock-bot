@@ -211,5 +211,83 @@
   "profit_growth": 9.1,
   "eps": 0.15,
   "debt_to_equity": 3.28
+ },
+ "CORZW": {
+  "fetched": "2026-11-23",
+  "year": "2025",
+  "rev_growth": -37.5,
+  "profit": -288616000,
+  "margin": -90.5,
+  "eps": -0.88
+ },
+ "CSIQ": {
+  "fetched": "2026-11-23",
+  "year": "2025",
+  "rev_growth": -6.6,
+  "profit": -104126000,
+  "margin": -1.9,
+  "profit_growth": -388.8,
+  "eps": -2.5,
+  "debt_to_equity": 2.14
+ },
+ "MARA": {
+  "fetched": "2026-11-23",
+  "year": "2025",
+  "rev_growth": -39.2,
+  "profit": -1311480000,
+  "margin": -2234.1,
+  "profit_growth": -342.3,
+  "eps": -3.69,
+  "debt_to_equity": 0.92
+ },
+ "SVRA": {
+  "fetched": "2026-11-23",
+  "year": "2020",
+  "profit": -49615000,
+  "margin": -19305.4,
+  "debt_to_equity": 0.39
+ },
+ "SHAZ": {
+  "fetched": "2026-11-23",
+  "year": "2025",
+  "rev_growth": 257.4,
+  "profit": -39623909,
+  "margin": -2529.2,
+  "eps": -4.04
+ },
+ "IREN": {
+  "fetched": "2026-11-23",
+  "year": "2026",
+  "rev_growth": 41.1,
+  "profit": -702621000,
+  "margin": -99.4,
+  "profit_growth": -908.2,
+  "eps": -2.22,
+  "debt_to_equity": 1.77
+ },
+ "APLD": {
+  "fetched": "2026-11-23",
+  "year": "2026",
+  "rev_growth": 167.5,
+  "profit": -184339000,
+  "margin": -30.2,
+  "eps": -0.91
+ },
+ "AEVA": {
+  "fetched": "2026-11-23",
+  "year": "2025",
+  "rev_growth": 99.4,
+  "profit": -145428000,
+  "margin": -804.4,
+  "eps": -2.55
+ },
+ "HUT": {
+  "fetched": "2026-11-23",
+  "year": "2025",
+  "rev_growth": 44.8,
+  "profit": -226149000,
+  "margin": -96.2,
+  "profit_growth": -168.1,
+  "eps": -2.14
  }
 }
