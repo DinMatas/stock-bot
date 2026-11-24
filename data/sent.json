@@ -1,12 +1,5 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "daily": true,
- "alerts": [
-  "NVDA:buy",
-  "AMD:buy",
-  "CSIQ:sell",
-  "SVRA:sell",
-  "KYMR:buy",
-  "ALAB:buy"
- ]
+ "alerts": []
 }
