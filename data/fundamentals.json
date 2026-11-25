@@ -1,6 +1,6 @@
 {
  "AAPL": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2026",
   "rev_growth": 15.1,
   "profit": 132175000000,
@@ -10,7 +10,7 @@
   "debt_to_equity": 0.61
  },
  "MSFT": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2026",
   "rev_growth": 17.8,
   "profit": 133749000000,
@@ -20,7 +20,7 @@
   "debt_to_equity": 0.07
  },
  "NVDA": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2026",
   "rev_growth": 65.5,
   "profit": 120067000000,
@@ -30,7 +30,7 @@
   "debt_to_equity": 0.05
  },
  "AMZN": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2025",
   "rev_growth": 12.4,
   "profit": 77670000000,
@@ -40,7 +40,7 @@
   "debt_to_equity": 0.16
  },
  "GOOGL": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2025",
   "rev_growth": 15.1,
   "profit": 132170000000,
@@ -50,7 +50,7 @@
   "debt_to_equity": 0.11
  },
  "META": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2025",
   "rev_growth": 22.2,
   "profit": 60458000000,
@@ -60,7 +60,7 @@
   "debt_to_equity": 0.27
  },
  "TSLA": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2025",
   "rev_growth": -2.9,
   "profit": 3794000000,
@@ -70,7 +70,7 @@
   "debt_to_equity": 0.08
  },
  "AMD": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2025",
   "rev_growth": 34.3,
   "profit": 4335000000,
@@ -80,7 +80,7 @@
   "debt_to_equity": 0.04
  },
  "NFLX": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2025",
   "rev_growth": 15.9,
   "profit": 10981201000,
@@ -90,7 +90,7 @@
   "debt_to_equity": 0.51
  },
  "JPM": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2025",
   "rev_growth": 2.8,
   "profit": 57048000000,
@@ -99,7 +99,7 @@
   "eps": 20.02
  },
  "KO": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2025",
   "rev_growth": 1.9,
   "profit": 13107000000,
@@ -108,7 +108,7 @@
   "eps": 3.04
  },
  "PLTR": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2025",
   "rev_growth": 56.2,
   "profit": 1625033000,
@@ -117,7 +117,7 @@
   "eps": 0.63
  },
  "INTC": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2025",
   "rev_growth": -0.5,
   "profit": -267000000,
@@ -126,7 +126,7 @@
   "debt_to_equity": 0.39
  },
  "TEVA": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2025",
   "rev_growth": 4.3,
   "profit": 1410000000,
@@ -134,7 +134,7 @@
   "eps": 1.21
  },
  "XOM": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "year": "2025",
   "rev_growth": -5.0,
   "profit": 28844000000,
