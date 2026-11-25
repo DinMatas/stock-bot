@@ -347,5 +347,84 @@
   "profit": -42903000,
   "margin": -13.1,
   "eps": -1.72
+ },
+ "AMBA": {
+  "fetched": "2026-11-25",
+  "year": "2026",
+  "rev_growth": 37.2,
+  "profit": -75865000,
+  "margin": -19.4,
+  "eps": -1.78
+ },
+ "EMBC": {
+  "fetched": "2026-11-25",
+  "year": "2025",
+  "rev_growth": -3.8,
+  "profit": 95400000,
+  "margin": 8.8,
+  "profit_growth": 21.8,
+  "eps": 1.62
+ },
+ "PRLD": {
+  "fetched": "2026-11-25",
+  "year": "2025",
+  "rev_growth": 73.4,
+  "profit": -99498000,
+  "margin": -819.6,
+  "eps": -1.29
+ },
+ "PHAT": {
+  "fetched": "2026-11-25",
+  "year": "2025",
+  "rev_growth": 216.9,
+  "profit": -221247000,
+  "margin": -126.3,
+  "eps": -3.03
+ },
+ "ANF": {
+  "fetched": "2026-11-25",
+  "year": "2026",
+  "rev_growth": 6.4,
+  "profit": 506921000,
+  "margin": 9.6,
+  "profit_growth": -10.5,
+  "eps": 10.46
+ },
+ "KSS": {
+  "fetched": "2026-11-25",
+  "year": "2026",
+  "rev_growth": -4.3,
+  "profit": 272000000,
+  "margin": 1.8,
+  "profit_growth": 149.5,
+  "eps": 2.38,
+  "debt_to_equity": 0.35
+ },
+ "AMTM": {
+  "fetched": "2026-11-25",
+  "year": "2026",
+  "rev_growth": -3.9,
+  "profit": 338000000,
+  "margin": 2.4,
+  "profit_growth": 412.1,
+  "eps": 1.38,
+  "debt_to_equity": 0.71
+ },
+ "STOK": {
+  "fetched": "2026-11-25",
+  "year": "2025",
+  "rev_growth": 404.5,
+  "profit": -6885000,
+  "margin": -3.7,
+  "eps": -0.12
+ },
+ "SHOE": {
+  "fetched": "2026-11-25",
+  "year": "2026",
+  "rev_growth": -5.6,
+  "profit": 52269000,
+  "margin": 4.6,
+  "profit_growth": -29.1,
+  "eps": 1.9
  }
 }
