@@ -1,12 +1,5 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "daily": true,
- "alerts": [
-  "AMBA:sell",
-  "EMBC:buy",
-  "KSS:buy",
-  "AMTM:buy",
-  "NTNX:sell",
-  "HPQ:buy"
- ]
+ "alerts": []
 }
