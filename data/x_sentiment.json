@@ -1,101 +1,101 @@
 {
- "updated": "2026-11-25T17:48:27+00:00",
- "tickers": {
-  "AAPL": {
-   "bull": 1,
-   "bear": 1,
-   "hot": false,
-   "note": "בעיקר ספאם, דיבור על שירותי אפל"
-  },
-  "MSFT": {
-   "bull": 0,
-   "bear": 0,
-   "hot": false,
-   "note": "כמעט רק ספאם, אין דעות ברורות"
-  },
-  "NVDA": {
-   "bull": 4,
-   "bear": 2,
-   "hot": true,
-   "note": "חזרת ג'נסן הואנג, שערורייה וירידה חדה"
-  },
-  "AMZN": {
-   "bull": 3,
-   "bear": 0,
-   "hot": false,
-   "note": "משא ומתן עם מטא על קניות AI"
-  },
-  "GOOGL": {
-   "bull": 1,
-   "bear": 1,
-   "hot": false,
-   "note": "ירידה של 3%, חשש מהוצאות AI"
-  },
-  "META": {
-   "bull": 2,
-   "bear": 1,
-   "hot": false,
-   "note": "משא ומתן עם אמזון, מקווים לתיקון"
-  },
-  "TSLA": {
-   "bull": 1,
-   "bear": 1,
-   "hot": false,
-   "note": "מעט דיון, בעיקר ספאם"
-  },
-  "AMD": {
-   "bull": 0,
-   "bear": 1,
-   "hot": false,
-   "note": "מניות השבבים בירידה יום שני ברצף"
-  },
-  "NFLX": {
-   "bull": 4,
-   "bear": 0,
-   "hot": false,
-   "note": "קונים בירידות, טוענים שקרוב לתחתית"
-  },
-  "JPM": {
-   "bull": 1,
-   "bear": 1,
-   "hot": false,
-   "note": "מעט דעות, בעיקר ספאם וקבוצות וואטסאפ"
-  },
-  "XOM": {
-   "bull": 0,
-   "bear": 1,
-   "hot": false,
-   "note": "כמעט רק ספאם, ירידה במחירי הגז"
-  },
-  "KO": {
-   "bull": 0,
-   "bear": 0,
-   "hot": false,
-   "note": "רק ספאם, אין דיון אמיתי"
-  },
-  "PLTR": {
-   "bull": 1,
-   "bear": 1,
-   "hot": false,
-   "note": "בעיקר ספאם, השוואה לקריסות עבר"
-  },
-  "INTC": {
-   "bull": 1,
-   "bear": 2,
-   "hot": false,
-   "note": "ירידה חדה מהשיא, קפיצה של 4% היום"
-  },
-  "TEVA": {
-   "bull": 0,
-   "bear": 0,
-   "hot": false,
-   "note": "רק ספאם, אין דיון אמיתי"
-  },
-  "ANT": {
-   "bull": 2,
-   "bear": 2,
-   "hot": true,
-   "note": "המניה חזרה למחיר ההנפקה, ויכוח סוער"
+  "updated": "2026-11-26T05:46:29+00:00",
+  "tickers": {
+    "AAPL": {
+      "bull": 3,
+      "bear": 0,
+      "hot": false,
+      "note": "מחזיקה ליד השיא למרות ירידת השבבים"
+    },
+    "MSFT": {
+      "bull": 1,
+      "bear": 2,
+      "hot": false,
+      "note": "השבתה של יממה וחשש מהוצאות AI"
+    },
+    "NVDA": {
+      "bull": 3,
+      "bear": 4,
+      "hot": true,
+      "note": "עצרה משלוחי שבבים לדרום מזרח אסיה"
+    },
+    "AMZN": {
+      "bull": 2,
+      "bear": 2,
+      "hot": false,
+      "note": "מגמה טכנית שלילית מול פוטנציאל לווייני Leo"
+    },
+    "GOOGL": {
+      "bull": 5,
+      "bear": 2,
+      "hot": false,
+      "note": "קונים בירידה, חשש מחוב ונכסים מוקפאים"
+    },
+    "META": {
+      "bull": 1,
+      "bear": 1,
+      "hot": false,
+      "note": "מעט דיון, בעיקר רשימות מניות"
+    },
+    "TSLA": {
+      "bull": 0,
+      "bear": 1,
+      "hot": false,
+      "note": "מדברים על מיזוג עם SpaceX"
+    },
+    "AMD": {
+      "bull": 0,
+      "bear": 2,
+      "hot": false,
+      "note": "ירידה חדה במניות השבבים"
+    },
+    "NFLX": {
+      "bull": 1,
+      "bear": 0,
+      "hot": false,
+      "note": "כמעט רק ספאם, תזרים מזומנים חזק"
+    },
+    "JPM": {
+      "bull": 0,
+      "bear": 0,
+      "hot": false,
+      "note": "כמעט אין דיון"
+    },
+    "XOM": {
+      "bull": 3,
+      "bear": 0,
+      "hot": false,
+      "note": "הנפט מזנק ומוסדות קנו הרבה"
+    },
+    "KO": {
+      "bull": 2,
+      "bear": 0,
+      "hot": false,
+      "note": "משקיעים אוהבים את הדיבידנד היציב"
+    },
+    "PLTR": {
+      "bull": 1,
+      "bear": 1,
+      "hot": false,
+      "note": "ויכוח על התמחור הגבוה"
+    },
+    "INTC": {
+      "bull": 1,
+      "bear": 2,
+      "hot": false,
+      "note": "צנחה 8% עם כל מניות השבבים"
+    },
+    "TEVA": {
+      "bull": 0,
+      "bear": 0,
+      "hot": false,
+      "note": "אין דיון של ממש"
+    },
+    "ANT": {
+      "bull": 3,
+      "bear": 5,
+      "hot": true,
+      "note": "נפלה מתחת למחיר ההנפקה, ויכוח על השווי"
+    }
   }
- }
 }
