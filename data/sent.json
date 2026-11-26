@@ -5,6 +5,8 @@
   "AMBA:sell",
   "EMBC:buy",
   "KSS:buy",
-  "AMTM:buy"
+  "AMTM:buy",
+  "NTNX:sell",
+  "HPQ:buy"
  ]
 }

@@ -426,5 +426,56 @@
   "margin": 4.6,
   "profit_growth": -29.1,
   "eps": 1.9
+ },
+ "NTNX": {
+  "fetched": "2026-11-26",
+  "year": "2026",
+  "rev_growth": 12.4,
+  "profit": 1506837000,
+  "margin": 52.8,
+  "profit_growth": 700.0,
+  "eps": 5.17
+ },
+ "FLNC": {
+  "fetched": "2026-11-26",
+  "year": "2026",
+  "rev_growth": 3.1,
+  "profit": -205654000,
+  "margin": -8.8,
+  "eps": -1.51
+ },
+ "ACDC": {
+  "fetched": "2026-11-26",
+  "year": "2025",
+  "rev_growth": -11.4,
+  "profit": -369000000,
+  "margin": -19.0,
+  "eps": -2.22,
+  "debt_to_equity": 1.22
+ },
+ "BZ": {
+  "fetched": "2026-11-26",
+  "year": "2025",
+  "rev_growth": 17.3,
+  "profit": 391148000,
+  "margin": 33.1,
+  "eps": 0.42
+ },
+ "HPQ": {
+  "fetched": "2026-11-26",
+  "year": "2025",
+  "rev_growth": 3.2,
+  "profit": 2529000000,
+  "margin": 4.6,
+  "profit_growth": -8.9,
+  "eps": 2.65
+ },
+ "JOBY": {
+  "fetched": "2026-11-26",
+  "year": "2025",
+  "rev_growth": 39183.1,
+  "profit": -929842000,
+  "margin": -1740.5,
+  "eps": -1.13
  }
 }
