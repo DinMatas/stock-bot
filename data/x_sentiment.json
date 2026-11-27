@@ -1,101 +1,101 @@
 {
-  "updated": "2026-11-27T05:45:44+00:00",
-  "tickers": {
-    "AAPL": {
-      "bull": 0,
-      "bear": 0,
-      "hot": false,
-      "note": "בעיקר ספאם ופרסומות, אין דיון אמיתי"
-    },
-    "MSFT": {
-      "bull": 1,
-      "bear": 0,
-      "hot": false,
-      "note": "מעט דיון, ניתוח טכני אחרי קפיצה"
-    },
-    "NVDA": {
-      "bull": 3,
-      "bear": 0,
-      "hot": false,
-      "note": "שואלים אם המניה זולה אחרי הירידה"
-    },
-    "AMZN": {
-      "bull": 1,
-      "bear": 0,
-      "hot": false,
-      "note": "מעט דיון, בעיקר ספאם"
-    },
-    "GOOGL": {
-      "bull": 0,
-      "bear": 0,
-      "hot": false,
-      "note": "רק ספאם, אין דיון אמיתי"
-    },
-    "META": {
-      "bull": 0,
-      "bear": 0,
-      "hot": false,
-      "note": "רק ספאם, אין דיון אמיתי"
-    },
-    "TSLA": {
-      "bull": 3,
-      "bear": 2,
-      "hot": false,
-      "note": "רובוטים, FSD ואפשרות מיזוג עם SpaceX"
-    },
-    "AMD": {
-      "bull": 0,
-      "bear": 0,
-      "hot": false,
-      "note": "בודקים את ממוצע 200 הימים"
-    },
-    "NFLX": {
-      "bull": 1,
-      "bear": 1,
-      "hot": false,
-      "note": "צוחקים על בלעדיות IMAX, יש שחושבים זולה"
-    },
-    "JPM": {
-      "bull": 0,
-      "bear": 0,
-      "hot": false,
-      "note": "אין דיון אמיתי"
-    },
-    "XOM": {
-      "bull": 0,
-      "bear": 0,
-      "hot": false,
-      "note": "אין דיון אמיתי"
-    },
-    "KO": {
-      "bull": 1,
-      "bear": 0,
-      "hot": false,
-      "note": "מעט דיון, מחזיקים לטווח ארוך"
-    },
-    "PLTR": {
-      "bull": 1,
-      "bear": 0,
-      "hot": false,
-      "note": "ירדה הרבה, מחכים להיפוך"
-    },
-    "INTC": {
-      "bull": 1,
-      "bear": 0,
-      "hot": false,
-      "note": "השקעת הממשלה בשבבים טובה לאינטל"
-    },
-    "TEVA": {
-      "bull": 0,
-      "bear": 0,
-      "hot": false,
-      "note": "אין דיון אמיתי"
-    },
-    "ANT": {
-      "bull": 3,
-      "bear": 2,
-      "hot": true,
-      "note": "ויכוח על המחיר אחרי ההנפקה הגדולה"
-    }
+ "updated": "2026-11-27T17:45:37+00:00",
+ "tickers": {
+  "AAPL": {
+   "bull": 6,
+   "bear": 1,
+   "hot": false,
+   "note": "קניות אופציות גדולות, קרובה לשיא"
+  },
+  "MSFT": {
+   "bull": 2,
+   "bear": 3,
+   "hot": false,
+   "note": "מתחת לממוצעים, יש שמממשים רווחים"
+  },
+  "NVDA": {
+   "bull": 1,
+   "bear": 3,
+   "hot": false,
+   "note": "ירידה היום, דיווח על שבבים בסין"
+  },
+  "AMZN": {
+   "bull": 4,
+   "bear": 1,
+   "hot": false,
+   "note": "עלייה בבלאק פריידי, הימור על החגים"
+  },
+  "GOOGL": {
+   "bull": 3,
+   "bear": 1,
+   "hot": false,
+   "note": "גוגל קלאוד מתחזק, המניה מתחת לממוצעים"
+  },
+  "META": {
+   "bull": 3,
+   "bear": 2,
+   "hot": false,
+   "note": "עלייה של 3%, חשש מהוצאות על AI"
+  },
+  "TSLA": {
+   "bull": 5,
+   "bear": 1,
+   "hot": false,
+   "note": "קפיצה של 5%, שמועות על SpaceX"
+  },
+  "AMD": {
+   "bull": 1,
+   "bear": 3,
+   "hot": false,
+   "note": "חשש מבועת AI, חלק רואים תמיכה"
+  },
+  "NFLX": {
+   "bull": 2,
+   "bear": 0,
+   "hot": false,
+   "note": "מחזיקים לטווח ארוך, מעט דיון"
+  },
+  "JPM": {
+   "bull": 0,
+   "bear": 1,
+   "hot": false,
+   "note": "דיווח על מיילים בעניין אפשטיין, הרבה ספאם"
+  },
+  "XOM": {
+   "bull": 0,
+   "bear": 0,
+   "hot": false,
+   "note": "כמעט רק ספאם, אין דיון אמיתי"
+  },
+  "KO": {
+   "bull": 1,
+   "bear": 0,
+   "hot": false,
+   "note": "מעט דיון, בעיקר ספאם"
+  },
+  "PLTR": {
+   "bull": 4,
+   "bear": 0,
+   "hot": true,
+   "note": "חוזה הגנה בפולין ופיטר ת'יל קנה"
+  },
+  "INTC": {
+   "bull": 4,
+   "bear": 0,
+   "hot": false,
+   "note": "קניית אופציות גדולה, מגמת עלייה שבועית"
+  },
+  "TEVA": {
+   "bull": 0,
+   "bear": 0,
+   "hot": false,
+   "note": "רק ספאם, אין דיון"
+  },
+  "ANT": {
+   "bull": 5,
+   "bear": 6,
+   "hot": true,
+   "note": "זינוק 11%, חשש מסיום תקופת החסימה"
   }
+ }
 }
